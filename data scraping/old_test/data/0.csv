@@ -1,0 +1,839 @@
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+2019-01-01,0,16,62,6,10,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,16,62,-2,29,16,62,13,21,16,62
+2019-01-01,100,16,61,6,9,110,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,16,61,-2,28,16,61,12,20,16,61
+2019-01-01,200,15,60,6,9,107,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1019,30,0,15,60,-2,28,15,60,12,19,15,60
+2019-01-01,300,15,59,6,9,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1019,30,0,15,59,-3,27,15,59,12,19,15,59
+2019-01-01,400,16,61,6,9,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1019,30,0,16,61,-2,28,16,60,12,19,16,60
+2019-01-01,500,17,62,6,9,106,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1020,30,0,17,62,-2,29,17,62,12,19,17,62
+2019-01-01,600,18,64,6,9,106,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1020,30,0,18,64,-1,30,18,64,12,19,18,64
+2019-01-01,700,20,69,6,9,108,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1020,30,0,20,68,-1,30,20,69,11,18,20,69
+2019-01-01,800,23,74,6,9,111,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1020,30,0,22,72,-1,30,23,74,11,18,22,72
+2019-01-01,900,26,79,6,10,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1020,30,0,25,76,-1,29,26,79,11,17,25,76
+2019-01-01,1000,28,82,6,9,124,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,15,10,6,1019,30,0,26,78,-1,30,28,82,9,15,26,78
+2019-01-01,1100,29,84,6,9,134,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,14,10,6,1018,30,0,27,81,-1,30,29,84,8,13,27,81
+2019-01-01,1200,31,87,6,9,145,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,13,10,6,1017,30,0,28,83,-1,30,31,87,6,10,28,83
+2019-01-01,1300,30,86,5,8,171,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1017,30,0,28,82,1,33,30,86,6,9,28,82
+2019-01-01,1400,29,85,4,6,197,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1017,30,0,27,81,2,36,29,85,5,7,27,81
+2019-01-01,1500,29,83,3,5,223,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1017,30,0,27,80,4,39,29,83,4,6,27,80
+2019-01-01,1600,27,80,3,5,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1017,30,0,25,78,4,39,27,80,4,7,25,78
+2019-01-01,1700,25,76,3,5,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1018,30,0,24,76,3,38,25,76,5,7,24,76
+2019-01-01,1800,23,73,3,5,301,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1018,30,0,23,74,3,37,23,73,5,8,23,74
+2019-01-01,1900,22,71,3,5,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,22,72,3,37,22,71,6,9,22,71
+2019-01-01,2000,21,70,3,5,320,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,22,71,2,36,21,70,6,10,21,70
+2019-01-01,2100,21,69,3,5,329,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1018,30,0,21,69,2,36,21,69,6,10,21,69
+2019-01-01,2200,20,68,3,5,304,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1018,30,0,20,68,2,36,20,68,6,9,20,68
+2019-01-01,2300,20,68,3,4,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,20,68,2,36,20,68,5,9,20,68
+2019-01-02,0,19,67,2,4,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1017,30,0,19,67,2,35,19,67,5,8,19,67
+2019-01-02,100,19,66,2,4,190,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,19,66,2,35,19,66,5,7,19,66
+2019-01-02,200,19,65,2,4,126,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,19,65,1,34,19,65,5,7,19,65
+2019-01-02,300,18,65,2,4,62,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,18,65,1,34,18,65,4,7,18,65
+2019-01-02,400,19,67,2,4,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,20,68,2,36,19,67,4,7,19,67
+2019-01-02,500,21,69,2,4,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,22,71,3,38,21,69,4,7,21,69
+2019-01-02,600,22,72,2,4,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,23,74,4,40,22,72,4,7,23,74
+2019-01-02,700,24,76,2,3,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1019,30,0,25,76,3,38,24,76,4,6,25,76
+2019-01-02,800,27,80,2,3,75,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1019,30,0,26,78,2,36,27,80,3,6,26,78
+2019-01-02,900,29,84,2,3,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1019,30,0,27,80,1,35,29,84,3,5,27,80
+2019-01-02,1000,29,84,2,3,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1019,30,0,27,80,1,34,29,84,3,5,27,80
+2019-01-02,1100,29,85,2,3,119,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1018,30,0,27,81,1,34,29,85,3,4,27,81
+2019-01-02,1200,29,85,2,4,143,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1018,30,0,27,81,1,33,29,85,3,4,27,81
+2019-01-02,1300,30,85,3,5,209,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1018,30,0,27,81,1,33,30,85,4,6,27,81
+2019-01-02,1400,30,86,3,6,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,15,10,6,1017,30,0,28,82,1,33,30,86,4,7,28,82
+2019-01-02,1500,30,86,4,6,340,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,15,10,6,1016,30,0,28,82,0,33,30,86,5,8,28,82
+2019-01-02,1600,27,81,4,7,340,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1017,30,0,26,79,1,33,27,81,6,10,26,79
+2019-01-02,1700,25,77,5,8,340,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1017,30,0,24,76,1,33,25,77,8,13,24,76
+2019-01-02,1800,22,72,5,9,340,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1018,30,0,23,73,1,33,22,72,9,15,23,73
+2019-01-02,1900,22,71,5,8,307,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1018,30,0,22,72,1,33,22,71,10,15,22,71
+2019-01-02,2000,21,70,5,8,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1018,30,0,22,71,0,33,21,70,10,16,21,70
+2019-01-02,2100,21,70,5,8,240,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1018,30,0,21,70,0,32,21,70,10,17,21,70
+2019-01-02,2200,21,69,4,7,177,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,21,69,1,33,21,69,9,15,21,69
+2019-01-02,2300,21,69,4,6,114,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1018,30,0,21,69,1,33,21,69,8,12,21,69
+2019-01-03,0,20,69,3,5,51,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,20,69,1,34,20,69,6,10,20,69
+2019-01-03,100,20,68,3,5,62,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,20,68,1,33,20,68,7,11,20,68
+2019-01-03,200,19,67,3,6,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,19,67,0,32,19,67,7,11,19,67
+2019-01-03,300,19,66,4,6,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,19,66,-0,32,19,66,7,12,19,66
+2019-01-03,400,20,67,4,6,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1019,30,0,20,68,1,33,20,67,8,12,20,67
+2019-01-03,500,21,69,4,6,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1019,30,0,21,71,1,34,21,69,8,13,21,69
+2019-01-03,600,21,71,4,7,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1020,30,0,23,73,2,36,21,71,9,14,21,71
+2019-01-03,700,24,74,4,7,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1020,30,0,24,75,2,35,24,74,8,13,24,75
+2019-01-03,800,26,78,4,7,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1020,30,0,25,77,1,34,26,78,7,12,25,77
+2019-01-03,900,28,82,4,7,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1020,30,0,26,79,1,34,28,82,7,11,26,79
+2019-01-03,1000,29,84,5,7,116,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1019,30,0,27,81,1,34,29,84,6,10,27,81
+2019-01-03,1100,30,86,5,7,133,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1018,30,0,28,83,2,35,30,86,6,9,28,83
+2019-01-03,1200,32,89,5,8,150,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,15,10,6,1017,30,0,29,85,2,36,32,89,5,9,29,85
+2019-01-03,1300,31,88,4,6,184,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1017,30,0,29,84,3,38,31,88,5,7,29,84
+2019-01-03,1400,30,86,3,5,217,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1017,30,0,28,83,5,41,30,86,4,6,28,83
+2019-01-03,1500,30,85,3,4,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1016,30,0,28,82,6,43,30,85,3,5,28,82
+2019-01-03,1600,28,82,3,5,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1017,30,0,26,79,5,41,28,82,4,7,26,79
+2019-01-03,1700,26,78,4,6,289,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1017,30,0,25,77,4,39,26,78,5,9,25,77
+2019-01-03,1800,24,74,4,6,308,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,24,74,3,38,24,74,6,10,24,74
+2019-01-03,1900,23,73,4,7,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,23,74,3,37,23,73,7,12,23,74
+2019-01-03,2000,22,72,4,7,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,23,73,2,35,22,72,8,14,23,73
+2019-01-03,2100,21,71,4,7,220,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,23,73,1,34,21,71,9,15,21,71
+2019-01-03,2200,21,69,4,7,164,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1018,30,0,22,71,1,34,21,69,9,14,21,69
+2019-01-03,2300,20,68,4,6,108,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1018,30,0,20,69,1,34,20,68,8,13,20,68
+2019-01-04,0,19,66,4,6,52,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,19,66,1,33,19,66,8,13,19,66
+2019-01-04,100,19,65,4,7,66,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1018,30,0,19,65,1,33,19,65,9,14,19,65
+2019-01-04,200,18,64,5,8,79,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,18,64,1,33,18,64,10,16,18,64
+2019-01-04,300,18,64,5,8,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,18,64,0,33,18,64,11,17,18,64
+2019-01-04,400,18,65,5,9,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,1,18,65,1,34,18,65,11,18,18,65
+2019-01-04,500,19,67,5,9,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,1,19,67,2,35,19,67,11,18,19,67
+2019-01-04,600,20,68,6,9,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,2,20,68,3,37,20,68,11,18,20,68
+2019-01-04,700,23,73,6,9,107,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1019,30,2,22,72,2,36,23,73,11,18,22,72
+2019-01-04,800,25,77,6,10,111,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1019,30,1,24,75,2,36,25,77,11,17,24,75
+2019-01-04,900,27,81,6,10,116,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1018,30,1,26,78,2,36,27,81,10,17,26,78
+2019-01-04,1000,29,84,6,10,125,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1018,30,0,27,80,2,36,29,84,9,15,27,80
+2019-01-04,1100,30,86,6,10,135,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1017,30,0,28,82,3,37,30,86,8,13,28,82
+2019-01-04,1200,31,88,6,10,144,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1016,30,0,29,84,3,37,31,88,7,12,29,84
+2019-01-04,1300,31,88,6,9,166,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1016,30,0,29,84,4,39,31,88,6,10,29,84
+2019-01-04,1400,31,87,5,8,187,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,0,29,83,5,42,31,87,6,9,29,83
+2019-01-04,1500,30,86,4,6,209,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1015,30,0,28,83,7,44,30,86,5,8,28,83
+2019-01-04,1600,28,82,4,6,233,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1016,30,0,27,80,6,43,28,82,5,9,27,80
+2019-01-04,1700,26,79,4,7,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1016,30,0,26,78,6,43,26,79,6,10,26,78
+2019-01-04,1800,24,75,4,7,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1016,30,0,24,76,6,43,24,75,7,11,24,76
+2019-01-04,1900,23,74,4,7,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1016,30,0,24,75,5,42,23,74,8,12,24,75
+2019-01-04,2000,23,73,4,7,306,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,0,24,75,5,41,23,73,9,14,24,75
+2019-01-04,2100,22,72,4,7,319,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1017,30,0,24,74,5,40,22,72,9,15,24,74
+2019-01-04,2200,22,71,4,6,320,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,1,23,73,4,40,22,71,8,12,22,71
+2019-01-04,2300,21,70,3,5,321,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,1,22,71,4,39,21,70,6,9,21,70
+2019-01-05,0,21,69,2,3,321,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,2,21,69,3,38,21,69,4,6,21,69
+2019-01-05,100,20,67,2,3,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,3,20,67,3,37,20,67,3,5,20,67
+2019-01-05,200,19,66,1,2,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,4,19,66,3,37,19,66,2,4,19,66
+2019-01-05,300,18,64,1,1,231,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1016,30,4,18,64,2,36,18,64,2,3,18,64
+2019-01-05,400,19,66,1,1,185,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1016,30,6,20,68,3,38,19,66,2,3,19,66
+2019-01-05,500,20,68,1,1,138,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1017,30,7,22,71,4,39,20,68,2,3,20,68
+2019-01-05,600,21,70,1,1,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1017,30,9,23,74,5,41,21,70,2,3,21,70
+2019-01-05,700,23,74,1,2,111,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1017,30,10,24,76,5,40,23,74,2,4,24,76
+2019-01-05,800,26,78,2,3,129,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1017,30,10,25,77,4,40,26,78,3,5,25,77
+2019-01-05,900,28,82,2,4,148,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1017,30,11,26,79,4,39,28,82,4,6,26,79
+2019-01-05,1000,28,83,3,5,187,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,9,27,80,4,39,28,83,4,6,27,80
+2019-01-05,1100,29,84,4,6,226,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1015,30,7,27,81,4,39,29,84,4,7,27,81
+2019-01-05,1200,30,85,4,7,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1014,30,5,27,81,4,39,30,85,5,8,27,81
+2019-01-05,1300,29,83,6,9,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1014,30,5,27,80,4,40,29,83,7,11,27,80
+2019-01-05,1400,28,82,7,12,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1014,30,5,26,79,5,41,28,82,9,15,26,79
+2019-01-05,1500,27,80,9,14,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1014,30,5,26,78,6,42,27,80,11,18,26,78
+2019-01-05,1600,25,77,8,13,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1014,30,3,25,77,6,42,25,77,12,19,25,77
+2019-01-05,1700,23,74,8,13,290,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1014,30,2,24,76,5,42,23,74,12,19,24,76
+2019-01-05,1800,22,71,8,12,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,24,74,5,42,22,71,12,20,22,71
+2019-01-05,1900,21,71,7,11,300,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,23,73,5,41,21,71,12,19,21,71
+2019-01-05,2000,21,70,6,9,304,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,22,71,5,40,21,70,11,18,21,70
+2019-01-05,2100,21,69,5,8,307,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,21,69,4,40,21,69,11,17,21,69
+2019-01-05,2200,20,68,5,8,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,20,68,4,39,20,68,10,16,20,68
+2019-01-05,2300,20,68,5,7,312,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,20,68,4,38,20,68,10,16,20,68
+2019-01-06,0,19,67,4,7,315,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,19,67,3,38,19,67,9,15,19,67
+2019-01-06,100,19,66,4,7,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,19,66,2,36,19,66,9,14,19,66
+2019-01-06,200,19,65,4,6,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1015,30,0,19,65,2,35,19,65,8,13,19,65
+2019-01-06,300,18,65,4,6,220,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1015,30,0,18,65,1,33,18,65,7,12,18,65
+2019-01-06,400,19,66,3,5,148,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1015,30,0,19,66,1,34,19,66,6,10,19,66
+2019-01-06,500,20,68,3,5,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1016,30,0,20,68,2,35,20,68,6,9,20,68
+2019-01-06,600,21,70,2,4,4,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1016,30,0,21,70,2,36,21,70,5,8,21,70
+2019-01-06,700,23,73,3,4,6,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1016,30,0,22,72,2,35,23,73,5,8,22,72
+2019-01-06,800,24,76,3,5,9,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1016,30,0,23,74,1,34,24,76,5,8,23,74
+2019-01-06,900,26,79,3,5,11,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1016,30,0,25,76,0,32,26,79,5,8,25,76
+2019-01-06,1000,26,79,4,6,52,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1016,30,0,25,76,-0,32,26,79,5,8,25,76
+2019-01-06,1100,26,80,5,8,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1015,30,0,25,77,-0,31,26,80,6,9,25,77
+2019-01-06,1200,27,80,5,9,134,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1015,30,0,25,77,-1,31,27,80,6,10,25,77
+2019-01-06,1300,27,80,6,9,205,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1014,30,0,25,77,-0,32,27,80,7,11,25,77
+2019-01-06,1400,27,81,6,9,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1014,30,0,25,78,0,33,27,81,7,12,25,78
+2019-01-06,1500,27,81,6,10,348,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1013,30,0,26,78,1,34,27,81,8,13,26,78
+2019-01-06,1600,25,77,6,10,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1014,30,0,24,75,2,36,25,77,9,15,24,75
+2019-01-06,1700,22,72,7,11,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1014,30,0,22,71,3,37,22,72,11,17,22,71
+2019-01-06,1800,20,67,7,12,233,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,20,67,4,39,20,67,12,19,20,67
+2019-01-06,1900,19,67,7,11,163,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,19,67,4,39,19,67,13,21,19,67
+2019-01-06,2000,19,66,7,11,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,19,66,3,38,19,66,14,22,19,66
+2019-01-06,2100,19,66,7,11,22,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,19,66,3,38,19,66,14,23,19,66
+2019-01-06,2200,18,64,7,11,34,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,0,18,64,3,37,18,64,14,23,18,64
+2019-01-06,2300,17,63,7,11,46,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1016,30,0,17,63,2,36,17,63,14,23,17,63
+2019-01-07,0,17,62,7,11,58,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1016,30,0,17,62,2,36,17,62,14,23,17,62
+2019-01-07,100,16,61,7,11,63,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,0,16,61,2,35,16,61,14,23,16,61
+2019-01-07,200,15,60,7,11,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,0,15,60,1,34,15,59,14,23,15,59
+2019-01-07,300,15,59,7,11,74,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,0,15,59,1,34,14,58,14,23,14,58
+2019-01-07,400,15,60,7,11,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,0,15,60,1,34,15,59,14,22,15,59
+2019-01-07,500,16,61,6,10,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1017,30,0,16,61,2,35,16,61,13,21,16,61
+2019-01-07,600,17,62,6,10,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1017,30,0,17,62,2,36,17,62,13,21,17,62
+2019-01-07,700,19,66,7,11,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1017,30,0,19,66,2,35,19,66,13,20,19,66
+2019-01-07,800,21,71,7,12,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1017,30,0,21,70,2,35,21,71,13,20,21,71
+2019-01-07,900,24,75,8,13,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1017,30,0,23,74,1,35,24,75,13,20,23,74
+2019-01-07,1000,25,77,9,14,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,0,24,75,1,34,25,77,12,19,24,75
+2019-01-07,1100,26,78,9,15,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1015,30,0,24,76,0,33,26,78,12,19,24,76
+2019-01-07,1200,27,80,10,16,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1015,30,0,25,77,-0,32,27,80,11,18,25,77
+2019-01-07,1300,26,79,9,15,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1015,30,0,25,76,0,33,26,79,11,17,25,76
+2019-01-07,1400,26,78,8,13,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1014,30,0,24,76,1,33,26,78,10,16,24,76
+2019-01-07,1500,25,77,7,12,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,24,75,1,34,25,77,9,15,24,75
+2019-01-07,1600,23,74,7,11,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1015,30,0,22,72,1,33,23,74,10,16,22,72
+2019-01-07,1700,21,70,7,11,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1015,30,0,21,69,-0,32,21,70,11,17,21,70
+2019-01-07,1800,19,66,6,10,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1016,30,0,19,66,-1,30,19,66,11,18,19,66
+2019-01-07,1900,19,65,7,11,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1016,30,0,19,65,-1,30,19,65,12,20,19,65
+2019-01-07,2000,18,65,7,11,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1016,30,0,18,65,-1,30,18,65,13,21,18,65
+2019-01-07,2100,18,64,7,11,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1016,30,0,18,64,-1,30,18,64,14,23,18,64
+2019-01-07,2200,17,62,6,10,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1016,30,0,17,62,-1,30,17,62,13,21,17,62
+2019-01-07,2300,16,61,6,10,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1016,30,0,16,61,-1,30,16,61,13,20,16,61
+2019-01-08,0,16,60,6,9,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,0,16,60,-1,30,16,60,12,19,16,60
+2019-01-08,100,15,59,6,9,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,0,15,59,-1,30,15,59,12,19,15,59
+2019-01-08,200,15,58,6,9,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,0,15,58,-1,30,14,58,12,19,14,58
+2019-01-08,300,14,57,6,9,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,0,14,57,-2,29,14,56,12,19,14,56
+2019-01-08,400,15,58,6,9,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1017,30,0,15,58,-1,30,14,58,12,19,14,58
+2019-01-08,500,15,60,6,9,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1017,30,0,15,60,-0,31,15,59,12,19,15,59
+2019-01-08,600,16,61,6,10,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1017,30,0,16,61,0,32,16,61,12,20,16,61
+2019-01-08,700,19,65,6,10,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1017,30,0,18,65,0,32,19,65,12,19,19,65
+2019-01-08,800,21,70,6,10,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1017,30,0,21,69,0,32,21,70,11,18,21,70
+2019-01-08,900,24,75,6,10,101,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1017,30,0,23,74,0,32,24,75,11,17,23,74
+2019-01-08,1000,26,78,6,10,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1016,30,0,25,76,-0,32,26,78,9,15,25,76
+2019-01-08,1100,28,82,6,9,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1015,30,0,26,79,-0,31,28,82,8,12,26,79
+2019-01-08,1200,30,85,5,8,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,14,10,6,1015,30,0,27,81,-1,31,30,85,6,10,27,81
+2019-01-08,1300,29,84,4,7,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1014,30,0,27,80,0,33,29,84,5,8,27,80
+2019-01-08,1400,28,83,3,5,122,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1014,30,0,26,79,1,35,28,83,4,6,26,79
+2019-01-08,1500,28,82,2,4,141,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1013,30,0,26,78,2,36,28,82,3,4,26,78
+2019-01-08,1600,26,78,3,5,207,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,25,76,1,35,26,78,4,6,25,76
+2019-01-08,1700,24,74,3,6,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1014,30,0,23,74,0,33,24,74,5,8,23,74
+2019-01-08,1800,22,71,4,6,339,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1015,30,0,22,72,-1,31,22,71,6,10,22,71
+2019-01-08,1900,21,69,4,6,301,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1015,30,0,21,70,-1,30,21,69,7,11,21,69
+2019-01-08,2000,20,68,4,6,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1015,30,0,20,69,-1,30,20,68,8,12,20,68
+2019-01-08,2100,19,67,4,6,226,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1015,30,0,19,67,-2,29,19,67,8,13,19,67
+2019-01-08,2200,19,66,4,6,167,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1015,30,0,19,66,-2,29,19,66,8,12,19,66
+2019-01-08,2300,18,65,3,5,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1015,30,0,18,65,-2,29,18,65,7,11,18,65
+2019-01-09,0,18,64,3,5,50,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1015,30,0,18,64,-2,29,18,64,6,10,18,64
+2019-01-09,100,17,63,3,5,62,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1015,30,0,17,63,-2,29,17,63,7,11,17,63
+2019-01-09,200,17,62,4,6,75,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1015,30,0,17,62,-2,29,17,62,7,12,17,62
+2019-01-09,300,16,62,4,6,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1015,30,0,16,62,-2,29,16,62,8,13,16,62
+2019-01-09,400,17,63,4,6,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1015,30,0,17,63,-1,31,17,63,8,12,17,63
+2019-01-09,500,18,65,4,6,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1016,30,0,18,65,1,33,18,65,8,12,18,65
+2019-01-09,600,20,67,4,6,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1017,30,0,20,67,2,35,20,67,8,12,20,67
+2019-01-09,700,22,71,4,6,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1016,30,0,21,70,1,34,22,71,7,11,22,71
+2019-01-09,800,24,76,4,6,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1016,30,0,23,74,1,33,24,76,6,10,23,74
+2019-01-09,900,27,80,4,6,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1016,30,0,25,77,0,32,27,80,6,9,25,77
+2019-01-09,1000,28,83,4,6,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1015,30,0,26,79,-1,31,28,83,5,8,26,79
+2019-01-09,1100,29,85,3,5,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,14,10,6,1015,30,0,27,81,-1,30,29,85,4,7,27,81
+2019-01-09,1200,31,87,3,5,79,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,12,10,6,1014,30,0,29,83,-2,29,31,87,4,6,29,83
+2019-01-09,1300,30,86,3,4,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,14,10,6,1013,30,0,28,82,-1,31,30,86,3,5,28,82
+2019-01-09,1400,30,85,2,3,108,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1013,30,0,27,81,1,33,30,85,2,4,27,81
+2019-01-09,1500,29,84,2,3,122,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1013,30,0,27,80,2,35,29,84,2,3,27,80
+2019-01-09,1600,27,80,2,3,158,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1013,30,0,25,78,1,34,27,80,3,4,25,78
+2019-01-09,1700,24,76,3,4,194,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,24,75,1,33,24,76,4,6,24,75
+2019-01-09,1800,22,71,3,5,230,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1014,30,0,23,73,0,32,22,71,4,7,22,71
+2019-01-09,1900,21,70,4,6,164,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1014,30,0,21,70,-0,31,21,70,5,9,21,70
+2019-01-09,2000,20,68,4,6,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1014,30,0,20,68,-1,31,20,68,6,10,20,68
+2019-01-09,2100,19,66,4,6,31,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1014,30,0,19,66,-1,30,19,66,7,12,19,66
+2019-01-09,2200,18,64,4,7,49,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1014,30,0,18,64,-1,30,18,64,9,14,18,64
+2019-01-09,2300,17,63,5,8,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1014,30,0,17,63,-2,29,17,63,10,16,17,63
+2019-01-10,0,16,61,5,9,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,16,61,-2,29,16,61,11,18,16,61
+2019-01-10,100,16,61,6,9,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1014,30,0,16,61,-2,29,16,61,12,19,16,61
+2019-01-10,200,16,60,6,9,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1014,30,0,16,60,-1,30,16,60,12,20,16,60
+2019-01-10,300,15,59,6,10,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1014,30,0,15,59,-1,30,15,59,13,21,15,59
+2019-01-10,400,16,61,6,10,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,16,61,-0,31,16,61,13,21,16,61
+2019-01-10,500,17,62,6,10,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1015,30,0,17,62,0,33,17,62,13,21,17,62
+2019-01-10,600,18,64,6,10,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,0,18,64,1,34,18,64,13,21,18,64
+2019-01-10,700,20,69,6,10,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1016,30,0,20,68,1,33,20,69,12,20,20,69
+2019-01-10,800,23,73,6,10,107,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1016,30,0,22,72,1,33,23,73,11,18,22,72
+2019-01-10,900,26,78,6,10,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1016,30,0,24,75,0,33,26,78,11,17,24,75
+2019-01-10,1000,27,81,6,10,127,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1015,30,0,25,78,1,33,27,81,9,15,25,78
+2019-01-10,1100,29,84,6,10,143,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1014,30,0,27,80,1,34,29,84,8,13,27,80
+2019-01-10,1200,30,87,6,9,158,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1013,30,0,28,83,2,35,30,87,7,11,28,83
+2019-01-10,1300,30,86,5,8,189,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1013,30,0,28,82,3,37,30,86,6,9,28,82
+2019-01-10,1400,29,85,4,6,220,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1012,30,0,27,81,4,40,29,85,5,7,27,81
+2019-01-10,1500,29,84,3,5,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1012,30,0,27,81,6,43,29,84,4,6,27,81
+2019-01-10,1600,27,80,3,5,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1013,30,0,26,78,5,40,27,80,5,7,26,78
+2019-01-10,1700,24,76,4,6,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1013,30,0,24,76,4,38,24,76,6,9,24,76
+2019-01-10,1800,22,72,4,7,302,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1014,30,0,23,73,2,36,22,72,7,11,23,73
+2019-01-10,1900,22,71,4,7,309,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1014,30,0,22,72,2,36,22,71,7,12,22,71
+2019-01-10,2000,21,70,4,7,316,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1014,30,0,22,71,2,36,21,70,8,12,21,70
+2019-01-10,2100,21,70,4,6,323,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,21,70,2,36,21,70,8,13,21,70
+2019-01-10,2200,20,69,4,6,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,20,69,2,35,20,69,7,12,20,69
+2019-01-10,2300,20,67,3,5,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,20,67,1,34,20,67,6,10,20,67
+2019-01-11,0,19,66,2,4,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,19,66,1,33,19,66,5,8,19,66
+2019-01-11,100,19,65,3,4,192,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1014,30,0,19,65,1,34,19,65,5,9,19,65
+2019-01-11,200,18,65,3,4,135,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1014,30,0,18,65,1,34,18,65,6,9,18,65
+2019-01-11,300,18,64,3,5,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1014,30,0,18,64,1,34,18,64,6,10,18,64
+2019-01-11,400,19,66,3,5,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,19,66,2,35,19,66,6,10,19,66
+2019-01-11,500,19,67,3,5,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,19,67,3,37,19,67,7,11,19,67
+2019-01-11,600,20,69,4,6,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,0,20,69,3,38,20,69,7,11,20,69
+2019-01-11,700,23,73,3,6,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1016,30,0,22,72,3,38,23,73,6,10,22,72
+2019-01-11,800,25,78,3,5,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1016,30,0,24,75,3,38,25,78,6,9,24,75
+2019-01-11,900,28,82,3,5,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1016,30,0,26,79,3,38,28,82,5,8,26,79
+2019-01-11,1000,29,83,3,5,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1015,30,0,27,80,3,37,29,83,5,7,27,80
+2019-01-11,1100,29,84,3,6,138,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1014,30,0,27,81,2,35,29,84,4,7,27,81
+2019-01-11,1200,30,85,4,6,161,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1013,30,0,28,82,1,34,30,85,4,6,28,82
+2019-01-11,1300,29,84,4,7,199,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1013,30,0,27,80,2,35,29,84,5,8,27,80
+2019-01-11,1400,28,82,5,8,238,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1013,30,0,26,79,2,36,28,82,6,10,26,79
+2019-01-11,1500,27,80,6,9,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1013,30,0,25,77,3,37,27,80,7,12,25,77
+2019-01-11,1600,25,77,6,9,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,0,24,75,2,36,25,77,8,13,24,75
+2019-01-11,1700,23,73,6,10,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1013,30,0,22,72,2,35,23,73,9,15,22,72
+2019-01-11,1800,21,70,6,10,302,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1014,30,0,21,70,1,34,21,70,11,17,21,70
+2019-01-11,1900,21,70,6,9,308,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1014,30,0,22,71,2,35,21,70,10,16,21,70
+2019-01-11,2000,21,70,5,8,315,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1014,30,0,22,72,2,36,21,70,10,15,21,70
+2019-01-11,2100,21,70,4,7,321,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,23,73,3,37,21,70,9,15,21,70
+2019-01-11,2200,21,70,4,6,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1014,30,0,22,72,3,37,21,70,7,12,21,70
+2019-01-11,2300,21,69,3,4,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1014,30,0,21,70,3,38,21,69,5,9,21,69
+2019-01-12,0,20,68,2,3,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1013,30,0,20,68,4,38,20,68,3,5,20,68
+2019-01-12,100,20,68,2,3,204,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1013,30,0,20,68,3,38,20,68,3,5,20,68
+2019-01-12,200,19,67,1,2,151,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1013,30,0,19,67,3,38,19,67,3,5,19,67
+2019-01-12,300,19,66,1,2,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1013,30,0,19,66,3,38,19,66,3,5,19,66
+2019-01-12,400,20,68,1,2,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1014,30,0,20,69,4,39,20,68,3,5,20,68
+2019-01-12,500,21,69,1,2,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1014,30,0,22,71,4,40,21,69,3,5,21,69
+2019-01-12,600,22,71,2,3,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,24,74,5,41,22,71,3,5,22,71
+2019-01-12,700,24,75,2,3,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1015,30,0,24,76,4,39,24,75,3,5,24,76
+2019-01-12,800,26,78,2,3,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1015,30,0,25,77,3,37,26,78,2,4,25,77
+2019-01-12,900,28,82,2,3,127,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1015,30,0,26,79,2,35,28,82,2,3,26,79
+2019-01-12,1000,28,83,3,4,176,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1014,30,0,26,79,2,35,28,83,3,5,26,79
+2019-01-12,1100,29,84,4,6,225,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1013,30,0,27,80,2,35,29,84,4,7,27,80
+2019-01-12,1200,29,84,5,8,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1013,30,0,27,81,2,35,29,84,6,9,27,81
+2019-01-12,1300,28,83,6,10,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1013,30,0,26,79,3,37,28,83,7,12,26,79
+2019-01-12,1400,27,81,7,12,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1012,30,0,26,78,3,38,27,81,9,14,26,78
+2019-01-12,1500,26,80,9,14,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1012,30,0,25,77,4,39,26,80,11,17,25,77
+2019-01-12,1600,24,76,8,13,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1013,30,0,23,74,4,38,24,76,11,18,23,74
+2019-01-12,1700,22,72,8,12,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1013,30,0,22,71,3,38,22,72,11,18,22,71
+2019-01-12,1800,20,68,7,12,292,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1014,30,0,20,68,3,37,20,68,12,19,20,68
+2019-01-12,1900,20,68,7,11,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1014,30,0,20,68,3,38,20,68,11,18,20,68
+2019-01-12,2000,20,68,6,9,305,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1014,30,0,20,68,4,38,20,68,11,18,20,68
+2019-01-12,2100,20,67,5,8,311,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,20,67,4,39,20,67,11,17,20,67
+2019-01-12,2200,20,67,4,7,318,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,20,67,4,39,20,67,9,15,20,67
+2019-01-12,2300,19,67,4,6,324,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1014,30,0,19,67,4,39,19,67,8,12,19,67
+2019-01-13,0,19,67,3,5,330,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1014,30,0,19,67,4,39,19,67,6,10,19,67
+2019-01-13,100,19,66,3,5,338,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,19,66,3,38,19,66,6,9,19,66
+2019-01-13,200,18,65,3,4,345,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,18,65,3,37,18,65,5,8,18,65
+2019-01-13,300,18,64,2,4,353,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,18,64,2,36,18,64,4,7,18,64
+2019-01-13,400,19,65,2,4,318,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,0,19,65,3,37,19,65,4,7,19,65
+2019-01-13,500,19,67,2,4,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,0,19,67,3,37,19,67,5,7,19,67
+2019-01-13,600,20,68,2,4,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1017,30,0,20,68,3,38,20,68,5,8,20,68
+2019-01-13,700,22,72,3,4,185,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1017,30,0,22,71,3,37,22,72,5,7,22,71
+2019-01-13,800,24,75,3,5,122,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1017,30,0,23,73,2,36,24,75,5,7,23,73
+2019-01-13,900,26,78,3,5,59,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,0,24,76,2,35,26,78,4,7,24,76
+2019-01-13,1000,27,81,4,6,57,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1016,30,0,26,78,3,37,27,81,4,7,26,78
+2019-01-13,1100,29,84,4,6,56,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1015,30,0,27,80,4,38,29,84,4,7,27,80
+2019-01-13,1200,30,86,4,6,55,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1014,30,0,28,82,5,40,30,86,4,7,28,82
+2019-01-13,1300,30,85,3,5,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,28,82,5,41,30,85,4,6,28,82
+2019-01-13,1400,29,85,3,4,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1014,30,0,27,81,6,43,29,85,3,5,27,81
+2019-01-13,1500,29,84,2,3,118,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1013,30,0,27,81,7,44,29,84,2,4,27,81
+2019-01-13,1600,26,79,3,5,192,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1014,30,0,25,77,5,42,26,79,4,7,25,77
+2019-01-13,1700,24,74,4,7,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1014,30,0,23,73,4,40,24,74,6,10,23,73
+2019-01-13,1800,21,70,5,8,339,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1015,30,0,21,70,3,38,21,70,8,13,21,70
+2019-01-13,1900,21,69,5,9,308,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1015,30,0,21,69,3,37,21,69,9,15,21,69
+2019-01-13,2000,20,68,6,9,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1015,30,0,20,68,2,36,20,68,11,17,20,68
+2019-01-13,2100,20,67,6,9,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1015,30,0,20,67,2,36,20,67,12,20,20,67
+2019-01-13,2200,19,66,6,9,184,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1015,30,0,19,66,2,35,19,66,12,19,19,66
+2019-01-13,2300,18,65,5,9,119,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1015,30,0,18,65,2,35,18,65,11,18,18,65
+2019-01-14,0,18,64,5,8,55,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,18,64,1,34,18,64,11,17,18,64
+2019-01-14,100,17,63,5,8,63,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,17,63,1,35,17,63,11,17,17,63
+2019-01-14,200,17,62,5,9,72,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,0,17,62,2,35,17,62,11,18,17,62
+2019-01-14,300,16,61,5,9,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1015,30,0,16,61,2,35,16,61,11,18,16,61
+2019-01-14,400,17,62,6,9,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,0,17,62,3,37,17,62,12,19,17,62
+2019-01-14,500,17,63,6,10,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,39,10,6,1016,30,0,17,63,3,38,17,63,13,21,17,63
+2019-01-14,600,18,64,7,11,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1017,30,0,18,64,4,39,18,64,14,22,18,64
+2019-01-14,700,20,68,8,12,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1016,30,0,20,68,4,40,20,68,14,23,20,68
+2019-01-14,800,23,73,9,14,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1016,30,0,22,72,5,40,23,73,14,23,22,72
+2019-01-14,900,25,77,10,15,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1016,30,0,25,76,5,41,25,77,15,24,25,76
+2019-01-14,1000,26,79,10,16,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1016,30,0,25,77,5,41,26,79,14,23,25,77
+2019-01-14,1100,27,80,11,17,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1015,30,0,26,78,5,41,27,80,14,22,26,78
+2019-01-14,1200,28,82,11,18,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1014,30,0,26,79,5,42,28,82,13,21,26,79
+2019-01-14,1300,27,80,11,17,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1014,30,0,26,78,6,42,27,80,13,20,26,78
+2019-01-14,1400,26,79,10,16,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1014,30,0,25,78,6,42,26,79,12,20,25,78
+2019-01-14,1500,26,78,10,15,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1013,30,0,25,77,6,43,26,78,12,19,25,77
+2019-01-14,1600,24,75,10,15,74,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1014,30,0,24,74,6,42,24,75,13,21,24,74
+2019-01-14,1700,22,72,9,15,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1014,30,0,22,72,5,41,22,72,14,22,22,72
+2019-01-14,1800,21,69,9,15,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,21,69,5,40,21,69,15,24,21,69
+2019-01-14,1900,20,68,9,15,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,20,68,4,40,20,68,16,26,20,68
+2019-01-14,2000,19,67,9,14,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,0,19,67,4,40,19,67,17,27,19,67
+2019-01-14,2100,19,66,9,14,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1015,30,0,19,66,4,39,19,66,18,29,19,66
+2019-01-14,2200,18,65,8,13,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1015,30,0,18,65,4,40,18,65,17,28,18,65
+2019-01-14,2300,17,63,8,13,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1016,30,0,17,63,4,40,17,63,16,26,17,63
+2019-01-15,0,17,62,7,12,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1016,30,0,17,62,5,40,17,62,15,24,17,62
+2019-01-15,100,16,61,7,11,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1016,30,0,16,61,4,40,16,61,15,23,16,61
+2019-01-15,200,16,61,7,11,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1016,30,0,16,61,4,40,16,61,14,22,16,61
+2019-01-15,300,16,60,6,10,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1016,30,0,16,60,4,39,16,60,13,21,16,60
+2019-01-15,400,16,61,6,10,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1016,30,0,16,61,4,40,16,61,13,21,16,61
+2019-01-15,500,17,62,6,10,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1017,30,0,17,62,5,41,17,62,13,21,17,62
+2019-01-15,600,18,64,6,10,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1017,30,0,18,64,5,41,18,64,13,21,18,64
+2019-01-15,700,20,68,7,11,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1017,30,0,20,68,6,43,20,68,13,21,20,68
+2019-01-15,800,23,73,7,11,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1017,30,0,23,73,7,44,23,73,12,20,23,73
+2019-01-15,900,25,78,7,12,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1017,30,0,25,77,8,46,25,78,12,19,25,77
+2019-01-15,1000,27,81,7,11,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1016,30,0,26,79,8,46,27,81,10,17,26,79
+2019-01-15,1100,29,84,7,11,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1015,30,0,28,82,8,47,29,84,9,14,28,82
+2019-01-15,1200,31,87,6,10,104,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1014,30,0,29,84,9,48,31,87,7,12,29,84
+2019-01-15,1300,30,86,5,8,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1014,30,1,29,83,9,48,30,86,6,9,29,83
+2019-01-15,1400,29,85,4,6,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1014,30,1,28,83,9,48,29,85,4,7,28,83
+2019-01-15,1500,29,84,2,4,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1014,30,2,28,82,9,48,29,84,3,4,28,82
+2019-01-15,1600,27,81,3,4,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1014,30,2,27,80,9,48,27,81,3,5,27,80
+2019-01-15,1700,26,78,3,5,124,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1015,30,2,26,78,9,49,26,78,4,6,26,78
+2019-01-15,1800,24,75,3,5,147,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1015,30,2,25,76,9,49,24,75,4,6,25,76
+2019-01-15,1900,23,73,3,5,180,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1015,30,1,24,76,9,48,23,73,5,8,24,76
+2019-01-15,2000,22,72,3,6,214,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1015,30,1,24,76,9,47,22,72,6,10,24,76
+2019-01-15,2100,21,70,4,6,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1016,30,0,24,75,8,47,21,70,7,11,21,70
+2019-01-15,2200,20,69,4,7,188,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1015,30,0,22,72,8,46,20,69,9,14,20,69
+2019-01-15,2300,19,67,5,8,128,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1015,30,0,20,69,8,46,19,67,10,16,19,67
+2019-01-16,0,19,65,6,9,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1015,30,0,19,65,8,46,19,65,12,19,19,65
+2019-01-16,100,18,65,6,9,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1015,30,0,18,65,8,46,18,65,12,19,18,65
+2019-01-16,200,18,64,6,9,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1015,30,0,18,64,8,47,18,64,12,20,18,64
+2019-01-16,300,18,64,6,9,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,64,8,47,18,64,12,20,18,64
+2019-01-16,400,18,65,6,9,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1016,30,0,18,65,9,48,18,65,12,20,18,65
+2019-01-16,500,19,66,6,9,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1016,30,0,19,66,9,48,19,66,12,20,19,66
+2019-01-16,600,20,67,6,9,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1017,30,0,20,67,10,49,20,67,12,19,20,67
+2019-01-16,700,22,72,6,9,108,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1016,30,0,22,71,10,49,22,72,11,18,22,72
+2019-01-16,800,24,76,6,10,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1016,30,0,24,75,10,50,24,76,11,17,24,75
+2019-01-16,900,27,80,6,10,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1016,30,0,26,80,10,50,27,80,10,16,26,80
+2019-01-16,1000,28,83,6,9,143,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1015,30,0,27,81,9,49,28,83,9,14,27,81
+2019-01-16,1100,30,86,5,9,171,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1014,30,1,28,83,9,48,30,86,7,11,28,83
+2019-01-16,1200,31,88,5,8,198,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1014,30,1,29,85,8,47,31,88,6,9,29,85
+2019-01-16,1300,31,87,4,7,245,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1013,30,1,29,84,9,47,31,87,5,7,29,84
+2019-01-16,1400,30,86,3,5,292,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1013,30,2,29,84,9,48,30,86,4,6,29,84
+2019-01-16,1500,30,85,2,4,338,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1013,30,2,28,83,10,49,30,85,3,4,28,83
+2019-01-16,1600,28,82,3,5,338,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1013,30,1,27,81,10,49,28,82,4,6,27,81
+2019-01-16,1700,26,79,4,6,338,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1014,30,1,26,79,10,50,26,79,5,8,26,79
+2019-01-16,1800,24,76,4,6,338,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1014,30,0,25,77,10,50,24,76,6,10,25,77
+2019-01-16,1900,24,75,4,7,334,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1014,30,0,25,77,10,49,24,75,7,12,25,77
+2019-01-16,2000,23,73,5,7,330,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1015,30,0,24,76,9,49,23,73,9,14,24,76
+2019-01-16,2100,22,72,5,8,325,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1015,30,0,24,76,9,48,22,72,10,15,24,76
+2019-01-16,2200,22,71,4,7,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1015,30,0,24,76,9,48,22,71,8,13,22,71
+2019-01-16,2300,22,71,4,6,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1014,30,0,24,75,9,48,22,71,7,11,22,71
+2019-01-17,0,21,70,3,5,231,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1014,30,0,24,75,9,48,21,70,6,9,21,70
+2019-01-17,100,21,69,3,4,163,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1014,30,0,23,73,9,48,21,69,5,8,21,69
+2019-01-17,200,20,68,2,3,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1014,30,0,21,70,8,47,20,68,4,7,20,68
+2019-01-17,300,20,68,2,3,26,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1014,30,0,20,68,8,47,20,68,3,5,20,68
+2019-01-17,400,21,69,2,3,38,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1015,30,0,21,70,8,47,21,69,4,6,21,69
+2019-01-17,500,21,71,2,3,50,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1015,30,0,23,73,8,46,21,71,4,6,21,71
+2019-01-17,600,22,72,2,4,61,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1015,30,0,24,75,8,46,22,72,4,6,24,75
+2019-01-17,700,25,76,2,4,68,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1015,30,0,25,77,8,46,25,76,4,6,25,77
+2019-01-17,800,27,80,3,4,74,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1015,30,0,26,80,8,47,27,80,4,6,26,80
+2019-01-17,900,29,84,3,5,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1015,30,0,28,82,8,47,29,84,4,6,28,82
+2019-01-17,1000,30,85,3,5,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1014,30,0,28,82,8,46,30,85,4,6,28,82
+2019-01-17,1100,30,86,3,5,136,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1014,30,0,28,83,7,45,30,86,4,6,28,83
+2019-01-17,1200,31,88,3,5,164,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1013,30,0,29,84,7,44,31,88,4,6,29,84
+2019-01-17,1300,30,86,4,6,223,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,0,28,83,7,44,30,86,4,7,28,83
+2019-01-17,1400,29,85,4,6,281,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1012,30,0,28,82,7,44,29,85,5,8,28,82
+2019-01-17,1500,28,83,4,7,340,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1012,30,0,27,80,7,44,28,83,6,9,27,80
+2019-01-17,1600,26,80,5,8,337,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1012,30,0,26,78,6,43,26,80,7,12,26,78
+2019-01-17,1700,24,76,6,9,334,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1013,30,0,25,76,6,42,24,76,9,14,25,76
+2019-01-17,1800,23,73,6,10,331,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1013,30,0,24,74,5,41,23,73,10,16,24,74
+2019-01-17,1900,22,72,6,9,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1013,30,0,24,74,5,41,22,72,10,16,24,74
+2019-01-17,2000,22,72,6,9,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1013,30,0,23,74,5,40,22,72,10,17,23,74
+2019-01-17,2100,22,72,5,8,221,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1014,30,0,23,74,5,40,22,72,11,17,23,74
+2019-01-17,2200,22,71,4,7,154,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1014,30,0,22,72,5,40,22,71,8,13,22,71
+2019-01-17,2300,21,70,3,5,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1014,30,0,21,71,5,40,21,70,6,10,21,70
+2019-01-18,0,21,69,2,4,20,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1014,30,0,21,69,5,40,21,69,4,6,21,69
+2019-01-18,100,20,68,2,3,37,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1014,30,0,20,68,5,40,20,68,4,6,20,68
+2019-01-18,200,19,67,2,3,54,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1014,30,0,19,67,5,40,19,67,4,6,19,67
+2019-01-18,300,19,66,2,3,70,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1014,30,0,19,66,4,40,19,66,4,6,19,66
+2019-01-18,400,20,67,3,4,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1015,30,0,20,67,4,40,20,67,5,9,20,67
+2019-01-18,500,20,68,3,5,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,20,68,4,40,20,68,7,11,20,68
+2019-01-18,600,21,70,4,6,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,21,70,4,39,21,70,8,13,21,70
+2019-01-18,700,23,74,5,7,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1015,30,0,23,73,5,40,23,74,9,14,23,73
+2019-01-18,800,25,78,5,9,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1015,30,0,24,76,5,41,25,78,9,15,24,76
+2019-01-18,900,28,82,6,10,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1015,30,0,26,79,5,42,28,82,10,16,26,79
+2019-01-18,1000,29,84,6,10,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1015,30,0,27,81,5,42,29,84,9,15,27,81
+2019-01-18,1100,30,86,6,10,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,28,83,5,42,30,86,8,14,28,83
+2019-01-18,1200,32,89,6,10,117,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1013,30,0,29,85,5,42,32,89,8,12,29,85
+2019-01-18,1300,31,89,5,8,114,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1013,30,0,29,85,6,43,31,89,6,10,29,85
+2019-01-18,1400,31,88,4,6,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1012,30,0,29,85,7,44,31,88,5,7,29,85
+2019-01-18,1500,31,88,3,4,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1012,30,0,29,85,8,46,31,88,3,5,29,85
+2019-01-18,1600,29,84,2,4,125,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1013,30,0,28,82,7,44,29,84,3,5,28,82
+2019-01-18,1700,27,80,2,4,141,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1013,30,0,26,79,6,43,27,80,3,5,26,79
+2019-01-18,1800,25,76,2,3,157,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,24,76,5,41,25,76,3,5,24,76
+2019-01-18,1900,24,74,2,4,176,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1014,30,0,24,75,5,40,24,74,4,6,24,75
+2019-01-18,2000,23,73,3,4,196,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1014,30,0,24,74,4,39,23,73,4,7,24,74
+2019-01-18,2100,22,71,3,5,215,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1014,30,0,23,74,4,38,22,71,5,8,22,71
+2019-01-18,2200,21,69,3,5,156,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1014,30,0,22,71,4,38,21,69,6,9,21,69
+2019-01-18,2300,20,68,3,5,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1014,30,0,21,69,3,38,20,68,6,10,20,68
+2019-01-19,0,19,67,4,6,39,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1014,30,0,19,67,3,38,19,67,7,11,19,67
+2019-01-19,100,19,66,4,6,53,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1014,30,0,19,66,3,38,19,66,8,13,19,66
+2019-01-19,200,18,65,4,7,67,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1014,30,0,18,65,3,37,18,65,9,14,18,65
+2019-01-19,300,18,64,5,8,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1014,30,0,18,64,3,37,18,64,10,16,18,64
+2019-01-19,400,18,65,5,8,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,0,18,65,3,38,18,65,11,18,18,65
+2019-01-19,500,19,66,6,9,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,0,19,66,4,38,19,66,12,19,19,66
+2019-01-19,600,20,67,6,10,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1016,30,0,20,67,4,39,20,67,13,21,20,67
+2019-01-19,700,22,72,7,11,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1016,30,0,22,71,4,39,22,72,13,20,22,71
+2019-01-19,800,25,77,7,11,104,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1016,30,0,24,75,4,40,25,77,12,20,24,75
+2019-01-19,900,27,81,7,12,110,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1016,30,0,26,78,5,40,27,81,12,19,26,78
+2019-01-19,1000,28,83,8,12,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1015,30,0,26,80,5,40,28,83,11,18,26,80
+2019-01-19,1100,29,84,8,13,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1015,30,0,27,81,5,40,29,84,10,17,27,81
+2019-01-19,1200,30,86,8,13,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1014,30,0,28,82,5,40,30,86,9,15,28,82
+2019-01-19,1300,30,86,7,12,110,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,28,83,6,42,30,86,9,14,28,83
+2019-01-19,1400,30,87,7,11,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,0,28,83,7,44,30,87,8,13,28,83
+2019-01-19,1500,31,87,6,10,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1013,30,0,29,84,8,46,31,87,8,12,29,84
+2019-01-19,1600,28,83,6,9,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1014,30,0,27,81,7,44,28,83,8,13,27,81
+2019-01-19,1700,26,79,6,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1014,30,0,26,78,6,43,26,79,8,13,26,78
+2019-01-19,1800,24,75,6,9,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1015,30,0,24,75,5,42,24,75,9,14,24,75
+2019-01-19,1900,23,74,5,8,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1015,30,0,24,75,6,42,23,74,8,13,24,75
+2019-01-19,2000,23,73,4,7,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1015,30,0,24,75,6,42,23,73,8,12,24,75
+2019-01-19,2100,23,73,4,6,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,24,75,6,43,23,73,7,12,24,75
+2019-01-19,2200,22,72,3,5,72,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1015,30,1,24,75,7,44,22,72,6,10,24,75
+2019-01-19,2300,22,71,3,5,66,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,39,10,6,1015,30,1,24,75,7,45,22,71,5,9,22,71
+2019-01-20,0,21,71,2,4,60,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1015,30,2,24,75,8,46,21,71,4,7,21,71
+2019-01-20,100,21,70,2,4,66,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1016,30,1,23,73,8,46,21,70,5,8,21,70
+2019-01-20,200,20,69,2,4,72,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1016,30,1,21,70,7,45,20,69,5,8,20,69
+2019-01-20,300,20,68,2,4,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1016,30,0,20,68,7,45,20,68,5,8,20,68
+2019-01-20,400,21,69,3,5,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1016,30,0,21,70,8,46,21,69,6,10,21,69
+2019-01-20,500,22,71,4,6,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1017,30,0,23,73,8,46,22,71,7,11,22,71
+2019-01-20,600,23,73,4,6,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1017,30,0,24,76,8,47,23,73,8,13,24,76
+2019-01-20,700,25,76,4,7,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1017,30,0,25,77,8,46,25,76,7,12,25,77
+2019-01-20,800,27,80,4,7,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1017,30,0,26,79,8,46,27,80,7,11,26,79
+2019-01-20,900,29,83,4,7,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1017,30,0,27,81,8,46,29,83,6,10,27,81
+2019-01-20,1000,29,85,5,8,121,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1016,30,0,28,82,7,44,29,85,6,10,28,82
+2019-01-20,1100,30,86,5,8,126,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1015,30,0,28,82,6,42,30,86,6,10,28,82
+2019-01-20,1200,31,87,5,9,132,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1014,30,0,28,83,5,41,31,87,6,10,28,83
+2019-01-20,1300,31,87,5,8,140,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1013,30,1,28,83,5,42,31,87,6,9,28,83
+2019-01-20,1400,30,87,4,6,149,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1013,30,3,28,83,6,43,30,87,5,8,28,83
+2019-01-20,1500,30,87,3,5,157,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,4,28,83,7,44,30,87,4,6,28,83
+2019-01-20,1600,28,83,3,5,180,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1013,30,5,27,81,6,44,28,83,4,7,27,81
+2019-01-20,1700,26,79,3,4,203,SSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1013,30,5,26,78,6,43,26,79,4,7,26,78
+2019-01-20,1800,24,75,2,4,227,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1014,30,6,24,76,6,43,24,75,4,7,24,76
+2019-01-20,1900,23,74,3,5,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1014,30,6,24,76,7,44,23,74,6,9,24,76
+2019-01-20,2000,23,73,4,6,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1014,30,6,24,75,7,44,23,73,7,12,24,75
+2019-01-20,2100,22,71,4,7,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,39,10,6,1014,30,7,24,75,7,45,22,71,9,14,22,71
+2019-01-20,2200,21,71,4,6,312,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1014,30,6,23,73,7,45,21,71,8,13,21,71
+2019-01-20,2300,21,70,4,6,314,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1014,30,5,22,71,7,45,21,70,7,11,21,70
+2019-01-21,0,21,69,3,5,316,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1014,30,4,21,69,8,46,21,69,6,10,21,69
+2019-01-21,100,20,68,3,5,313,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1014,30,4,20,68,8,46,20,68,6,10,20,68
+2019-01-21,200,20,68,3,5,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1014,30,3,20,68,8,46,20,68,7,11,20,68
+2019-01-21,300,20,67,3,5,308,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1014,30,3,20,67,8,47,20,67,7,11,20,67
+2019-01-21,400,21,70,3,5,303,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1014,30,3,21,70,8,47,21,70,6,10,21,70
+2019-01-21,500,22,72,3,5,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1015,30,2,23,73,8,47,22,72,6,9,23,73
+2019-01-21,600,23,74,3,5,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1015,30,2,24,76,9,47,23,74,5,9,24,76
+2019-01-21,700,25,77,3,5,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1015,30,2,25,77,8,46,25,77,5,8,25,77
+2019-01-21,800,26,79,4,6,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1015,30,2,26,78,7,45,26,79,5,8,26,78
+2019-01-21,900,27,81,4,6,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1015,30,3,26,79,7,44,27,81,5,8,26,79
+2019-01-21,1000,28,83,6,9,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1014,30,2,27,80,6,44,28,83,7,11,27,80
+2019-01-21,1100,29,84,7,12,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,2,27,81,6,43,29,84,9,14,27,81
+2019-01-21,1200,30,86,9,15,241,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1012,30,1,28,82,6,42,30,86,11,17,28,82
+2019-01-21,1300,29,84,11,17,242,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1012,30,2,27,81,6,43,29,84,12,20,27,81
+2019-01-21,1400,28,82,12,20,244,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1011,30,2,27,80,7,44,28,82,14,23,27,80
+2019-01-21,1500,27,80,14,22,246,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1011,30,2,26,79,7,45,27,80,16,26,26,79
+2019-01-21,1600,25,77,13,21,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1012,30,1,24,76,7,45,25,77,16,26,24,76
+2019-01-21,1700,23,73,13,20,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1012,30,1,22,72,7,44,23,73,16,26,22,72
+2019-01-21,1800,21,69,12,19,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1013,30,0,21,69,7,44,21,69,16,26,21,69
+2019-01-21,1900,20,68,11,17,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1013,30,0,20,68,6,44,20,68,16,26,20,68
+2019-01-21,2000,19,67,9,15,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1013,30,0,19,67,6,43,19,67,16,25,19,67
+2019-01-21,2100,18,65,8,13,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1014,30,0,18,65,6,43,18,65,15,24,18,65
+2019-01-21,2200,18,64,8,13,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1014,30,0,18,64,7,44,18,64,15,25,18,64
+2019-01-21,2300,17,63,8,13,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1014,30,0,17,63,7,45,17,63,16,25,17,63
+2019-01-22,0,17,62,9,14,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1014,30,0,17,62,8,46,17,62,16,26,17,62
+2019-01-22,100,16,61,9,14,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1014,30,0,16,61,9,48,16,61,16,26,16,61
+2019-01-22,200,16,61,9,14,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1014,30,0,16,61,10,50,16,61,16,27,16,61
+2019-01-22,300,16,60,9,14,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1014,30,0,16,60,11,52,16,60,17,27,16,60
+2019-01-22,400,16,61,9,14,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1014,30,0,16,61,12,54,16,61,16,26,16,61
+2019-01-22,500,17,63,8,13,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1015,30,0,17,63,13,56,17,63,15,24,17,63
+2019-01-22,600,18,64,8,12,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1015,30,0,18,64,14,58,18,64,14,23,18,64
+2019-01-22,700,20,68,7,12,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,66,10,6,1015,30,0,20,68,13,55,20,68,13,20,20,68
+2019-01-22,800,22,71,7,11,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,53,10,6,1015,30,0,22,72,11,52,22,71,11,18,22,71
+2019-01-22,900,24,75,7,11,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1015,30,0,25,76,9,49,24,75,9,15,25,76
+2019-01-22,1000,25,76,8,13,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1014,30,2,25,77,9,48,25,76,10,16,25,77
+2019-01-22,1100,25,78,9,15,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1014,30,4,25,78,8,47,25,78,11,18,25,78
+2019-01-22,1200,26,79,11,17,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1013,30,6,26,78,8,46,26,79,12,20,26,78
+2019-01-22,1300,26,78,11,18,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1013,30,7,25,78,9,47,26,78,13,21,25,78
+2019-01-22,1400,25,77,12,19,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1013,30,8,25,77,9,49,25,77,14,23,25,77
+2019-01-22,1500,24,75,13,21,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1013,30,9,25,77,10,50,24,75,15,24,25,77
+2019-01-22,1600,22,72,12,19,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1013,30,6,23,73,11,53,22,72,14,23,23,73
+2019-01-22,1700,21,69,11,18,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,62,10,6,1014,30,3,21,70,13,55,21,69,14,22,21,69
+2019-01-22,1800,19,66,10,17,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,73,10,6,1014,30,0,19,66,14,57,19,66,13,21,19,66
+2019-01-22,1900,18,65,9,15,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1014,30,9,18,65,15,58,18,65,12,20,18,65
+2019-01-22,2000,18,64,8,13,277,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1015,30,18,18,64,15,59,18,64,12,19,18,64
+2019-01-22,2100,17,63,7,11,282,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1015,30,27,17,63,16,60,17,63,11,17,17,63
+2019-01-22,2200,17,62,6,10,280,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1015,30,25,17,62,15,60,17,62,11,17,17,62
+2019-01-22,2300,16,62,6,10,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,92,10,6,1015,30,22,16,62,15,59,16,62,10,17,16,62
+2019-01-23,0,16,61,6,10,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,93,10,6,1015,30,20,16,61,15,59,16,61,10,17,16,61
+2019-01-23,100,16,60,6,10,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,93,10,6,1015,30,22,16,60,15,59,16,60,10,17,16,60
+2019-01-23,200,16,60,6,9,275,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,10,6,1015,30,23,16,60,14,58,16,60,10,17,16,60
+2019-01-23,300,15,59,6,9,274,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,10,6,1015,30,25,15,59,14,58,15,59,10,17,15,59
+2019-01-23,400,16,61,6,9,276,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1016,30,31,16,61,14,58,16,61,10,15,16,61
+2019-01-23,500,16,62,5,8,279,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1016,30,37,16,62,14,58,16,62,9,14,16,62
+2019-01-23,600,17,63,5,8,281,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1017,30,43,17,63,14,58,17,63,8,13,17,63
+2019-01-23,700,18,65,5,8,287,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,76,10,6,1017,30,39,18,65,14,57,18,65,8,12,18,65
+2019-01-23,800,20,67,5,8,293,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,68,10,6,1017,30,35,20,67,13,56,20,67,7,12,20,67
+2019-01-23,900,21,69,5,8,298,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1017,30,31,21,69,13,55,21,69,7,11,21,69
+2019-01-23,1000,22,71,6,9,298,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1016,30,23,22,72,12,54,22,71,7,11,22,71
+2019-01-23,1100,23,74,6,10,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1015,30,15,24,74,11,53,23,74,7,12,24,74
+2019-01-23,1200,24,76,7,11,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1014,30,7,25,77,11,51,24,76,8,13,25,77
+2019-01-23,1300,24,75,7,11,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1014,30,8,25,77,10,51,24,75,8,13,25,77
+2019-01-23,1400,24,75,7,12,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1014,30,10,25,77,10,50,24,75,8,14,25,77
+2019-01-23,1500,24,74,7,12,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1014,30,12,25,76,10,49,24,74,9,14,25,76
+2019-01-23,1600,22,71,8,12,301,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1014,30,8,23,73,9,49,22,71,9,15,22,71
+2019-01-23,1700,20,68,8,12,303,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,50,10,6,1015,30,4,20,69,9,48,20,68,10,16,20,68
+2019-01-23,1800,18,65,8,13,306,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1015,30,0,18,65,9,48,18,65,11,17,18,65
+2019-01-23,1900,18,65,7,12,308,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,65,9,48,18,65,11,17,18,65
+2019-01-23,2000,18,64,7,11,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,64,9,48,18,64,11,18,18,64
+2019-01-23,2100,18,64,6,10,312,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1016,30,0,18,64,9,48,18,64,11,18,18,64
+2019-01-23,2200,18,64,6,9,316,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,58,10,6,1016,30,0,18,64,9,49,18,64,10,17,18,64
+2019-01-23,2300,17,63,5,8,320,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1016,30,0,17,63,10,49,17,63,9,15,17,63
+2019-01-24,0,17,63,5,8,324,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1016,30,0,17,63,10,50,17,63,9,14,17,63
+2019-01-24,100,17,63,4,7,330,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1016,30,0,17,63,10,50,17,63,7,12,17,63
+2019-01-24,200,17,62,4,6,335,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1016,30,0,17,62,10,49,17,62,6,10,17,62
+2019-01-24,300,17,62,3,5,341,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1016,30,0,17,62,10,49,17,62,5,8,17,62
+2019-01-24,400,17,63,3,4,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1016,30,0,17,63,10,49,17,63,5,7,17,63
+2019-01-24,500,18,65,2,4,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,57,10,6,1017,30,0,18,65,9,49,18,65,4,7,18,65
+2019-01-24,600,19,66,2,4,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1017,30,0,19,66,9,49,19,66,4,6,19,66
+2019-01-24,700,21,70,2,4,187,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1017,30,0,21,70,9,48,21,70,4,6,21,70
+2019-01-24,800,23,73,3,4,126,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1017,30,0,23,73,8,47,23,73,3,6,23,73
+2019-01-24,900,25,76,3,4,65,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1017,30,0,25,77,8,46,25,76,3,5,25,77
+2019-01-24,1000,26,78,3,6,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1016,30,0,25,77,6,43,26,78,4,7,25,77
+2019-01-24,1100,26,79,4,7,120,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1015,30,1,25,77,5,40,26,79,5,8,25,77
+2019-01-24,1200,27,81,5,8,148,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,1,26,78,3,38,27,81,6,9,26,78
+2019-01-24,1300,27,80,6,9,184,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1014,30,1,25,77,3,38,27,80,7,11,25,77
+2019-01-24,1400,26,79,7,11,220,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1013,30,0,25,77,3,38,26,79,8,13,25,77
+2019-01-24,1500,25,78,8,12,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1013,30,0,24,76,3,38,25,78,9,15,24,76
+2019-01-24,1600,23,73,8,13,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1013,30,0,22,72,3,38,23,73,11,17,22,72
+2019-01-24,1700,21,69,9,14,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1014,30,0,20,69,3,38,21,69,12,19,21,69
+2019-01-24,1800,19,65,10,15,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1014,30,0,19,65,3,37,19,65,13,22,19,65
+2019-01-24,1900,18,64,9,14,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1014,30,0,18,64,1,34,18,64,13,22,18,64
+2019-01-24,2000,17,63,8,13,307,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1015,30,0,17,63,-1,31,17,63,13,22,17,63
+2019-01-24,2100,16,61,7,12,315,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,28,10,6,1015,30,0,16,61,-2,28,16,61,13,22,16,61
+2019-01-24,2200,16,61,7,11,318,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1015,30,0,16,61,-3,27,16,61,12,20,16,61
+2019-01-24,2300,16,61,6,10,322,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1015,30,0,16,61,-3,26,16,61,11,18,16,61
+2019-01-25,0,16,61,5,9,325,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1015,30,0,16,61,-4,25,16,61,11,17,16,61
+2019-01-25,100,16,60,5,8,326,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1016,30,0,16,60,-3,26,16,60,10,16,16,60
+2019-01-25,200,15,59,5,8,327,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1016,30,0,15,59,-3,27,15,59,9,15,15,59
+2019-01-25,300,15,58,4,7,329,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,0,15,58,-2,28,15,59,9,14,15,59
+2019-01-25,400,15,60,4,7,292,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,0,15,60,-0,31,15,60,9,14,15,60
+2019-01-25,500,16,61,4,7,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1017,30,0,16,61,1,34,16,61,8,13,16,61
+2019-01-25,600,17,62,4,6,219,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1017,30,0,17,62,3,37,17,62,8,12,17,62
+2019-01-25,700,18,65,4,7,152,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1017,30,0,19,66,2,36,18,65,7,12,18,65
+2019-01-25,800,20,69,5,8,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1017,30,0,21,69,2,35,20,69,7,11,20,69
+2019-01-25,900,22,72,5,8,18,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1017,30,0,23,73,1,34,22,72,6,10,23,73
+2019-01-25,1000,23,73,6,10,23,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1016,30,0,23,73,1,33,23,73,8,12,23,73
+2019-01-25,1100,24,75,8,12,27,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1015,30,0,23,74,0,33,24,75,9,15,23,74
+2019-01-25,1200,25,76,9,14,32,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1015,30,0,24,74,-0,32,25,76,10,17,24,74
+2019-01-25,1300,24,76,8,13,28,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1015,30,0,23,74,0,32,24,76,10,16,23,74
+2019-01-25,1400,24,75,8,12,24,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,23,74,0,32,24,75,9,15,23,74
+2019-01-25,1500,24,74,7,12,20,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1014,30,0,23,74,0,33,24,74,9,14,23,74
+2019-01-25,1600,22,71,7,12,17,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1015,30,1,21,71,1,33,22,71,10,15,22,71
+2019-01-25,1700,20,68,8,12,14,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1015,30,1,20,68,1,33,20,68,11,17,20,68
+2019-01-25,1800,18,65,8,13,11,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,2,18,65,1,34,18,65,12,19,18,65
+2019-01-25,1900,18,64,8,13,11,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,1,18,64,1,33,18,64,13,21,18,64
+2019-01-25,2000,17,62,8,13,10,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,1,17,62,0,33,17,62,15,24,17,62
+2019-01-25,2100,16,61,9,14,10,N,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1017,30,0,16,61,0,32,16,61,16,26,16,61
+2019-01-25,2200,16,60,8,13,14,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1016,30,0,16,60,1,33,15,60,16,26,15,60
+2019-01-25,2300,15,59,8,12,18,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1016,30,0,15,59,1,34,14,58,15,25,14,58
+2019-01-26,0,14,57,7,12,22,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1016,30,0,14,57,2,35,14,56,15,24,14,56
+2019-01-26,100,14,57,7,12,30,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1016,30,0,14,57,2,36,13,56,15,24,13,56
+2019-01-26,200,14,56,7,11,37,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1017,30,0,14,56,3,37,13,55,15,24,13,55
+2019-01-26,300,13,56,7,11,44,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1017,30,0,13,56,4,38,12,54,15,23,12,54
+2019-01-26,400,14,57,8,12,53,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1017,30,0,14,57,5,41,13,55,15,25,13,55
+2019-01-26,500,14,58,8,14,61,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1018,30,0,14,58,7,44,13,56,16,26,13,56
+2019-01-26,600,15,59,9,15,70,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1018,30,0,15,59,8,46,14,56,17,27,14,56
+2019-01-26,700,17,63,10,17,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,57,10,6,1018,30,0,18,64,8,47,16,61,17,28,16,61
+2019-01-26,800,19,67,12,19,72,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,51,10,6,1018,30,0,21,70,9,48,19,66,18,28,19,66
+2019-01-26,900,21,71,13,21,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1018,30,0,24,76,9,48,21,71,18,29,21,71
+2019-01-26,1000,22,72,13,21,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1018,30,3,24,76,8,47,22,72,17,27,24,76
+2019-01-26,1100,23,73,13,21,72,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1017,30,7,24,76,8,46,23,73,16,25,24,76
+2019-01-26,1200,24,75,13,21,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1016,30,10,24,76,7,45,24,75,15,24,24,76
+2019-01-26,1300,24,74,12,19,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1016,30,10,24,76,7,45,24,74,13,22,24,76
+2019-01-26,1400,23,74,11,17,66,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1015,30,9,24,76,7,44,23,74,12,20,24,76
+2019-01-26,1500,23,73,9,15,63,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1015,30,9,24,75,7,44,23,73,11,18,24,75
+2019-01-26,1600,22,71,9,15,60,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1015,30,9,22,72,7,44,22,71,12,19,22,71
+2019-01-26,1700,20,68,9,15,57,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1016,30,9,21,69,7,44,20,68,13,21,20,68
+2019-01-26,1800,19,66,9,15,53,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1017,30,8,19,66,7,44,19,66,14,22,19,66
+2019-01-26,1900,18,65,10,15,50,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1017,30,10,18,65,6,43,18,65,15,24,18,65
+2019-01-26,2000,18,64,10,16,47,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1017,30,11,18,64,6,43,18,64,16,27,18,64
+2019-01-26,2100,17,63,10,16,44,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1017,30,13,17,63,6,42,17,63,18,29,17,63
+2019-01-26,2200,16,62,10,16,48,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1017,30,9,16,62,6,43,16,61,18,29,16,61
+2019-01-26,2300,16,60,10,17,52,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1018,30,5,16,60,7,44,15,59,18,29,15,59
+2019-01-27,0,15,59,11,17,56,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1018,30,2,15,59,8,46,14,57,18,29,14,57
+2019-01-27,100,15,58,11,17,58,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1018,30,1,15,58,7,45,13,56,18,30,13,56
+2019-01-27,200,14,57,11,17,61,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1018,30,1,14,57,7,45,13,55,19,30,13,55
+2019-01-27,300,14,57,11,18,63,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1018,30,0,14,57,7,45,13,55,19,30,13,55
+2019-01-27,400,14,57,11,17,67,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1019,30,0,14,57,7,45,13,55,18,30,13,55
+2019-01-27,500,15,58,11,17,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1019,30,0,15,58,8,46,13,56,18,29,13,56
+2019-01-27,600,15,59,10,17,74,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1020,30,0,15,59,8,46,14,57,17,28,14,57
+2019-01-27,700,17,63,11,17,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,57,10,6,1020,30,0,18,64,8,47,16,62,17,27,16,62
+2019-01-27,800,19,67,11,18,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,51,10,6,1020,30,0,21,70,9,47,19,66,16,26,19,66
+2019-01-27,900,21,71,11,18,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1020,30,0,24,75,9,48,21,71,16,25,21,71
+2019-01-27,1000,22,72,12,19,79,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1019,30,0,24,76,8,46,22,72,15,24,24,76
+2019-01-27,1100,23,74,12,19,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1018,30,0,24,76,7,45,23,74,15,24,24,76
+2019-01-27,1200,24,76,12,20,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1017,30,0,24,76,6,43,24,76,14,23,24,76
+2019-01-27,1300,24,75,12,19,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1017,30,1,24,76,6,43,24,75,14,22,24,76
+2019-01-27,1400,23,74,11,18,65,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1016,30,2,24,75,6,43,23,74,13,21,24,75
+2019-01-27,1500,23,73,11,18,59,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1016,30,4,24,75,6,43,23,73,13,21,24,75
+2019-01-27,1600,21,70,11,18,58,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1016,30,2,22,71,6,43,21,70,14,22,21,70
+2019-01-27,1700,20,67,11,18,57,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1017,30,1,20,68,6,42,20,67,15,23,20,67
+2019-01-27,1800,18,64,11,18,56,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1017,30,0,18,64,6,42,18,64,15,25,18,64
+2019-01-27,1900,17,63,11,17,56,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1018,30,0,17,63,5,41,17,63,17,27,17,63
+2019-01-27,2000,17,62,10,17,57,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1018,30,0,17,62,4,40,17,62,18,28,17,62
+2019-01-27,2100,16,61,10,16,57,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1018,30,0,16,61,4,39,16,61,19,30,16,61
+2019-01-27,2200,16,60,10,16,59,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1018,30,0,16,60,4,39,15,60,18,30,15,60
+2019-01-27,2300,15,59,10,16,60,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1018,30,0,15,59,3,38,14,58,18,29,14,58
+2019-01-28,0,14,58,10,15,62,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1018,30,0,14,58,3,38,13,56,18,29,13,56
+2019-01-28,100,14,57,9,15,67,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1019,30,0,14,57,3,37,13,55,18,28,13,55
+2019-01-28,200,13,56,9,15,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1019,30,0,13,56,2,36,12,54,17,28,12,54
+2019-01-28,300,13,55,9,14,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1019,30,0,13,55,2,36,12,53,17,27,12,53
+2019-01-28,400,13,56,9,15,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1020,30,0,13,56,2,35,12,54,17,28,12,54
+2019-01-28,500,14,57,10,15,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1020,30,0,14,57,2,35,12,54,17,28,12,54
+2019-01-28,600,14,58,10,16,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1021,30,0,14,58,1,35,13,55,17,28,13,55
+2019-01-28,700,16,61,11,17,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1021,30,0,16,61,2,35,15,60,17,28,15,60
+2019-01-28,800,18,65,11,18,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1020,30,0,18,65,2,35,18,64,17,28,18,64
+2019-01-28,900,21,69,12,20,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1020,30,0,21,69,2,36,21,69,17,28,21,69
+2019-01-28,1000,21,71,13,20,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1019,30,0,22,71,3,37,21,71,17,27,21,71
+2019-01-28,1100,22,72,13,21,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1019,30,0,23,73,4,39,22,72,16,26,23,73
+2019-01-28,1200,23,74,13,22,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1018,30,0,24,75,5,40,23,74,15,25,24,75
+2019-01-28,1300,23,73,13,20,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1017,30,1,24,74,4,40,23,73,15,24,24,74
+2019-01-28,1400,22,72,12,19,74,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1017,30,1,23,74,4,39,22,72,14,22,23,74
+2019-01-28,1500,22,72,11,18,70,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1017,30,2,23,74,3,38,22,72,13,21,23,74
+2019-01-28,1600,20,69,11,18,67,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1017,30,1,21,70,3,37,20,69,14,23,20,69
+2019-01-28,1700,19,66,11,18,64,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1017,30,1,19,67,2,35,19,66,15,24,19,66
+2019-01-28,1800,17,63,11,17,61,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1018,30,0,17,63,1,34,17,63,16,25,17,63
+2019-01-28,1900,17,62,10,17,64,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1018,30,0,17,62,-0,32,17,62,17,27,17,62
+2019-01-28,2000,16,61,10,16,66,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1018,30,0,16,61,-1,30,16,61,18,29,16,61
+2019-01-28,2100,16,60,10,15,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1019,30,0,16,60,-2,28,16,60,19,30,16,60
+2019-01-28,2200,15,58,9,15,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,15,58,-3,27,14,58,18,29,14,58
+2019-01-28,2300,14,57,9,14,78,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,14,57,-4,25,13,56,17,28,13,56
+2019-01-29,0,13,56,8,13,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1018,30,0,13,56,-4,24,12,53,17,27,12,53
+2019-01-29,100,13,55,8,13,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,30,10,6,1018,30,0,13,55,-5,24,11,53,16,26,11,53
+2019-01-29,200,12,54,8,12,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,12,54,-5,24,11,52,16,25,11,52
+2019-01-29,300,12,53,7,12,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,12,53,-5,24,11,51,15,24,11,51
+2019-01-29,400,12,54,7,12,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,12,54,-4,25,11,52,15,24,11,52
+2019-01-29,500,13,55,7,12,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1019,30,0,13,55,-4,25,12,54,14,23,12,54
+2019-01-29,600,14,57,7,12,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1020,30,0,14,57,-3,26,13,55,14,23,13,55
+2019-01-29,700,16,61,8,13,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1020,30,0,17,62,-2,28,16,60,14,23,16,60
+2019-01-29,800,19,66,9,14,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1019,30,0,19,67,-2,29,18,65,14,23,18,65
+2019-01-29,900,21,70,9,15,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1019,30,0,22,72,-1,30,21,70,14,23,21,70
+2019-01-29,1000,22,72,10,16,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1018,30,0,23,73,-1,31,22,72,14,22,23,73
+2019-01-29,1100,24,75,10,17,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1017,30,0,23,74,0,32,24,75,13,21,23,74
+2019-01-29,1200,25,77,11,18,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1017,30,0,24,75,1,34,25,77,13,20,24,75
+2019-01-29,1300,25,76,10,17,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,0,24,75,1,34,25,76,12,19,24,75
+2019-01-29,1400,24,76,10,15,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1016,30,0,24,74,1,34,24,76,11,18,24,74
+2019-01-29,1500,24,76,9,14,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1016,30,0,24,74,1,34,24,76,11,17,24,74
+2019-01-29,1600,22,72,9,14,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1016,30,0,22,71,0,33,22,72,11,18,22,71
+2019-01-29,1700,20,69,9,14,79,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1016,30,0,20,68,-0,32,20,69,12,19,20,69
+2019-01-29,1800,19,65,9,14,75,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1017,30,0,19,65,-1,31,19,65,13,21,19,65
+2019-01-29,1900,18,64,8,13,75,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,27,10,6,1017,30,0,18,64,-2,29,18,64,14,23,18,64
+2019-01-29,2000,17,62,8,13,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1017,30,0,17,62,-2,28,17,62,15,25,17,62
+2019-01-29,2100,16,61,8,13,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1018,30,0,16,61,-3,26,16,61,17,27,16,61
+2019-01-29,2200,16,60,8,12,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1018,30,0,16,60,-4,24,16,60,16,26,16,60
+2019-01-29,2300,15,60,7,12,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1018,30,0,15,60,-5,22,15,60,16,25,15,60
+2019-01-30,0,15,59,7,12,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,22,10,6,1018,30,0,15,59,-7,20,15,59,15,24,15,59
+2019-01-30,100,15,58,7,11,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,22,10,6,1017,30,0,15,58,-7,20,14,58,15,24,14,58
+2019-01-30,200,14,58,7,11,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,22,10,6,1017,30,0,14,58,-7,20,14,57,14,23,14,57
+2019-01-30,300,14,57,6,10,101,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,23,10,6,1017,30,0,14,57,-7,19,13,56,13,22,13,56
+2019-01-30,400,14,57,6,10,101,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,24,10,6,1017,30,0,14,57,-6,20,13,56,13,21,13,56
+2019-01-30,500,14,57,6,10,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,25,10,6,1017,30,0,14,57,-6,21,13,56,12,20,13,56
+2019-01-30,600,14,57,6,9,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1017,30,0,14,57,-5,22,14,56,12,19,14,56
+2019-01-30,700,15,59,6,9,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1017,30,0,15,59,-4,25,15,59,11,17,15,59
+2019-01-30,800,17,62,6,9,101,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,27,10,6,1018,30,0,17,62,-3,27,17,62,10,16,17,62
+2019-01-30,900,18,64,5,9,101,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,27,10,6,1018,30,0,18,64,-1,30,18,64,9,14,18,64
+2019-01-30,1000,20,69,5,8,107,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,25,10,6,1018,30,1,20,68,-0,31,20,69,8,12,20,69
+2019-01-30,1100,23,73,5,8,113,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,23,10,6,1017,30,1,22,72,0,32,23,73,6,10,22,72
+2019-01-30,1200,25,77,4,7,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,21,10,6,1017,30,1,24,76,1,34,25,77,5,8,24,76
+2019-01-30,1300,27,80,4,6,143,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,20,10,6,1016,30,1,25,78,1,35,27,80,4,7,25,78
+2019-01-30,1400,28,82,3,5,167,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1015,30,1,26,79,2,35,28,82,3,5,26,79
+2019-01-30,1500,29,85,2,4,190,S,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1014,30,1,27,81,2,36,29,85,2,4,27,81
+2019-01-30,1600,29,85,3,4,228,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1014,30,1,28,82,3,37,29,85,3,6,28,82
+2019-01-30,1700,29,85,3,5,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1014,30,0,28,83,3,37,29,85,4,7,28,83
+2019-01-30,1800,29,84,3,5,302,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,22,10,6,1014,30,0,29,84,3,37,29,84,5,9,29,84
+2019-01-30,1900,28,83,4,6,306,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1015,30,0,29,85,3,37,28,83,7,11,29,85
+2019-01-30,2000,28,82,5,7,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,29,10,6,1015,30,0,30,85,3,37,28,82,9,14,30,85
+2019-01-30,2100,27,81,5,8,314,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,32,10,6,1016,30,0,30,86,3,37,27,81,10,17,30,86
+2019-01-30,2200,26,79,5,7,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,33,10,6,1016,30,0,29,83,3,38,26,79,9,14,29,83
+2019-01-30,2300,25,77,4,6,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,0,27,81,3,38,25,77,8,12,27,81
+2019-01-31,0,24,74,3,5,219,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1016,30,0,26,78,4,38,24,74,6,10,26,78
+2019-01-31,100,22,72,3,5,152,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1016,30,0,23,74,3,38,22,72,5,9,22,72
+2019-01-31,200,20,69,2,4,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,21,70,3,37,20,69,4,7,20,69
+2019-01-31,300,19,66,2,3,18,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,19,66,2,36,19,66,4,6,19,66
+2019-01-31,400,19,65,2,3,33,NNE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,19,65,2,36,19,65,4,7,19,65
+2019-01-31,500,18,65,3,4,48,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1015,30,0,18,65,2,36,18,65,5,8,18,65
+2019-01-31,600,18,65,3,5,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1016,30,1,18,65,3,37,18,65,6,9,18,65
+2019-01-31,700,19,66,4,6,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1016,30,1,19,66,3,38,19,66,6,10,19,66
+2019-01-31,800,20,68,4,7,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1016,30,2,20,67,4,39,20,68,7,11,20,68
+2019-01-31,900,21,69,5,8,121,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1017,30,2,20,69,5,40,21,69,7,12,21,69
+2019-01-31,1000,22,72,5,8,135,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,32,10,6,1016,30,2,22,71,4,40,22,72,7,11,22,71
+2019-01-31,1100,24,75,5,9,150,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,28,10,6,1016,30,3,23,74,4,39,24,75,7,11,23,74
+2019-01-31,1200,26,78,6,9,164,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,24,10,6,1015,30,3,25,76,4,38,26,78,6,10,25,76
+2019-01-31,1300,26,79,6,10,190,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,23,10,6,1014,30,3,25,77,4,39,26,79,7,11,25,77
+2019-01-31,1400,27,80,6,10,216,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,23,10,6,1014,30,3,25,78,4,39,27,80,8,12,25,78
+2019-01-31,1500,27,81,7,11,242,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,23,10,6,1013,30,3,26,78,4,40,27,81,8,13,26,78
+2019-01-31,1600,27,81,7,11,256,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,24,10,6,1013,30,5,26,79,4,40,27,81,9,15,26,79
+2019-01-31,1700,27,80,7,12,271,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1013,30,7,26,79,5,40,27,80,10,16,26,79
+2019-01-31,1800,26,79,8,13,285,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,28,10,6,1013,30,8,27,80,5,41,26,79,11,18,27,80
+2019-01-31,1900,25,77,7,11,292,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,30,10,6,1014,30,10,27,80,5,41,25,77,11,17,27,80
+2019-01-31,2000,24,75,6,9,300,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1014,30,12,27,80,5,40,24,75,10,16,27,80
+2019-01-31,2100,23,74,5,8,308,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1015,30,14,27,80,5,40,23,74,9,15,27,80
+2019-01-31,2200,22,72,4,7,309,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,34,10,6,1015,30,10,25,77,4,40,22,72,8,13,25,77
+2019-01-31,2300,21,70,4,6,311,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,5,24,74,4,40,21,70,7,11,21,70
+2019-02-01,0,21,69,3,5,313,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,34,10,6,1015,30,0,22,72,4,40,21,69,6,9,21,69
+2019-02-01,100,20,68,3,5,287,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,35,10,6,1015,30,0,21,70,4,39,20,68,6,10,20,68
+2019-02-01,200,19,67,3,5,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1014,30,1,20,68,4,39,19,67,6,10,19,67
+2019-02-01,300,19,66,3,5,234,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,36,10,6,1014,30,1,19,66,4,38,19,66,6,10,19,66
+2019-02-01,400,19,66,3,5,174,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,37,10,6,1014,30,1,19,66,4,39,19,66,6,9,19,66
+2019-02-01,500,19,66,3,5,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,37,10,6,1015,30,2,19,66,4,39,19,66,6,9,19,66
+2019-02-01,600,19,66,3,5,55,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,38,10,6,1015,30,3,19,66,4,40,19,66,5,8,19,66
+2019-02-01,700,20,68,3,6,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1015,30,4,20,67,5,41,20,68,6,9,20,68
+2019-02-01,800,21,69,4,6,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1016,30,4,21,69,5,42,21,69,6,10,21,69
+2019-02-01,900,22,71,4,7,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1016,30,5,21,70,6,42,22,71,6,10,22,71
+2019-02-01,1000,23,74,5,7,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,33,10,6,1016,30,5,23,73,6,42,23,74,6,10,23,73
+2019-02-01,1100,25,77,5,8,140,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,30,10,6,1015,30,4,24,75,6,42,25,77,6,9,24,75
+2019-02-01,1200,27,80,5,8,161,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1015,30,4,26,78,6,42,27,80,6,9,26,78
+2019-02-01,1300,27,81,5,8,196,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1014,30,4,26,79,6,42,27,81,6,9,26,79
+2019-02-01,1400,28,82,5,9,232,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,25,10,6,1013,30,4,26,79,6,42,28,82,6,10,26,79
+2019-02-01,1500,28,83,6,9,267,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,24,10,6,1013,30,4,27,80,6,43,28,83,6,10,27,80
+2019-02-01,1600,28,82,6,10,278,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1013,30,4,27,80,6,43,28,82,8,13,27,80
+2019-02-01,1700,28,82,7,11,288,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,27,10,6,1013,30,4,27,80,6,43,28,82,9,15,27,80
+2019-02-01,1800,27,81,8,12,299,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,28,10,6,1013,30,5,27,80,6,43,27,81,11,17,27,80
+2019-02-01,1900,26,79,7,12,306,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,30,10,6,1013,30,5,27,80,5,42,26,79,11,18,27,80
+2019-02-01,2000,25,78,7,11,314,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,5,27,80,5,41,25,78,11,18,27,80
+2019-02-01,2100,25,76,6,10,321,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,34,10,6,1014,30,6,27,80,5,40,25,76,12,19,27,80
+2019-02-01,2200,23,74,5,9,293,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,33,10,6,1014,30,8,26,78,4,39,23,74,10,17,26,78
+2019-02-01,2300,22,72,5,7,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,33,10,6,1014,30,10,24,76,3,38,22,72,9,14,24,76
+2019-02-02,0,21,70,4,6,237,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1014,30,13,23,73,3,37,21,70,8,12,21,70
+2019-02-02,100,20,68,4,6,173,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,12,22,71,2,36,20,68,7,12,20,68
+2019-02-02,200,19,67,4,6,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,11,20,68,2,35,19,67,7,12,19,67
+2019-02-02,300,19,66,3,5,45,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,10,19,66,2,35,19,66,7,12,19,66
+2019-02-02,400,18,65,4,6,53,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,9,18,65,1,35,18,65,8,13,18,65
+2019-02-02,500,18,65,5,8,61,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,7,18,65,1,34,18,65,9,15,18,65
+2019-02-02,600,18,64,5,9,69,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1013,30,5,18,64,1,34,18,64,10,17,18,64
+2019-02-02,700,19,66,6,10,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,32,10,6,1014,30,5,19,66,2,35,19,66,11,17,19,66
+2019-02-02,800,20,68,7,11,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,31,10,6,1014,30,5,20,68,2,36,20,68,11,18,20,68
+2019-02-02,900,21,70,8,12,95,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,30,10,6,1015,30,5,21,69,3,37,21,70,11,18,21,70
+2019-02-02,1000,23,73,8,12,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,29,10,6,1014,30,7,22,72,4,39,23,73,11,17,22,72
+2019-02-02,1100,25,76,8,12,123,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,28,10,6,1014,30,8,24,75,5,40,25,76,10,16,24,75
+2019-02-02,1200,27,80,8,13,137,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1014,30,10,26,78,6,42,27,80,9,15,26,78
+2019-02-02,1300,27,81,7,12,165,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1013,30,13,26,79,6,42,27,81,8,14,26,79
+2019-02-02,1400,28,82,6,10,194,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,25,10,6,1012,30,16,26,79,6,42,28,82,8,12,26,79
+2019-02-02,1500,28,83,6,9,223,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,24,10,6,1012,30,19,27,80,6,42,28,83,7,11,27,80
+2019-02-02,1600,28,83,6,10,242,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,25,10,6,1012,30,19,27,80,6,43,28,83,8,13,27,80
+2019-02-02,1700,28,82,6,10,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,27,10,6,1012,30,20,27,81,6,43,28,82,9,14,27,81
+2019-02-02,1800,28,82,7,11,282,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,28,10,6,1012,30,21,27,81,6,43,28,82,10,16,27,81
+2019-02-02,1900,27,81,7,11,291,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,31,10,6,1012,30,23,28,82,6,43,27,81,11,18,28,82
+2019-02-02,2000,26,79,7,11,300,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,33,10,6,1012,30,25,28,82,6,43,26,79,12,19,28,82
+2019-02-02,2100,26,78,7,11,309,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,36,10,6,1013,30,27,28,83,6,43,26,78,13,21,28,83
+2019-02-02,2200,24,75,6,10,280,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,39,10,6,1013,30,29,25,78,7,44,24,75,12,19,25,78
+2019-02-02,2300,22,71,6,9,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,43,10,6,1013,30,30,23,73,7,45,22,71,11,17,22,71
+2019-02-03,0,20,67,5,8,223,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,46,10,6,1013,30,32,20,67,8,46,20,67,9,15,20,67
+2019-02-03,100,19,67,5,8,162,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1013,30,31,19,67,8,46,19,67,9,15,19,67
+2019-02-03,200,19,66,5,8,101,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1014,30,30,19,66,8,46,19,66,9,15,19,66
+2019-02-03,300,19,66,5,8,40,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1014,30,30,19,66,8,46,19,66,9,15,19,66
+2019-02-03,400,19,67,5,8,48,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1015,30,24,19,67,8,47,19,67,10,16,19,67
+2019-02-03,500,20,67,5,9,56,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1015,30,19,20,67,8,47,20,67,10,17,20,67
+2019-02-03,600,20,68,6,9,64,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1016,30,13,20,68,9,48,20,68,11,18,20,68
+2019-02-03,700,22,72,6,10,73,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1016,30,11,22,72,9,48,22,72,11,18,22,72
+2019-02-03,800,25,76,7,11,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1016,30,9,24,76,9,48,25,76,11,18,24,76
+2019-02-03,900,27,81,7,12,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1016,30,7,26,79,9,48,27,81,11,18,26,79
+2019-02-03,1000,28,82,8,12,104,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1015,30,11,27,80,9,47,28,82,10,17,27,80
+2019-02-03,1100,28,83,8,12,117,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1015,30,15,27,81,8,47,28,83,10,15,27,81
+2019-02-03,1200,29,84,8,13,131,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1014,30,19,28,82,8,46,29,84,9,14,28,82
+2019-02-03,1300,29,85,7,11,135,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1013,30,22,28,82,8,46,29,85,8,12,28,82
+2019-02-03,1400,29,85,6,9,139,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1013,30,25,28,82,8,46,29,85,6,10,28,82
+2019-02-03,1500,30,85,4,7,143,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,25,10,6,1013,30,28,28,82,8,46,30,85,5,8,28,82
+2019-02-03,1600,28,83,4,6,159,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,28,10,6,1013,30,34,27,81,8,46,28,83,5,7,27,81
+2019-02-03,1700,27,81,3,5,175,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,31,10,6,1014,30,40,26,79,8,47,27,81,4,6,26,79
+2019-02-03,1800,26,78,3,4,192,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,33,10,6,1015,30,46,26,78,8,47,26,78,3,5,26,78
+2019-02-03,1900,25,78,3,5,243,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,34,10,6,1015,30,46,25,78,9,47,25,78,4,6,25,78
+2019-02-03,2000,25,77,3,5,295,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1015,30,45,25,77,9,48,25,77,5,8,25,77
+2019-02-03,2100,25,77,3,5,347,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,36,10,6,1015,30,45,25,77,9,48,25,77,5,9,25,77
+2019-02-03,2200,24,76,4,6,305,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,37,10,6,1015,30,44,25,77,9,48,24,76,6,10,25,77
+2019-02-03,2300,24,74,4,7,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,38,10,6,1015,30,44,25,76,9,47,24,74,7,11,25,76
+2019-02-04,0,23,73,4,7,222,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,39,10,6,1015,30,44,24,76,8,47,23,73,7,12,24,76
+2019-02-04,100,22,72,4,7,163,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,41,10,6,1015,30,35,23,74,8,47,22,72,8,13,23,74
+2019-02-04,200,22,71,4,7,104,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1015,30,27,22,72,8,47,22,71,9,14,22,71
+2019-02-04,300,21,69,4,7,45,NE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1016,30,18,21,69,8,46,21,69,9,15,21,69
+2019-02-04,400,21,70,6,9,64,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1016,30,14,22,71,8,46,21,70,11,18,21,70
+2019-02-04,500,22,71,7,11,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1017,30,10,23,73,8,46,22,71,13,21,22,71
+2019-02-04,600,22,71,8,13,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1017,30,6,24,75,8,46,22,71,15,25,22,71
+2019-02-04,700,24,75,9,15,110,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1017,30,6,25,77,8,47,24,75,16,26,25,77
+2019-02-04,800,26,79,10,17,117,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1018,30,6,26,80,9,48,26,79,16,27,26,80
+2019-02-04,900,29,83,12,19,125,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1018,30,7,28,82,10,49,29,83,17,27,28,82
+2019-02-04,1000,29,85,12,19,132,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1017,30,12,28,82,9,49,29,85,16,26,28,82
+2019-02-04,1100,30,86,13,20,139,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1016,30,18,28,83,9,48,30,86,16,25,28,83
+2019-02-04,1200,30,87,13,21,146,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1016,30,23,29,84,9,47,30,87,15,24,29,84
+2019-02-04,1300,30,86,11,18,150,SSE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1015,30,26,29,83,8,47,30,86,13,21,29,83
+2019-02-04,1400,30,86,10,16,153,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,26,10,6,1015,30,29,28,83,8,47,30,86,12,19,28,83
+2019-02-04,1500,30,85,9,14,157,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,27,10,6,1014,30,32,28,83,8,47,30,85,10,16,28,83
+2019-02-04,1600,28,83,8,13,171,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,29,10,6,1015,30,31,27,81,8,47,28,83,10,16,27,81
+2019-02-04,1700,27,81,7,12,185,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,30,10,6,1015,30,29,27,80,8,47,27,81,9,15,27,80
+2019-02-04,1800,26,79,7,11,199,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,32,10,6,1016,30,28,26,78,8,47,26,79,9,14,26,78
+2019-02-04,1900,25,77,7,11,231,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,35,10,6,1016,30,26,25,78,9,48,25,77,9,15,25,78
+2019-02-04,2000,24,76,7,11,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1016,30,25,25,77,9,48,24,76,10,16,25,77
+2019-02-04,2100,23,74,7,11,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1017,30,24,25,76,9,49,23,74,10,17,25,76
