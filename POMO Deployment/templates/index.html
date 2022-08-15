@@ -1,0 +1,96 @@
+{% extends "base.html" %} 
+{% block content %}
+        <center>
+        <br>
+        <div>
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" class="file">
+                <button type="submit" class="btn btn-primary">Submit</button>
+				
+            </form>
+        </div>
+        <br>
+        </center> 
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {% if file_path %}
+                    <h3>Uploaded Image</h3>
+                    <br>
+                    <br>
+                    <div>
+                        <img src="{{url_for('static', filename=file_path)}}" class="rounded mx-auto d-block" 
+                        style="height:400px; width:400px;" alt="Uploaded Image">
+                    </div>
+                    {% endif %}
+
+                </div>
+                <div class="col">
+                    {% if result %}
+                    <h3>Pomegranate Disease</h3>
+                    </br>
+                    <div>
+                        <!-- {{ result }} -->
+                        <div id="chart" class="chart"></div>
+                        
+                    </div>
+                    <!-- <hr>
+                    
+                    <div class="container-fluid">
+                        {% if test2 %}
+                        <div>
+                            {{ test2 }}
+                        </div>
+                        {% endif %}            
+                    </div> -->
+
+                    
+                   
+                </div>
+            </div>
+            <br>
+            
+            <div class="row">
+                <!-- {% if file_path %} -->
+                <div class="col">
+                    <div>
+                        <img src="{{url_for('static', filename=file_path)}}" class="rounded mx-auto d-block" 
+                        style="height:400px; width:400px;" alt="Uploaded Image">
+                    </div>
+                    <!-- {{ file_path }} -->
+                </div>
+                <!-- {% endif %} -->
+
+                <!-- {% if heat %} -->
+                <div class="col">
+                    <!-- <div ng-controller="heat_plot"> -->
+                    <div>
+                        <img src="{{url_for('static', filename=heat)}}" class="rounded mx-auto d-block" 
+                        style="height:400px; width:400px;" alt="HeatMap Image">
+                        <br>
+                        <!-- : {{ heat_plot }} -->
+                    </div>
+                    <!-- -> {{ heat }}  -->
+                </div>
+                <!-- {% endif %} -->
+
+                <!-- {% if gCam %} -->
+                <div class="col">
+                    <div>
+                        <img src="{{url_for('static', filename=gCam)}}" class="rounded mx-auto d-block" 
+                        style="height:400px; width:400px;" alt="gCam Image">
+                    </div>
+                    <!-- {{ gCam }} -->
+                </div>
+                <!-- {% endif %}     -->
+            </div>
+            {% endif %}
+        </div>
+
+        <br>
+        <br>
+
+        
+        
+{% endblock %}
