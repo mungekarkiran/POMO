@@ -16,60 +16,65 @@
             </form> -->
         
             <form class="form-floating">
-                <div class="row g-4">
+                <div class="row g-4 m-2">
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid1" placeholder="20 - 30" >
+                            <input type="text" class="form-control" id="floatingInputGrid1" placeholder="20 - 30" name="TempC">
                             <label for="floatingInputGrid1">Temperature in Celsius</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="30 - 60" >
+                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="30 - 60" name="Humidity">
                             <label for="floatingInputGrid2">Humidity</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="1 - 10" >
+                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="1 - 10" name="WindSpeed">
                             <label for="floatingInputGrid3">Wind Speed (km/h)</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="1010 - 1020" >
+                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="1010 - 1020" name="Pressure">
                             <label for="floatingInputGrid4">Pressure (MB)</label>
                         </div>
                     </div>
                 </div>
 
-                <div class="row g-4">
+                <div class="row g-4 m-2">
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid1" placeholder="20 - 30" >
-                            <label for="floatingInputGrid1">Temperature in Celsius</label>
+                            <input type="text" class="form-control" id="floatingInputGrid5" placeholder="0 - 1" name="Precipitation">
+                            <label for="floatingInputGrid5">Precipitation (MM)</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="30 - 60" >
-                            <label for="floatingInputGrid2">Humidity</label>
+                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="1 - 5" name="WeatherDesc">
+                            <label for="floatingInputGrid2">Weather Description</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="1 - 10" >
-                            <label for="floatingInputGrid3">Wind Speed (km/h)</label>
+                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="7 - 10" name="SunshineHours">
+                            <label for="floatingInputGrid3">Sunshine Hours</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="1010 - 1020" >
-                            <label for="floatingInputGrid4">Pressure (MB)</label>
+                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="30 - 40" name="SoilMoisure">
+                            <label for="floatingInputGrid4">% Soil Moisure</label>
                         </div>
                     </div>
                 </div>
-                
+
+                <center>
+                    <div class="col-1 m-4">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </center>
             </form>
         </div>
 
