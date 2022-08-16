@@ -91,6 +91,15 @@ model = load_model(MODEL_PATH)
 print('\nModel loaded. Start serving...')
 print('\nModel loaded. Check http://127.0.0.1:5000/')
 
+management_dict = {
+    0 : ["Wide row spacing. ", "Selection of disease free seedlings for fresh planting. ", "Pruning affected branches, fruits regularly and burning. ", "Bahar should be done in Haste or Ambe Bahar. ", "Give minimum four month rest after harvesting the fruits. "],
+    1 : ["Clean cultivation and aintenance of health and vigour of the tree should be followe. ", "The fruits if screened with polythene or paper bags may escape infestation. ", "Removal and destruction of all the affected fruits."],
+    2 : ["The plant is healthy. "],
+    3 : ["Affected fruits should be collected and destroyed. ", "Select Haste or Ambe bahar. ", "Wider plant spacing, yearly pruning of trees. "],
+    4 : ["Do not allow water to stagnate, try to create drainage facility. ", "Do not irrigate for 2-3 days after drenching. "]
+} 
+
+
 # def save_and_display_gradcam(img_path, heatmap, cam_path="static//gCam.jpeg", alpha=0.99):
 def save_and_display_gradcam(img_path, heatmap, cam_path, alpha=0.99):
     # Load the original image
