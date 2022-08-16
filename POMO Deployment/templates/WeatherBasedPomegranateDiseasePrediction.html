@@ -1,6 +1,79 @@
-{% extends "base.html" %} 
-{% block content %}
+{% extends "base.html" %} {% block content %}
 
-    Weather Based Pomegranate Disease Prediction Page
+<center>
+    <div class="alert alert-primary" role="alert">
+        <h1>Weather Based Pomegranate Disease Prediction</h1>
+    </div>
+</center>
 
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-10">
+            <!-- <form class="form-floating">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder="" value="">
+                <label for="floatingInputValue">Temperature in Celsius</label>
+            </form> -->
+        
+            <form class="form-floating">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid1" placeholder="20 - 30" >
+                            <label for="floatingInputGrid1">Temperature in Celsius</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="30 - 60" >
+                            <label for="floatingInputGrid2">Humidity</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="1 - 10" >
+                            <label for="floatingInputGrid3">Wind Speed (km/h)</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="1010 - 1020" >
+                            <label for="floatingInputGrid4">Pressure (MB)</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid1" placeholder="20 - 30" >
+                            <label for="floatingInputGrid1">Temperature in Celsius</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid2" placeholder="30 - 60" >
+                            <label for="floatingInputGrid2">Humidity</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid3" placeholder="1 - 10" >
+                            <label for="floatingInputGrid3">Wind Speed (km/h)</label>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGrid4" placeholder="1010 - 1020" >
+                            <label for="floatingInputGrid4">Pressure (MB)</label>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="col"></div>
+    </div>
+</div>
 {% endblock %}

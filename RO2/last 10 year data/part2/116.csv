@@ -1,0 +1,839 @@
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+2020-10-19,0,22,72,4,6,261,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.2,0.0,96,10,6,1008,30,69,25,76,21,71,22,72,6,10,25,76
+2020-10-19,100,22,71,4,6,264,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,96,9,5,1008,30,68,24,75,21,70,22,71,6,10,22,71
+2020-10-19,200,22,71,4,7,267,W,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.1,0.0,96,8,5,1008,30,68,24,74,21,69,22,71,7,11,22,71
+2020-10-19,300,21,70,4,7,270,W,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.1,0.0,96,7,4,1007,30,67,23,73,21,69,21,70,7,12,21,70
+2020-10-19,400,21,70,4,7,271,W,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.1,0.0,95,6,3,1008,30,67,23,73,20,69,21,70,7,11,21,70
+2020-10-19,500,21,71,4,7,272,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,6,3,1008,30,66,22,72,20,69,21,71,7,11,21,71
+2020-10-19,600,22,71,4,6,273,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,5,2,1008,30,65,22,72,20,68,22,71,6,10,22,71
+2020-10-19,700,23,73,4,6,281,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,6,4,1009,30,66,24,75,20,69,23,73,6,9,24,75
+2020-10-19,800,24,74,4,6,289,WNW,122,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,85,8,5,1009,30,67,25,78,21,69,24,74,5,8,25,78
+2020-10-19,900,25,76,4,6,297,WNW,122,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,81,10,6,1010,30,67,27,80,21,70,25,76,4,7,27,80
+2020-10-19,1000,26,78,4,6,308,NW,122,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,78,10,6,1009,30,75,28,83,21,70,26,78,5,8,28,83
+2020-10-19,1100,27,80,4,7,319,NW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.2,0.0,75,10,6,1008,30,83,29,85,22,71,27,80,6,9,29,85
+2020-10-19,1200,28,82,5,8,330,NNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.3,0.0,72,10,6,1008,30,91,30,87,22,72,28,82,7,11,30,87
+2020-10-19,1300,27,81,6,10,319,NW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.2,0.0,74,10,6,1007,30,87,30,86,22,72,27,81,9,14,30,86
+2020-10-19,1400,27,81,7,12,308,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.8,0.0,76,9,5,1007,30,84,30,86,23,73,27,81,11,18,30,86
+2020-10-19,1500,27,80,9,14,297,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,78,9,5,1006,30,80,30,86,23,73,27,80,13,21,30,86
+2020-10-19,1600,26,79,8,13,296,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.5,0.0,82,9,5,1006,30,79,29,84,23,73,26,79,13,21,29,84
+2020-10-19,1700,25,77,8,13,294,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.7,0.0,85,8,5,1006,30,79,28,82,23,73,25,77,12,20,28,82
+2020-10-19,1800,25,76,8,12,293,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.9,0.0,89,8,4,1007,30,78,27,81,23,73,25,76,12,19,27,81
+2020-10-19,1900,24,75,7,11,292,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.4,0.0,91,8,4,1007,30,80,27,80,22,72,24,75,11,18,27,80
+2020-10-19,2000,24,74,6,10,292,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.1,0.0,93,8,4,1008,30,81,26,79,22,72,24,74,10,16,26,79
+2020-10-19,2100,23,73,6,9,292,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.1,0.0,95,7,4,1008,30,83,25,78,22,72,23,73,9,14,25,78
+2020-10-19,2200,23,73,5,8,289,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,6,3,1008,30,69,25,78,22,72,23,73,8,13,25,78
+2020-10-19,2300,23,73,4,7,285,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,4,2,1008,30,55,25,77,22,71,23,73,7,12,25,77
+2020-10-20,0,23,73,4,6,282,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,2,1,1007,30,41,25,77,22,71,23,73,6,10,25,77
+2020-10-20,100,23,73,3,6,288,WNW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,3,1,1007,30,36,25,77,22,71,23,73,6,9,25,77
+2020-10-20,200,23,73,3,5,294,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,4,2,1007,30,31,25,77,22,71,23,73,5,9,25,77
+2020-10-20,300,22,72,3,4,301,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,5,2,1006,30,27,25,77,21,71,22,72,5,8,25,77
+2020-10-20,400,23,73,2,4,269,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,92,6,4,1007,30,24,25,77,21,70,23,73,4,7,25,77
+2020-10-20,500,23,73,2,3,237,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,8,5,1007,30,21,25,77,21,70,23,73,4,6,25,77
+2020-10-20,600,23,74,2,3,205,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,10,6,1007,30,18,25,78,21,70,23,74,3,5,25,78
+2020-10-20,700,24,75,2,4,147,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1007,30,18,26,79,21,70,24,75,3,5,26,79
+2020-10-20,800,25,77,3,5,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,81,10,6,1008,30,18,27,81,21,71,25,77,4,6,27,81
+2020-10-20,900,26,79,3,5,32,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,77,10,6,1008,30,18,28,83,22,71,26,79,4,6,28,83
+2020-10-20,1000,27,81,4,7,51,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,72,10,6,1007,30,24,29,85,21,70,27,81,5,8,29,85
+2020-10-20,1100,28,82,5,8,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,67,10,6,1007,30,30,31,87,21,70,28,82,6,9,31,87
+2020-10-20,1200,29,84,6,9,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1006,30,36,32,89,21,70,29,84,6,10,32,89
+2020-10-20,1300,29,84,6,9,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1006,30,42,32,89,21,70,29,84,7,11,32,89
+2020-10-20,1400,29,84,6,9,141,SE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,63,10,6,1005,30,48,32,89,21,70,29,84,7,11,32,89
+2020-10-20,1500,29,84,5,9,166,SSE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,63,10,6,1005,30,54,32,89,21,70,29,84,7,12,32,89
+2020-10-20,1600,28,82,6,9,213,SSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,68,9,5,1005,30,61,31,87,21,70,28,82,8,13,31,87
+2020-10-20,1700,27,80,6,10,260,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,74,9,5,1005,30,68,29,85,22,71,27,80,10,15,29,85
+2020-10-20,1800,26,78,6,10,306,NW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,79,9,5,1006,30,75,28,83,22,71,26,78,11,17,28,83
+2020-10-20,1900,25,77,6,10,301,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,82,9,5,1006,30,70,27,81,22,71,25,77,10,16,27,81
+2020-10-20,2000,24,76,5,9,295,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,9,5,1007,30,65,27,80,21,71,24,76,10,15,27,80
+2020-10-20,2100,24,74,5,8,290,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,9,5,1008,30,60,26,78,21,70,24,74,9,14,26,78
+2020-10-20,2200,24,74,4,7,293,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,5,1008,30,54,26,78,21,70,24,74,8,12,26,78
+2020-10-20,2300,24,74,4,6,296,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1008,30,48,26,78,21,70,24,74,7,11,26,78
+2020-10-21,0,24,74,3,5,300,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1008,30,42,26,78,21,70,24,74,5,9,26,78
+2020-10-21,100,24,74,2,4,270,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1007,30,38,26,78,21,70,24,74,4,7,26,78
+2020-10-21,200,23,74,2,3,240,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1007,30,34,26,78,21,70,23,74,4,6,26,78
+2020-10-21,300,23,74,2,3,210,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1007,30,31,25,78,21,69,23,74,3,4,25,78
+2020-10-21,400,23,74,1,2,149,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1007,30,30,26,78,21,69,23,74,2,4,26,78
+2020-10-21,500,24,74,1,2,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1007,30,29,26,78,21,69,24,74,2,3,26,78
+2020-10-21,600,24,75,1,2,27,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1008,30,28,26,79,21,69,24,75,2,3,26,79
+2020-10-21,700,25,76,2,3,37,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1008,30,34,27,80,21,69,25,76,2,4,27,80
+2020-10-21,800,26,78,2,3,48,NE,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.4,0.0,76,9,5,1009,30,39,28,82,21,70,26,78,3,5,28,82
+2020-10-21,900,26,80,2,4,58,ENE,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.5,0.0,73,9,5,1009,30,45,29,83,21,70,26,80,4,6,29,83
+2020-10-21,1000,27,81,3,5,76,ENE,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.2,0.0,70,8,5,1009,30,57,29,85,21,70,27,81,5,8,29,85
+2020-10-21,1100,28,82,4,6,94,E,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.3,0.0,68,8,4,1008,30,70,30,87,21,70,28,82,6,10,30,87
+2020-10-21,1200,29,83,5,8,112,ESE,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.7,0.1,65,7,4,1007,30,82,31,88,21,70,29,83,8,13,31,88
+2020-10-21,1300,28,83,4,7,138,SE,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.8,0.0,67,7,4,1007,30,82,31,88,22,71,28,83,8,12,31,88
+2020-10-21,1400,28,82,4,7,164,SSE,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,2.8,0.1,69,6,3,1006,30,82,31,87,22,71,28,82,7,12,31,87
+2020-10-21,1500,28,82,4,6,190,S,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,3.7,0.1,71,6,3,1005,30,82,31,87,22,72,28,82,7,12,31,87
+2020-10-21,1600,27,81,4,6,230,SW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,1.8,0.1,75,5,2,1006,30,81,30,86,22,72,27,81,8,12,30,86
+2020-10-21,1700,26,79,4,7,269,W,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,4.1,0.2,80,4,2,1006,30,79,29,84,22,72,26,79,8,13,29,84
+2020-10-21,1800,25,78,4,7,309,NW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,5.5,0.2,85,3,1,1006,30,78,28,83,23,73,25,78,9,14,28,83
+2020-10-21,1900,25,77,5,7,283,WNW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,2.8,0.1,86,3,1,1007,30,76,27,81,22,72,25,77,10,15,27,81
+2020-10-21,2000,24,75,5,8,257,WSW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,2.7,0.1,88,3,1,1007,30,74,27,80,22,72,24,75,10,16,27,80
+2020-10-21,2100,24,74,5,9,231,SW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,3.6,0.1,89,3,1,1008,30,71,26,78,22,71,24,74,11,17,26,78
+2020-10-21,2200,24,74,5,7,262,W,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,1.8,0.1,87,3,2,1008,30,71,26,79,21,71,24,74,9,15,26,79
+2020-10-21,2300,24,75,4,6,293,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,2.2,0.1,86,4,2,1007,30,71,26,79,21,70,24,75,7,12,26,79
+2020-10-22,0,24,75,3,5,324,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,2.9,0.1,84,4,2,1007,30,71,26,79,21,70,24,75,6,9,26,79
+2020-10-22,100,24,75,3,4,290,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,1.5,0.1,84,5,3,1006,30,73,26,78,21,69,24,75,5,9,26,78
+2020-10-22,200,23,74,2,4,256,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.8,0.0,84,7,4,1006,30,74,26,78,21,69,23,74,5,8,26,78
+2020-10-22,300,23,74,2,4,223,SW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,1.1,0.0,84,8,4,1006,30,76,25,78,21,69,23,74,4,7,25,78
+2020-10-22,400,23,74,2,3,162,SSE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.5,0.0,84,8,5,1006,30,71,26,78,21,69,23,74,4,6,26,78
+2020-10-22,500,24,74,2,3,101,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.4,0.0,83,9,5,1006,30,65,26,78,21,69,24,74,3,5,26,78
+2020-10-22,600,24,75,2,3,41,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.5,0.0,83,9,5,1007,30,60,26,78,21,69,24,75,2,4,26,78
+2020-10-22,700,25,76,2,4,49,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.2,0.0,80,10,5,1007,30,45,27,80,21,69,25,76,3,5,27,80
+2020-10-22,800,25,78,3,5,57,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,77,10,6,1007,30,29,27,81,21,70,25,78,4,6,27,81
+2020-10-22,900,26,79,4,6,65,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,73,10,6,1008,30,14,28,83,21,70,26,79,4,7,28,83
+2020-10-22,1000,27,81,4,7,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,69,10,6,1007,30,18,29,85,21,70,27,81,5,8,29,85
+2020-10-22,1100,28,82,5,7,68,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,65,10,6,1007,30,21,30,86,21,69,28,82,5,9,30,86
+2020-10-22,1200,29,84,5,8,69,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1006,30,25,31,88,21,69,29,84,6,10,31,88
+2020-10-22,1300,29,84,5,9,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1006,30,35,31,88,21,69,29,84,7,11,31,88
+2020-10-22,1400,29,83,6,9,122,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,63,10,6,1005,30,45,31,88,21,69,29,83,7,12,31,88
+2020-10-22,1500,29,83,6,9,149,SSE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,63,10,6,1005,30,55,31,87,21,69,29,83,8,13,31,87
+2020-10-22,1600,28,82,6,10,175,S,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,69,9,5,1005,30,62,30,86,21,70,28,82,9,14,30,86
+2020-10-22,1700,27,80,6,10,201,SSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,74,9,5,1005,30,69,29,84,21,70,27,80,10,16,29,84
+2020-10-22,1800,26,78,7,11,227,SW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,80,9,5,1005,30,75,28,82,22,71,26,78,11,17,28,82
+2020-10-22,1900,25,77,6,9,160,SSE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,81,9,5,1006,30,77,27,81,22,71,25,77,9,15,27,81
+2020-10-22,2000,25,76,4,7,92,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,82,9,5,1006,30,80,27,80,21,70,25,76,8,12,27,80
+2020-10-22,2100,24,75,3,5,25,NNE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,83,9,5,1007,30,82,26,79,21,70,24,75,6,10,26,79
+2020-10-22,2200,24,75,3,5,30,NNE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,83,9,5,1007,30,74,26,79,21,69,24,75,6,9,26,79
+2020-10-22,2300,24,75,3,4,36,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,83,9,5,1007,30,67,26,78,21,69,24,75,5,8,26,78
+2020-10-23,0,23,74,2,4,42,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,82,9,5,1007,30,59,25,78,20,68,23,74,4,7,25,78
+2020-10-23,100,23,74,3,4,56,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,83,10,5,1007,30,48,25,77,20,68,23,74,5,8,25,77
+2020-10-23,200,23,73,3,5,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1006,30,37,25,77,20,68,23,73,6,9,25,77
+2020-10-23,300,22,72,3,5,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1006,30,26,25,77,20,67,22,72,6,10,25,77
+2020-10-23,400,23,73,3,5,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1006,30,23,25,77,20,67,23,73,6,10,25,77
+2020-10-23,500,23,73,4,6,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1006,30,20,25,77,19,67,23,73,7,11,25,77
+2020-10-23,600,23,73,4,6,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1007,30,17,25,77,19,67,23,73,7,11,25,77
+2020-10-23,700,24,75,4,7,93,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1007,30,15,26,79,19,67,24,75,6,10,26,79
+2020-10-23,800,25,77,5,7,98,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,13,27,80,19,67,25,77,6,10,27,80
+2020-10-23,900,26,79,5,8,104,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,67,10,6,1008,30,10,28,82,19,67,26,79,6,10,28,82
+2020-10-23,1000,27,80,5,9,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,63,10,6,1008,30,18,28,83,19,66,27,80,7,11,28,83
+2020-10-23,1100,28,82,6,10,108,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,58,10,6,1007,30,25,29,85,19,66,28,82,7,11,29,85
+2020-10-23,1200,29,84,6,10,110,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,54,10,6,1007,30,32,30,86,18,65,29,84,8,12,30,86
+2020-10-23,1300,29,84,6,10,111,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,53,10,6,1006,30,39,30,86,18,65,29,84,7,12,30,86
+2020-10-23,1400,29,84,5,9,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1006,30,46,30,86,18,64,29,84,7,11,30,86
+2020-10-23,1500,29,84,5,8,112,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1005,30,53,30,86,18,64,29,84,6,10,30,86
+2020-10-23,1600,28,83,4,7,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1006,30,38,29,85,18,64,28,83,6,9,29,85
+2020-10-23,1700,27,81,4,6,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,60,10,6,1006,30,24,29,83,18,65,27,81,6,9,29,83
+2020-10-23,1800,26,79,3,5,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,64,10,6,1006,30,9,28,82,19,66,26,79,5,8,28,82
+2020-10-23,1900,25,78,3,5,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,67,10,6,1007,30,11,27,81,19,66,25,78,5,8,27,81
+2020-10-23,2000,25,76,3,4,44,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1007,30,13,26,79,19,65,25,76,5,7,26,79
+2020-10-23,2100,24,75,2,4,25,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,15,26,78,18,65,24,75,4,7,26,78
+2020-10-23,2200,24,74,2,3,114,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,13,25,78,18,65,24,74,4,6,25,78
+2020-10-23,2300,23,74,2,3,204,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,12,25,77,18,64,23,74,3,5,25,77
+2020-10-24,0,23,74,1,2,293,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,10,25,77,18,64,23,74,3,4,25,77
+2020-10-24,100,23,73,1,2,271,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,10,25,77,18,64,23,73,2,4,25,77
+2020-10-24,200,23,73,1,1,248,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1007,30,10,25,77,17,63,23,73,2,3,25,77
+2020-10-24,300,22,72,1,1,226,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,73,10,6,1007,30,10,25,76,17,63,22,72,2,3,25,76
+2020-10-24,400,22,72,1,2,223,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1007,30,10,25,77,17,63,22,72,2,3,25,77
+2020-10-24,500,23,73,1,2,221,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,10,25,77,17,63,23,73,2,3,25,77
+2020-10-24,600,23,73,2,3,218,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1008,30,11,25,77,17,63,23,73,2,4,25,77
+2020-10-24,700,24,75,3,4,180,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1008,30,11,26,78,18,64,24,75,4,6,26,78
+2020-10-24,800,25,76,4,6,142,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,66,10,6,1009,30,11,26,80,18,64,25,76,5,8,26,80
+2020-10-24,900,26,78,4,7,104,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,63,10,6,1009,30,11,27,81,18,65,26,78,6,9,27,81
+2020-10-24,1000,27,80,5,8,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1009,30,11,28,82,18,64,27,80,6,10,28,82
+2020-10-24,1100,28,82,5,8,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1009,30,11,29,84,18,64,28,82,6,10,29,84
+2020-10-24,1200,29,84,6,9,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1008,30,11,30,85,18,64,29,84,6,10,30,85
+2020-10-24,1300,29,84,5,8,116,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1008,30,16,30,86,18,64,29,84,6,10,30,86
+2020-10-24,1400,29,84,5,8,126,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1007,30,20,30,86,18,64,29,84,6,9,30,86
+2020-10-24,1500,29,84,4,7,136,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1007,30,25,30,86,18,64,29,84,5,8,30,86
+2020-10-24,1600,28,82,4,6,176,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,58,10,6,1007,30,35,29,84,18,65,28,82,5,9,29,84
+2020-10-24,1700,27,80,4,6,217,SW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,63,10,6,1007,30,46,28,83,19,66,27,80,6,9,28,83
+2020-10-24,1800,26,78,3,5,257,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,69,10,6,1008,30,56,28,82,20,67,26,78,6,9,28,82
+2020-10-24,1900,25,77,4,6,272,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,71,10,5,1008,30,59,27,80,19,67,25,77,7,12,27,80
+2020-10-24,2000,24,76,5,7,287,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,73,9,5,1009,30,63,26,79,19,66,24,76,9,14,26,79
+2020-10-24,2100,24,74,5,8,303,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,75,9,5,1009,30,66,25,78,19,66,24,74,10,16,25,78
+2020-10-24,2200,23,74,4,6,270,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.1,0.0,74,10,5,1010,30,54,25,77,19,65,23,74,7,12,25,77
+2020-10-24,2300,23,74,2,3,238,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,73,10,6,1010,30,42,25,77,18,65,23,74,4,7,25,77
+2020-10-25,0,23,73,1,1,206,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,73,10,6,1010,30,29,25,77,18,64,23,73,1,2,25,77
+2020-10-25,100,23,73,1,1,153,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,10,6,1010,30,29,25,77,18,64,23,73,2,3,25,77
+2020-10-25,200,23,73,1,2,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,75,10,6,1010,30,29,25,77,18,64,23,73,2,3,25,77
+2020-10-25,300,22,72,1,2,47,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1010,30,28,25,76,18,65,22,72,2,4,25,76
+2020-10-25,400,22,72,2,3,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1010,30,28,25,77,18,65,22,72,3,6,25,77
+2020-10-25,500,22,72,3,4,79,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1010,30,27,25,77,18,65,22,72,4,7,25,77
+2020-10-25,600,22,72,3,5,95,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1011,30,27,25,77,18,65,22,72,5,9,25,77
+2020-10-25,700,23,74,4,7,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1011,30,26,26,78,19,66,23,74,6,10,26,78
+2020-10-25,800,24,76,6,9,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,74,10,6,1011,30,26,26,79,19,67,24,76,7,12,26,79
+2020-10-25,900,25,77,7,11,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,72,10,6,1012,30,25,27,81,20,67,25,77,8,13,27,81
+2020-10-25,1000,26,79,8,12,123,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,70,10,6,1011,30,31,28,82,20,68,26,79,9,15,28,82
+2020-10-25,1100,27,80,9,14,130,SE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,68,10,6,1011,30,37,29,83,20,68,27,80,10,17,29,83
+2020-10-25,1200,27,81,9,15,138,SE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,66,10,6,1011,30,42,29,85,20,69,27,81,12,19,29,85
+2020-10-25,1300,27,81,8,14,139,SE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,67,10,5,1010,30,51,29,85,21,69,27,81,11,17,29,85
+2020-10-25,1400,27,81,7,12,141,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.3,0.0,67,9,5,1009,30,60,29,85,21,69,27,81,10,16,29,85
+2020-10-25,1500,27,81,6,10,142,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.4,0.0,68,9,5,1009,30,69,29,84,21,69,27,81,9,15,29,84
+2020-10-25,1600,26,79,6,9,134,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.2,0.0,71,10,5,1009,30,65,28,83,21,69,26,79,8,14,28,83
+2020-10-25,1700,26,78,5,8,126,SE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,73,10,6,1009,30,62,28,82,21,69,26,78,8,12,28,82
+2020-10-25,1800,25,77,4,7,119,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,76,10,6,1009,30,59,27,81,20,69,25,77,7,11,27,81
+2020-10-25,1900,24,76,5,8,117,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,78,10,6,1010,30,60,26,79,20,68,24,76,8,13,26,79
+2020-10-25,2000,23,74,5,8,116,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1010,30,60,26,78,20,68,23,74,9,14,26,78
+2020-10-25,2100,23,73,5,9,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1011,30,61,25,76,19,67,23,73,10,16,25,76
+2020-10-25,2200,22,72,5,7,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1011,30,45,25,77,19,66,22,72,9,14,25,77
+2020-10-25,2300,22,72,4,6,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1011,30,28,25,77,18,65,22,72,7,12,25,77
+2020-10-26,0,22,72,3,5,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,10,6,1011,30,12,25,77,18,64,22,72,6,9,25,77
+2020-10-26,100,22,71,4,6,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1011,30,12,24,76,18,64,22,71,7,11,22,71
+2020-10-26,200,21,71,4,7,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1011,30,13,24,74,18,65,21,71,8,13,21,71
+2020-10-26,300,21,70,5,8,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1011,30,13,23,73,18,65,21,70,9,15,21,70
+2020-10-26,400,21,70,5,8,79,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1011,30,14,23,73,19,65,21,70,9,15,21,70
+2020-10-26,500,21,70,5,9,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,10,6,1011,30,15,22,72,19,66,21,70,10,15,21,70
+2020-10-26,600,21,70,6,9,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,10,6,1012,30,15,22,71,19,66,21,70,10,15,21,70
+2020-10-26,700,22,71,6,10,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1012,30,22,23,74,19,67,22,71,10,16,22,71
+2020-10-26,800,23,73,7,12,85,E,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.1,0.0,82,10,6,1013,30,29,25,76,20,67,23,73,10,17,25,76
+2020-10-26,900,24,75,8,13,90,E,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.1,0.0,79,10,6,1013,30,36,26,79,20,67,24,75,11,17,26,79
+2020-10-26,1000,25,77,9,14,94,E,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.0,0.0,74,10,6,1013,30,50,27,80,20,67,25,77,11,18,27,80
+2020-10-26,1100,26,79,9,15,99,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,69,10,6,1012,30,65,28,82,20,67,26,79,11,18,28,82
+2020-10-26,1200,27,80,10,15,103,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,64,10,6,1012,30,79,29,83,20,67,27,80,12,19,29,83
+2020-10-26,1300,27,80,9,14,101,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,64,9,5,1011,30,80,29,83,20,67,27,80,11,17,29,83
+2020-10-26,1400,27,81,8,12,100,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,64,9,5,1011,30,80,29,83,20,67,27,81,10,15,29,83
+2020-10-26,1500,27,81,6,10,99,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,64,9,5,1010,30,81,29,83,20,67,27,81,9,14,29,83
+2020-10-26,1600,26,79,6,10,94,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,67,9,5,1010,30,79,28,82,20,67,26,79,8,14,28,82
+2020-10-26,1700,26,78,6,9,88,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,71,9,5,1011,30,77,27,81,20,68,26,78,8,13,27,81
+2020-10-26,1800,25,77,5,8,83,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,75,9,5,1011,30,75,27,80,20,68,25,77,8,13,27,80
+2020-10-26,1900,24,75,5,8,91,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,77,9,5,1011,30,78,26,79,20,68,24,75,8,13,26,79
+2020-10-26,2000,23,74,5,8,99,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,79,9,5,1011,30,81,26,78,20,67,23,74,8,14,26,78
+2020-10-26,2100,23,73,4,7,107,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,81,9,5,1012,30,84,25,77,19,67,23,73,9,14,25,77
+2020-10-26,2200,22,72,4,7,98,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,73,9,5,1012,30,57,24,74,17,62,22,72,8,13,24,74
+2020-10-26,2300,21,70,4,6,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1011,30,30,22,72,14,58,21,70,8,13,21,70
+2020-10-27,0,21,69,4,6,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1011,30,4,21,69,12,54,21,69,8,13,21,69
+2020-10-27,100,20,69,3,6,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1011,30,3,20,69,12,53,20,69,7,12,20,69
+2020-10-27,200,20,68,3,5,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1011,30,2,20,68,12,53,20,68,6,10,20,68
+2020-10-27,300,20,68,3,4,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1010,30,2,20,68,12,53,20,68,6,9,20,68
+2020-10-27,400,20,68,3,5,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1011,30,1,20,69,12,54,20,68,6,9,20,68
+2020-10-27,500,20,69,3,5,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1011,30,1,21,69,12,54,20,69,6,9,20,69
+2020-10-27,600,21,69,3,5,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1011,30,0,21,70,13,55,21,69,6,9,21,69
+2020-10-27,700,22,71,4,6,101,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,58,10,6,1012,30,0,23,73,13,55,22,71,6,10,22,71
+2020-10-27,800,23,73,5,8,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,56,10,6,1012,30,0,24,75,13,56,23,73,7,11,24,75
+2020-10-27,900,24,74,6,9,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,54,10,6,1013,30,0,25,77,14,56,24,74,7,12,25,77
+2020-10-27,1000,25,76,7,11,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,50,10,6,1012,30,0,26,78,13,56,25,76,8,14,26,78
+2020-10-27,1100,26,78,8,12,98,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1012,30,1,26,79,13,55,26,78,9,15,26,79
+2020-10-27,1200,27,80,9,14,95,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1011,30,1,27,80,12,54,27,80,11,17,27,80
+2020-10-27,1300,27,80,8,12,93,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1011,30,2,27,80,12,54,27,80,9,15,27,80
+2020-10-27,1400,27,80,7,11,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,2,27,80,13,55,27,80,8,13,27,80
+2020-10-27,1500,27,81,6,9,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1009,30,3,27,81,13,55,27,81,7,11,27,81
+2020-10-27,1600,26,80,4,7,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1010,30,3,27,80,13,56,26,80,6,9,27,80
+2020-10-27,1700,26,78,3,5,73,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1010,30,3,26,80,14,56,26,78,4,7,26,80
+2020-10-27,1800,25,77,2,3,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1010,30,3,26,79,14,57,25,77,3,5,26,79
+2020-10-27,1900,24,76,2,3,55,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1011,30,3,26,78,13,56,24,76,3,5,26,78
+2020-10-27,2000,23,74,2,3,44,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,3,25,77,13,55,23,74,3,5,25,77
+2020-10-27,2100,22,72,2,3,33,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,4,25,76,12,53,22,72,3,5,25,76
+2020-10-27,2200,22,72,1,2,62,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1012,30,3,24,75,12,53,22,72,3,5,24,75
+2020-10-27,2300,22,71,1,2,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,3,24,75,12,53,22,71,3,4,22,71
+2020-10-28,0,22,71,1,2,119,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,3,23,74,12,54,22,71,2,4,22,71
+2020-10-28,100,21,70,1,2,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,3,22,72,12,53,21,70,3,4,21,70
+2020-10-28,200,21,69,1,2,93,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,3,21,70,11,52,21,69,3,5,21,69
+2020-10-28,300,20,68,2,3,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,3,20,68,11,52,20,68,3,5,20,68
+2020-10-28,400,20,69,1,2,98,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,3,21,69,11,52,20,69,3,4,20,69
+2020-10-28,500,20,69,1,2,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,3,21,70,11,52,20,69,2,4,20,69
+2020-10-28,600,21,69,1,2,132,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,2,21,70,11,53,21,69,2,3,21,69
+2020-10-28,700,22,71,2,3,132,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,3,23,73,12,53,22,71,3,5,22,71
+2020-10-28,800,23,73,3,5,132,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,3,24,75,12,53,23,73,4,6,24,75
+2020-10-28,900,24,76,4,6,132,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1013,30,3,25,78,12,54,24,76,5,8,25,78
+2020-10-28,1000,25,77,5,8,118,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1013,30,3,26,78,12,53,25,77,6,10,26,78
+2020-10-28,1100,26,78,6,10,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1012,30,4,26,79,11,52,26,78,8,12,26,79
+2020-10-28,1200,27,80,7,12,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1012,30,4,26,79,11,51,27,80,9,15,26,79
+2020-10-28,1300,26,80,7,11,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1011,30,4,26,79,11,52,26,80,8,13,26,79
+2020-10-28,1400,26,80,6,9,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1010,30,5,26,79,12,53,26,80,8,12,26,79
+2020-10-28,1500,26,80,5,8,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,5,26,80,12,54,26,80,7,11,26,80
+2020-10-28,1600,26,79,4,7,99,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1010,30,5,26,79,13,55,26,79,6,9,26,79
+2020-10-28,1700,25,78,3,5,113,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1010,30,5,26,79,13,56,25,78,4,7,26,79
+2020-10-28,1800,25,77,2,3,127,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1010,30,5,26,79,14,57,25,77,3,5,26,79
+2020-10-28,1900,24,75,2,3,134,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,6,25,78,13,56,24,75,3,5,25,78
+2020-10-28,2000,23,74,2,3,140,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1011,30,7,25,77,13,55,23,74,3,5,25,77
+2020-10-28,2100,22,72,2,3,146,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,8,25,76,12,54,22,72,3,5,25,76
+2020-10-28,2200,22,71,1,2,170,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,7,24,75,12,54,22,71,3,5,22,71
+2020-10-28,2300,22,71,1,2,193,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,6,24,74,12,54,22,71,3,5,22,71
+2020-10-29,0,21,70,1,2,217,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,5,23,73,12,54,21,70,3,4,21,70
+2020-10-29,100,21,69,1,2,171,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,5,22,71,12,53,21,69,3,4,21,69
+2020-10-29,200,20,68,1,2,125,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,5,21,69,11,53,20,68,3,4,20,68
+2020-10-29,300,20,67,1,2,79,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,5,20,67,11,52,20,67,3,4,20,67
+2020-10-29,400,20,68,1,2,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,5,20,68,11,52,20,68,3,5,20,68
+2020-10-29,500,20,68,2,3,74,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,5,21,69,11,52,20,68,3,6,20,68
+2020-10-29,600,20,68,2,3,71,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,5,21,70,11,53,20,68,4,6,20,68
+2020-10-29,700,21,70,3,5,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,5,22,72,12,53,21,70,5,8,21,70
+2020-10-29,800,22,72,4,6,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1013,30,5,24,75,12,54,22,72,6,9,24,75
+2020-10-29,900,23,74,5,8,101,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,5,25,77,12,54,23,74,6,10,25,77
+2020-10-29,1000,24,76,5,8,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1013,30,5,25,78,12,53,24,76,7,11,25,78
+2020-10-29,1100,25,78,6,9,93,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1012,30,5,26,79,11,53,25,78,7,12,26,79
+2020-10-29,1200,27,80,6,10,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1012,30,5,26,79,11,52,27,80,8,12,26,79
+2020-10-29,1300,27,80,6,9,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1011,30,5,26,79,11,52,27,80,7,12,26,79
+2020-10-29,1400,27,80,5,8,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1011,30,5,26,79,11,52,27,80,7,11,26,79
+2020-10-29,1500,27,80,4,7,68,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1010,30,5,26,80,11,53,27,80,6,10,26,80
+2020-10-29,1600,26,78,4,7,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,4,26,79,12,53,26,78,6,10,26,79
+2020-10-29,1700,25,77,4,6,99,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1011,30,4,26,78,12,54,25,77,6,10,26,78
+2020-10-29,1800,24,76,3,5,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1011,30,4,26,78,13,55,24,76,6,9,26,78
+2020-10-29,1900,24,75,3,5,157,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1011,30,5,25,77,12,54,24,75,5,8,25,77
+2020-10-29,2000,23,73,2,4,200,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1012,30,5,25,77,12,54,23,73,4,7,25,77
+2020-10-29,2100,22,72,2,3,242,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,6,25,76,12,53,22,72,4,6,25,76
+2020-10-29,2200,22,72,2,3,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,6,24,75,13,55,22,72,4,6,22,72
+2020-10-29,2300,22,71,2,4,278,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1012,30,7,24,74,14,57,22,71,4,7,22,71
+2020-10-30,0,21,70,2,4,296,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,7,23,74,15,59,21,70,5,8,21,70
+2020-10-30,100,21,70,2,3,256,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,7,22,72,15,59,21,70,4,6,21,70
+2020-10-30,200,21,69,1,2,216,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1012,30,8,21,70,15,58,21,69,2,4,21,69
+2020-10-30,300,20,68,1,1,176,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1012,30,8,20,68,14,58,20,68,1,2,20,68
+2020-10-30,400,21,69,1,1,141,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,8,21,69,15,58,21,69,1,2,21,69
+2020-10-30,500,21,70,1,2,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,8,21,71,15,59,21,70,2,3,21,70
+2020-10-30,600,21,71,1,2,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,67,10,6,1012,30,8,22,72,15,59,21,71,2,4,21,71
+2020-10-30,700,22,72,2,3,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1013,30,8,23,74,15,59,22,72,3,5,23,74
+2020-10-30,800,24,74,3,4,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1013,30,8,25,76,15,59,24,74,3,6,25,76
+2020-10-30,900,25,76,3,5,103,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,56,10,6,1014,30,9,26,78,15,59,25,76,4,6,26,78
+2020-10-30,1000,26,78,4,6,99,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1013,30,9,26,79,14,58,26,78,5,8,26,79
+2020-10-30,1100,26,80,5,8,94,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1013,30,9,27,80,14,57,26,80,5,9,27,80
+2020-10-30,1200,27,81,5,9,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1012,30,10,27,81,13,56,27,81,6,10,27,81
+2020-10-30,1300,27,81,5,8,80,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1011,30,9,27,81,13,56,27,81,6,9,27,81
+2020-10-30,1400,27,81,5,7,71,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1011,30,9,27,81,14,56,27,81,5,9,27,81
+2020-10-30,1500,27,81,4,7,61,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1010,30,8,28,82,14,56,27,81,5,8,28,82
+2020-10-30,1600,27,80,4,6,53,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1010,30,8,27,81,14,57,27,80,4,7,27,81
+2020-10-30,1700,26,79,3,4,45,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1011,30,7,27,80,14,57,26,79,4,6,27,80
+2020-10-30,1800,25,78,2,3,37,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,7,26,79,14,58,25,78,3,5,26,79
+2020-10-30,1900,24,76,2,3,30,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,6,26,78,14,57,24,76,3,5,26,78
+2020-10-30,2000,24,75,2,3,23,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1012,30,6,25,77,13,56,24,75,3,5,25,77
+2020-10-30,2100,23,73,2,3,17,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,5,25,77,13,55,23,73,3,5,25,77
+2020-10-30,2200,22,72,1,2,24,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,5,25,76,12,54,22,72,3,5,25,76
+2020-10-30,2300,22,71,1,2,32,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,25,76,12,54,22,71,3,5,22,71
+2020-10-31,0,22,71,1,2,39,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,24,76,12,53,22,71,3,5,22,71
+2020-10-31,100,21,70,2,3,45,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,24,75,12,53,21,70,3,6,21,70
+2020-10-31,200,21,70,2,3,51,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,23,74,11,53,21,70,4,6,21,70
+2020-10-31,300,21,69,2,4,57,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,23,73,11,52,21,69,4,7,21,69
+2020-10-31,400,21,69,2,4,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,22,72,11,52,21,69,5,8,21,69
+2020-10-31,500,21,69,3,4,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,22,71,11,53,21,69,5,8,21,69
+2020-10-31,600,21,69,3,4,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,21,71,12,53,21,69,5,8,21,69
+2020-10-31,700,22,72,3,5,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,4,23,73,12,54,22,72,5,9,23,73
+2020-10-31,800,23,74,4,6,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1013,30,4,24,76,13,55,23,74,5,9,24,76
+2020-10-31,900,25,76,4,7,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1014,30,4,26,78,13,56,25,76,6,9,26,78
+2020-10-31,1000,26,78,5,8,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1013,30,5,26,79,13,56,26,78,6,10,26,79
+2020-10-31,1100,27,80,6,10,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1013,30,5,27,80,13,56,27,80,7,11,27,80
+2020-10-31,1200,28,82,7,11,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1012,30,6,27,81,13,56,28,82,8,13,27,81
+2020-10-31,1300,27,81,6,10,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1011,30,6,27,81,13,56,27,81,7,12,27,81
+2020-10-31,1400,27,81,6,9,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1011,30,7,27,81,13,56,27,81,7,11,27,81
+2020-10-31,1500,27,81,5,8,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,8,27,81,13,56,27,81,6,10,27,81
+2020-10-31,1600,27,80,5,8,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1010,30,8,27,80,14,56,27,80,7,11,27,80
+2020-10-31,1700,26,78,4,7,64,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1011,30,8,26,80,14,57,26,78,7,11,26,80
+2020-10-31,1800,25,77,4,6,58,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,8,26,79,14,57,25,77,7,11,26,79
+2020-10-31,1900,24,76,4,6,56,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1011,30,8,26,78,14,57,24,76,7,11,26,78
+2020-10-31,2000,23,74,4,6,55,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,9,25,77,13,56,23,74,7,11,25,77
+2020-10-31,2100,23,73,3,5,53,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,9,25,76,13,55,23,73,7,12,25,76
+2020-10-31,2200,22,72,3,6,58,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,9,24,76,13,55,22,72,7,12,24,76
+2020-10-31,2300,22,71,4,6,62,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,9,24,75,13,55,22,71,7,12,22,71
+2020-11-01,0,21,70,4,6,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,59,10,6,1012,30,8,23,74,13,55,21,70,7,12,21,70
+2020-11-01,100,21,69,4,6,69,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1012,30,9,22,72,13,55,21,69,7,12,21,69
+2020-11-01,200,20,69,4,6,72,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,61,10,6,1012,30,10,21,70,13,55,20,69,8,12,20,69
+2020-11-01,300,20,68,4,6,74,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1012,30,10,20,68,13,55,20,68,8,13,20,68
+2020-11-01,400,20,68,4,6,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1012,30,11,20,69,13,56,20,68,8,13,20,68
+2020-11-01,500,20,69,4,7,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1012,30,11,21,69,13,56,20,69,8,12,20,69
+2020-11-01,600,21,69,4,7,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1012,30,12,21,70,14,57,21,69,8,12,21,69
+2020-11-01,700,22,71,5,7,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1013,30,12,23,73,14,58,22,71,7,12,22,71
+2020-11-01,800,23,73,5,8,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,61,10,6,1013,30,12,24,76,15,59,23,73,7,11,24,76
+2020-11-01,900,24,75,5,9,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1014,30,12,26,78,16,60,24,75,7,11,26,78
+2020-11-01,1000,25,78,5,9,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1014,30,12,27,80,16,60,25,78,7,11,27,80
+2020-11-01,1100,27,80,6,9,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1013,30,13,27,81,16,60,27,80,7,11,27,81
+2020-11-01,1200,28,82,6,9,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1013,30,14,28,83,16,60,28,82,6,10,28,83
+2020-11-01,1300,28,82,4,7,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,15,28,83,16,60,28,82,5,8,28,83
+2020-11-01,1400,28,82,3,5,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,16,28,83,16,60,28,82,4,6,28,83
+2020-11-01,1500,28,83,2,4,124,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1011,30,17,29,83,16,60,28,83,3,4,29,83
+2020-11-01,1600,27,81,2,4,177,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1011,30,16,28,83,16,60,27,81,4,6,28,83
+2020-11-01,1700,27,80,3,4,231,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1012,30,16,28,82,16,61,27,80,4,7,28,82
+2020-11-01,1800,26,79,3,5,284,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,15,27,81,16,61,26,79,5,8,27,81
+2020-11-01,1900,25,77,4,6,273,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,16,26,79,15,60,25,77,7,11,26,79
+2020-11-01,2000,24,76,5,8,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1013,30,16,26,78,15,58,24,76,9,15,26,78
+2020-11-01,2100,23,74,6,9,252,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1013,30,16,25,77,14,57,23,74,11,18,25,77
+2020-11-01,2200,23,73,5,9,192,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1013,30,23,24,76,14,57,23,73,10,16,24,76
+2020-11-01,2300,22,72,5,8,133,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,31,24,75,13,56,22,72,9,15,24,75
+2020-11-02,0,22,71,4,7,74,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,38,23,74,13,56,22,71,9,14,22,71
+2020-11-02,100,21,70,4,7,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,36,22,72,13,55,21,70,9,14,21,70
+2020-11-02,200,21,70,4,7,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,35,21,71,12,53,21,70,9,14,21,70
+2020-11-02,300,21,69,4,6,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,33,21,69,11,52,21,69,9,14,21,69
+2020-11-02,400,21,69,4,7,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,34,21,70,11,52,21,69,8,13,21,69
+2020-11-02,500,21,70,4,7,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,35,21,70,11,52,21,70,8,13,21,70
+2020-11-02,600,21,70,4,7,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1013,30,36,22,71,11,51,21,70,8,13,21,70
+2020-11-02,700,22,72,5,8,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1014,30,29,23,73,11,52,22,72,8,13,23,73
+2020-11-02,800,23,74,6,9,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1014,30,22,24,76,11,53,23,74,8,13,24,76
+2020-11-02,900,24,76,6,10,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1015,30,16,26,78,12,53,24,76,9,14,26,78
+2020-11-02,1000,25,78,7,12,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1014,30,13,26,79,12,53,25,78,9,14,26,79
+2020-11-02,1100,27,80,8,13,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1014,30,11,27,80,12,53,27,80,9,15,27,80
+2020-11-02,1200,28,82,9,14,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1013,30,9,27,81,12,53,28,82,10,15,27,81
+2020-11-02,1300,28,82,8,12,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1013,30,9,27,81,12,54,28,82,9,14,27,81
+2020-11-02,1400,28,82,7,11,73,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1012,30,9,27,81,12,54,28,82,8,13,27,81
+2020-11-02,1500,28,82,6,9,68,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1012,30,9,27,81,13,55,28,82,8,12,27,81
+2020-11-02,1600,27,80,5,8,61,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1012,30,10,27,80,13,55,27,80,8,12,27,80
+2020-11-02,1700,26,79,5,7,54,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1012,30,10,26,80,13,56,26,79,7,12,26,80
+2020-11-02,1800,25,77,4,6,48,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1012,30,11,26,79,14,56,25,77,7,12,26,79
+2020-11-02,1900,24,76,4,6,42,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,10,26,78,13,56,24,76,7,11,26,78
+2020-11-02,2000,24,74,3,5,35,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1013,30,10,25,77,13,55,24,74,6,10,25,77
+2020-11-02,2100,23,73,3,4,29,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,10,25,76,13,55,23,73,5,9,25,76
+2020-11-02,2200,23,73,3,4,42,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1014,30,13,24,76,13,55,23,73,5,9,24,76
+2020-11-02,2300,22,72,3,4,55,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1014,30,16,24,75,13,56,22,72,5,9,24,75
+2020-11-03,0,22,72,3,4,68,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1014,30,19,23,74,14,56,22,72,5,9,23,74
+2020-11-03,100,22,71,3,5,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,16,22,72,13,55,22,71,7,11,22,71
+2020-11-03,200,21,70,4,6,72,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,12,21,71,12,54,21,70,8,13,21,70
+2020-11-03,300,20,69,4,7,74,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,9,20,69,12,53,20,69,9,15,20,69
+2020-11-03,400,21,69,4,7,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,9,21,70,12,54,21,69,8,14,21,69
+2020-11-03,500,21,70,4,6,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,9,21,71,12,54,21,70,8,12,21,70
+2020-11-03,600,21,70,4,6,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1014,30,9,22,71,13,55,21,70,7,11,21,70
+2020-11-03,700,22,72,5,7,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1014,30,9,23,74,13,55,22,72,7,11,23,74
+2020-11-03,800,24,74,5,9,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1014,30,9,24,76,13,56,24,74,7,12,24,76
+2020-11-03,900,25,76,6,10,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1015,30,9,26,78,14,56,25,76,7,12,26,78
+2020-11-03,1000,26,78,7,11,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1014,30,9,26,79,13,56,26,78,8,13,26,79
+2020-11-03,1100,27,80,8,12,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1014,30,9,27,80,13,55,27,80,9,14,27,80
+2020-11-03,1200,28,82,8,13,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1014,30,8,28,82,12,54,28,82,9,15,28,82
+2020-11-03,1300,28,82,7,12,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1013,30,8,28,82,13,55,28,82,8,13,28,82
+2020-11-03,1400,28,82,6,10,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1012,30,8,28,82,13,56,28,82,7,12,28,82
+2020-11-03,1500,28,83,5,8,72,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1012,30,7,28,82,13,56,28,83,6,10,28,82
+2020-11-03,1600,27,81,4,7,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1012,30,7,27,81,14,57,27,81,6,9,27,81
+2020-11-03,1700,27,80,4,6,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1012,30,6,27,81,14,57,27,80,5,9,27,81
+2020-11-03,1800,26,79,3,5,157,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1012,30,6,27,80,14,57,26,79,5,8,27,80
+2020-11-03,1900,25,77,3,5,184,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1013,30,5,26,79,14,57,25,77,5,9,26,79
+2020-11-03,2000,24,75,3,5,211,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,5,25,78,13,56,24,75,6,9,25,78
+2020-11-03,2100,23,74,3,5,239,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1014,30,5,25,77,13,55,23,74,6,10,25,77
+2020-11-03,2200,23,73,3,4,171,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,5,24,76,13,55,23,73,6,9,24,76
+2020-11-03,2300,22,72,2,4,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1013,30,5,24,75,13,55,22,72,5,8,24,75
+2020-11-04,0,22,71,2,3,34,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1013,30,5,23,74,13,55,22,71,4,6,22,71
+2020-11-04,100,21,70,2,4,42,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,5,22,72,12,54,21,70,5,7,21,70
+2020-11-04,200,21,69,2,4,49,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,5,21,70,12,53,21,69,5,8,21,69
+2020-11-04,300,20,68,3,4,57,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,5,20,68,12,53,20,68,6,9,20,68
+2020-11-04,400,20,68,3,5,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,5,21,69,12,53,20,68,6,10,20,68
+2020-11-04,500,20,69,4,6,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,5,21,69,12,53,20,69,7,11,20,69
+2020-11-04,600,20,69,4,6,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,5,21,70,12,53,20,69,7,12,20,69
+2020-11-04,700,22,71,4,7,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1014,30,5,23,73,12,54,22,71,7,12,22,71
+2020-11-04,800,23,73,5,8,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,5,24,75,12,54,23,73,7,11,24,75
+2020-11-04,900,24,76,5,9,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1015,30,5,26,78,13,55,24,76,7,11,26,78
+2020-11-04,1000,25,78,6,9,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1014,30,4,26,79,13,55,25,78,7,11,26,79
+2020-11-04,1100,27,80,6,9,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1014,30,4,27,80,12,54,27,80,7,11,27,80
+2020-11-04,1200,28,82,6,10,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1013,30,4,28,82,12,53,28,82,7,11,28,82
+2020-11-04,1300,28,83,5,8,138,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1012,30,4,28,82,12,53,28,83,6,9,28,82
+2020-11-04,1400,28,83,4,6,164,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1011,30,4,28,82,12,54,28,83,5,8,28,82
+2020-11-04,1500,28,83,3,5,190,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1011,30,5,28,82,12,54,28,83,4,6,28,82
+2020-11-04,1600,27,81,3,5,242,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1011,30,4,27,81,12,54,27,81,4,7,27,81
+2020-11-04,1700,26,79,3,5,293,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1011,30,4,27,80,13,55,26,79,5,8,27,80
+2020-11-04,1800,25,78,3,5,345,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1011,30,4,26,79,13,56,25,78,6,9,26,79
+2020-11-04,1900,24,76,3,5,336,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1012,30,3,26,78,13,55,24,76,6,9,26,78
+2020-11-04,2000,23,74,3,5,327,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,3,25,77,13,55,23,74,6,9,25,77
+2020-11-04,2100,22,72,3,5,318,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,3,25,76,12,54,22,72,6,9,25,76
+2020-11-04,2200,22,72,3,4,292,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,3,24,75,12,53,22,72,5,8,22,72
+2020-11-04,2300,22,71,2,3,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,4,24,74,12,53,22,71,4,7,22,71
+2020-11-05,0,21,70,2,3,239,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,4,23,73,11,52,21,70,4,6,21,70
+2020-11-05,100,21,69,2,3,179,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,4,22,71,11,51,21,69,4,7,21,69
+2020-11-05,200,20,68,2,4,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,21,69,10,51,20,68,5,8,20,68
+2020-11-05,300,20,67,2,4,60,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,4,20,67,10,50,20,67,5,9,20,67
+2020-11-05,400,20,68,3,5,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,20,68,10,51,20,68,6,10,20,68
+2020-11-05,500,20,68,3,5,67,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1013,30,4,20,69,11,52,20,68,7,11,20,68
+2020-11-05,600,20,68,4,6,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,4,21,69,11,52,20,68,7,12,20,68
+2020-11-05,700,21,70,5,7,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1014,30,4,22,72,11,53,21,70,7,12,21,70
+2020-11-05,800,22,72,5,9,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,4,24,75,12,53,22,72,8,12,24,75
+2020-11-05,900,24,74,6,10,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1015,30,4,25,77,12,53,24,74,8,13,25,77
+2020-11-05,1000,25,77,7,12,98,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1014,30,4,26,78,12,53,25,77,9,14,26,78
+2020-11-05,1100,26,79,8,13,104,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1014,30,4,26,79,11,52,26,79,10,15,26,79
+2020-11-05,1200,27,81,9,14,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1013,30,4,27,80,11,51,27,81,10,17,27,80
+2020-11-05,1300,27,81,8,13,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1013,30,4,27,80,11,52,27,81,9,15,27,80
+2020-11-05,1400,27,81,7,11,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1012,30,4,27,80,11,52,27,81,8,13,27,80
+2020-11-05,1500,27,81,6,9,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1012,30,5,27,80,11,52,27,81,7,11,27,80
+2020-11-05,1600,27,80,4,7,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1012,30,4,27,80,12,53,27,80,6,9,27,80
+2020-11-05,1700,26,79,3,5,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1012,30,4,26,79,12,54,26,79,4,7,26,79
+2020-11-05,1800,25,77,2,4,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1013,30,4,26,78,12,54,25,77,3,5,26,78
+2020-11-05,1900,24,76,2,3,103,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,46,10,6,1013,30,3,25,77,12,53,24,76,3,6,25,77
+2020-11-05,2000,23,74,2,3,95,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1014,30,3,24,76,11,53,23,74,4,6,24,76
+2020-11-05,2100,23,73,2,3,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1014,30,3,23,74,11,52,23,73,4,6,23,74
+2020-11-05,2200,22,71,2,4,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1014,30,3,23,74,11,51,22,71,5,8,22,71
+2020-11-05,2300,21,70,3,5,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1014,30,3,23,73,11,51,21,70,6,10,21,70
+2020-11-06,0,21,69,4,6,62,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,3,23,73,10,51,21,69,8,13,21,69
+2020-11-06,100,20,68,4,6,67,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,3,21,70,10,50,20,68,8,13,20,68
+2020-11-06,200,19,67,4,6,71,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1014,30,2,20,68,10,49,19,67,8,13,19,67
+2020-11-06,300,19,66,4,6,75,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1013,30,2,19,66,9,49,19,66,8,13,19,66
+2020-11-06,400,19,66,4,7,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1014,30,1,19,66,9,49,19,66,8,14,19,66
+2020-11-06,500,19,66,5,7,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1014,30,1,19,66,9,49,19,66,9,14,19,66
+2020-11-06,600,19,67,5,8,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1014,30,0,19,67,9,49,19,67,9,14,19,67
+2020-11-06,700,20,68,6,10,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1015,30,0,20,68,9,49,20,68,9,15,20,68
+2020-11-06,800,21,70,7,12,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1016,30,0,21,70,10,49,21,70,10,16,21,70
+2020-11-06,900,22,72,8,13,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1016,30,0,22,72,10,49,22,72,11,18,22,72
+2020-11-06,1000,24,75,9,15,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1016,30,0,24,74,9,49,24,75,12,19,24,74
+2020-11-06,1100,25,77,11,17,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1016,30,0,25,76,9,49,25,77,13,21,25,76
+2020-11-06,1200,26,80,12,19,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1015,30,0,26,79,9,48,26,80,14,22,26,79
+2020-11-06,1300,27,80,11,17,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1015,30,0,26,79,9,49,27,80,13,20,26,79
+2020-11-06,1400,27,80,9,15,101,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1014,30,0,26,79,10,49,27,80,11,18,26,79
+2020-11-06,1500,27,80,8,13,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1013,30,1,26,80,10,49,27,80,10,16,26,80
+2020-11-06,1600,26,79,7,11,98,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1014,30,1,26,79,10,50,26,79,9,15,26,79
+2020-11-06,1700,25,77,6,9,94,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1014,30,2,26,78,11,51,25,77,9,14,26,78
+2020-11-06,1800,24,76,4,7,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1014,30,2,25,78,11,52,24,76,8,13,25,78
+2020-11-06,1900,23,74,5,7,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,45,10,6,1015,30,2,24,76,10,51,23,74,9,14,24,76
+2020-11-06,2000,22,71,5,7,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1015,30,2,23,74,10,49,22,71,9,15,22,71
+2020-11-06,2100,21,69,5,8,70,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1016,30,2,23,73,9,48,21,69,10,16,21,69
+2020-11-06,2200,20,68,5,8,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1016,30,1,21,71,9,48,20,68,10,16,20,68
+2020-11-06,2300,20,68,5,8,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1016,30,1,20,69,9,48,20,68,10,16,20,68
+2020-11-07,0,19,67,5,8,69,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1016,30,1,19,67,8,47,19,67,10,16,19,67
+2020-11-07,100,19,66,5,8,76,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1016,30,1,19,66,8,47,19,66,10,16,19,66
+2020-11-07,200,18,65,5,8,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1015,30,0,18,65,8,47,18,65,10,16,18,65
+2020-11-07,300,18,64,5,8,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,64,9,47,18,64,10,17,18,64
+2020-11-07,400,18,64,5,9,91,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,64,9,48,18,64,11,18,18,64
+2020-11-07,500,18,64,6,10,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,18,64,9,48,18,64,11,18,18,64
+2020-11-07,600,18,64,6,10,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1016,30,0,18,64,9,48,18,64,12,19,18,64
+2020-11-07,700,19,67,8,13,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1016,30,0,19,67,10,49,19,67,13,21,19,67
+2020-11-07,800,20,69,9,15,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1017,30,0,21,69,10,51,20,69,14,22,20,69
+2020-11-07,900,22,71,11,17,104,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,51,10,6,1017,30,0,22,71,11,52,22,71,15,23,22,71
+2020-11-07,1000,23,74,11,18,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1017,30,0,23,74,11,52,23,74,15,24,23,74
+2020-11-07,1100,25,76,12,19,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1016,30,1,25,77,12,53,25,76,15,24,25,77
+2020-11-07,1200,26,79,13,21,107,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1016,30,1,26,79,12,53,26,79,15,24,26,79
+2020-11-07,1300,26,79,11,18,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1015,30,2,26,80,12,54,26,79,14,22,26,80
+2020-11-07,1400,26,80,10,16,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1014,30,3,27,80,12,54,26,80,13,20,27,80
+2020-11-07,1500,27,80,9,14,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1014,30,4,27,80,13,55,27,80,11,18,27,80
+2020-11-07,1600,26,78,8,13,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1014,30,5,26,79,13,55,26,78,11,18,26,79
+2020-11-07,1700,25,77,7,11,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1014,30,5,26,78,13,56,25,77,12,19,26,78
+2020-11-07,1800,24,75,6,10,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,6,25,78,13,56,24,75,12,19,25,78
+2020-11-07,1900,23,74,6,9,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1015,30,8,25,76,13,55,23,74,11,18,25,76
+2020-11-07,2000,22,72,6,9,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1015,30,9,24,75,13,55,22,72,11,18,24,75
+2020-11-07,2100,22,71,5,8,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1016,30,11,23,74,12,54,22,71,11,17,22,71
+2020-11-07,2200,21,69,5,8,80,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1016,30,8,22,71,11,52,21,69,11,17,21,69
+2020-11-07,2300,20,67,5,8,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1016,30,6,20,68,10,50,20,67,11,17,20,67
+2020-11-08,0,19,66,5,8,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1016,30,3,19,66,9,48,19,66,11,17,19,66
+2020-11-08,100,18,65,5,8,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1015,30,4,18,65,9,48,18,65,11,17,18,65
+2020-11-08,200,18,64,5,8,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1015,30,5,18,64,9,49,18,64,11,17,18,64
+2020-11-08,300,17,63,5,8,79,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1015,30,6,17,63,9,49,17,63,11,17,17,63
+2020-11-08,400,17,63,5,9,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1015,30,8,17,63,10,50,17,63,11,17,17,63
+2020-11-08,500,18,64,5,9,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1016,30,9,18,64,11,52,18,64,11,17,18,64
+2020-11-08,600,18,64,6,9,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1016,30,11,18,64,12,53,18,64,11,17,18,64
+2020-11-08,700,19,66,6,10,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1016,30,11,19,66,12,54,19,66,11,17,19,66
+2020-11-08,800,20,69,7,12,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1017,30,11,21,69,13,55,20,69,11,18,20,69
+2020-11-08,900,22,71,8,13,101,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1018,30,11,22,72,13,56,22,71,11,18,22,71
+2020-11-08,1000,23,74,8,14,103,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1017,30,10,23,74,13,56,23,74,11,18,23,74
+2020-11-08,1100,25,76,9,14,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1017,30,8,25,77,13,56,25,76,11,17,25,77
+2020-11-08,1200,26,79,9,15,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1016,30,7,26,80,13,56,26,79,11,17,26,80
+2020-11-08,1300,26,79,8,13,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1015,30,8,27,80,13,56,26,79,10,16,27,80
+2020-11-08,1400,26,80,7,12,114,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1015,30,9,27,80,13,56,26,80,9,15,27,80
+2020-11-08,1500,27,80,6,10,116,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1014,30,10,27,80,13,56,27,80,8,13,27,80
+2020-11-08,1600,26,79,6,9,116,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1014,30,9,26,80,14,57,26,79,8,13,26,80
+2020-11-08,1700,25,78,5,8,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1014,30,8,26,79,14,57,25,78,7,12,26,79
+2020-11-08,1800,25,76,4,6,114,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1015,30,7,26,78,14,57,25,76,7,11,26,78
+2020-11-08,1900,24,75,4,6,101,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1015,30,6,25,77,13,56,24,75,7,12,25,77
+2020-11-08,2000,23,73,4,6,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1016,30,5,24,75,12,54,23,73,7,12,24,75
+2020-11-08,2100,22,71,4,6,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1016,30,4,23,74,11,52,22,71,8,12,22,71
+2020-11-08,2200,21,69,4,6,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1016,30,3,22,71,10,50,21,69,8,13,21,69
+2020-11-08,2300,20,68,4,7,77,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1016,30,1,20,68,9,48,20,68,9,14,20,68
+2020-11-09,0,19,66,4,7,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1016,30,0,19,66,7,45,19,66,10,15,19,66
+2020-11-09,100,18,65,5,7,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1016,30,0,18,65,7,45,18,65,10,16,18,65
+2020-11-09,200,17,63,5,8,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1015,30,0,17,63,7,45,17,63,10,16,17,63
+2020-11-09,300,17,62,5,8,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1015,30,0,17,62,7,44,17,62,11,17,17,62
+2020-11-09,400,17,62,5,8,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1015,30,0,17,62,7,45,17,62,10,17,17,62
+2020-11-09,500,17,63,5,8,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1015,30,0,17,63,8,46,17,63,10,16,17,63
+2020-11-09,600,17,63,5,8,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1015,30,0,17,63,8,46,17,63,10,16,17,63
+2020-11-09,700,18,65,6,10,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1015,30,0,18,65,8,46,18,65,10,17,18,65
+2020-11-09,800,20,67,7,11,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1016,30,0,20,67,8,47,20,67,11,17,20,67
+2020-11-09,900,21,70,8,12,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1016,30,0,21,70,8,47,21,70,11,18,21,70
+2020-11-09,1000,22,72,9,14,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1016,30,0,22,72,8,46,22,72,11,18,22,72
+2020-11-09,1100,24,75,10,15,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1015,30,0,24,75,7,45,24,75,12,19,24,75
+2020-11-09,1200,26,78,11,17,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1015,30,0,25,77,7,45,26,78,12,19,25,77
+2020-11-09,1300,26,78,9,15,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1014,30,0,25,78,7,45,26,78,11,18,25,78
+2020-11-09,1400,26,79,8,14,117,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1013,30,0,25,78,7,45,26,79,10,17,25,78
+2020-11-09,1500,26,79,7,12,121,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1012,30,0,26,78,7,45,26,79,9,15,26,78
+2020-11-09,1600,26,78,6,10,124,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1012,30,0,25,77,8,46,26,78,9,14,25,77
+2020-11-09,1700,25,77,5,8,126,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1013,30,0,25,77,9,47,25,77,8,12,25,77
+2020-11-09,1800,24,75,4,6,129,SE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1013,30,0,25,77,9,49,24,75,7,11,25,77
+2020-11-09,1900,23,74,4,6,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1013,30,0,24,76,9,48,23,74,6,9,24,76
+2020-11-09,2000,23,73,3,5,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1014,30,0,24,75,9,48,23,73,5,8,24,75
+2020-11-09,2100,22,72,2,4,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1014,30,0,23,74,9,48,22,72,4,7,23,74
+2020-11-09,2200,21,70,3,5,85,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1014,30,0,22,71,8,47,21,70,6,9,21,70
+2020-11-09,2300,20,68,4,6,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1014,30,0,20,69,8,46,20,68,7,12,20,68
+2020-11-10,0,19,66,4,7,79,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1014,30,0,19,66,7,45,19,66,9,14,19,66
+2020-11-10,100,18,65,4,7,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1013,30,0,18,65,7,45,18,65,9,15,18,65
+2020-11-10,200,18,64,4,7,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1013,30,0,18,64,7,45,18,64,9,15,18,64
+2020-11-10,300,17,63,4,7,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1013,30,0,17,63,7,45,17,63,9,15,17,63
+2020-11-10,400,17,63,4,7,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1013,30,0,17,63,7,45,17,63,9,15,17,63
+2020-11-10,500,17,63,5,7,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1013,30,0,17,63,7,45,17,63,9,14,17,63
+2020-11-10,600,18,64,5,8,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1013,30,0,18,64,8,46,18,64,9,14,18,64
+2020-11-10,700,19,66,6,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1013,30,0,19,66,8,46,19,66,9,15,19,66
+2020-11-10,800,20,68,6,10,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1014,30,0,20,68,8,47,20,68,9,15,20,68
+2020-11-10,900,22,71,7,12,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1014,30,0,22,71,9,47,22,71,10,15,22,71
+2020-11-10,1000,23,74,9,14,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1014,30,0,23,73,8,47,23,74,11,17,23,73
+2020-11-10,1100,25,76,10,16,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1013,30,0,24,75,8,46,25,76,12,19,24,75
+2020-11-10,1200,26,79,11,18,107,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1013,30,0,25,78,7,45,26,79,13,21,25,78
+2020-11-10,1300,26,79,10,16,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1012,30,0,25,78,7,45,26,79,12,19,25,78
+2020-11-10,1400,26,79,9,15,111,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1011,30,0,25,78,7,45,26,79,11,18,25,78
+2020-11-10,1500,26,79,8,13,113,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1011,30,0,26,78,8,46,26,79,11,17,26,78
+2020-11-10,1600,25,77,7,11,114,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1011,30,0,25,77,8,46,25,77,10,16,25,77
+2020-11-10,1700,24,76,6,9,115,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1011,30,0,25,77,8,46,24,76,9,15,25,77
+2020-11-10,1800,23,74,5,8,116,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1011,30,0,24,76,8,47,23,74,9,14,24,76
+2020-11-10,1900,22,72,5,7,106,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,39,10,6,1012,30,0,24,75,8,46,22,72,9,14,24,75
+2020-11-10,2000,21,71,5,7,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1013,30,0,23,73,7,45,21,71,9,14,21,71
+2020-11-10,2100,21,69,4,7,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1013,30,0,22,72,7,45,21,69,9,14,21,69
+2020-11-10,2200,19,67,5,8,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1013,30,0,21,69,6,44,19,67,10,16,19,67
+2020-11-10,2300,18,65,5,8,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1013,30,0,19,66,6,43,18,65,11,17,18,65
+2020-11-11,0,17,63,6,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1013,30,0,17,63,5,42,17,63,11,18,17,63
+2020-11-11,100,17,62,6,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1013,30,0,17,62,5,42,17,62,11,18,17,62
+2020-11-11,200,16,61,5,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1013,30,0,16,61,5,42,16,61,11,18,16,61
+2020-11-11,300,16,60,5,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1013,30,0,16,60,5,42,16,60,11,18,16,60
+2020-11-11,400,16,60,6,9,92,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1013,30,0,16,60,5,42,16,60,12,19,16,60
+2020-11-11,500,16,60,6,10,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1013,30,0,16,60,6,42,16,60,12,20,16,60
+2020-11-11,600,16,60,7,11,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1013,30,0,16,60,6,42,16,60,13,21,16,60
+2020-11-11,700,17,63,8,13,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1014,30,0,17,63,6,43,17,63,14,22,17,63
+2020-11-11,800,19,65,9,15,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1014,30,0,19,66,6,43,19,65,15,24,19,65
+2020-11-11,900,20,68,11,17,99,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1015,30,0,20,68,6,44,20,68,16,25,20,68
+2020-11-11,1000,22,71,12,19,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1014,30,0,22,71,6,43,22,71,16,25,22,71
+2020-11-11,1100,23,74,13,21,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1014,30,0,23,74,6,43,23,74,16,26,23,74
+2020-11-11,1200,25,77,14,23,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1013,30,0,25,76,6,42,25,77,16,26,25,76
+2020-11-11,1300,25,78,13,21,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1013,30,0,25,77,6,43,25,78,15,24,25,77
+2020-11-11,1400,26,78,11,18,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1012,30,0,25,77,6,43,26,78,14,23,25,77
+2020-11-11,1500,26,78,10,16,97,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1012,30,0,25,77,6,43,26,78,13,21,25,77
+2020-11-11,1600,25,76,9,14,95,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1012,30,0,24,76,7,44,25,76,13,20,24,76
+2020-11-11,1700,23,74,7,12,94,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1012,30,0,24,74,7,45,23,74,12,20,24,74
+2020-11-11,1800,22,72,6,9,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1012,30,0,23,73,7,45,22,72,12,19,23,73
+2020-11-11,1900,21,70,6,9,88,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,40,10,6,1013,30,0,21,71,7,44,21,70,12,19,21,70
+2020-11-11,2000,20,68,6,9,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1014,30,0,20,68,6,43,20,68,12,19,20,68
+2020-11-11,2100,19,66,6,9,79,ENE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1014,30,0,19,66,6,42,19,66,12,19,19,66
+2020-11-11,2200,18,65,6,9,80,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1014,30,0,18,65,6,42,18,65,12,19,18,65
+2020-11-11,2300,18,64,6,9,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1015,30,0,18,64,5,42,18,64,12,19,18,64
+2020-11-12,0,17,63,6,9,83,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1015,30,0,17,63,5,41,17,63,12,19,17,63
+2020-11-12,100,17,63,6,9,84,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,46,10,6,1014,30,0,17,63,5,42,17,63,12,19,17,63
+2020-11-12,200,17,62,5,9,86,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1014,30,0,17,62,6,42,17,62,11,18,17,62
+2020-11-12,300,16,61,5,9,87,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,49,10,6,1014,30,0,16,61,6,42,16,61,11,18,16,61
+2020-11-12,400,17,62,6,9,90,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1014,30,0,17,62,6,43,17,62,11,18,17,62
+2020-11-12,500,17,62,6,10,93,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1015,30,0,17,62,6,43,17,62,11,18,17,62
+2020-11-12,600,17,62,6,10,96,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1015,30,0,17,62,6,44,17,62,12,19,17,62
+2020-11-12,700,18,65,7,12,98,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1016,30,0,18,65,7,44,18,65,12,19,18,65
+2020-11-12,800,20,68,9,14,100,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1016,30,0,20,68,7,45,20,68,12,20,20,68
+2020-11-12,900,21,70,10,15,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1017,30,0,21,70,8,46,21,70,13,20,21,70
+2020-11-12,1000,23,73,10,17,102,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1016,30,0,23,73,7,45,23,73,13,21,23,73
+2020-11-12,1100,24,76,11,18,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1015,30,0,24,75,7,45,24,76,13,21,24,75
+2020-11-12,1200,26,79,12,19,103,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1015,30,0,25,78,7,44,26,79,14,22,25,78
+2020-11-12,1300,26,79,11,17,106,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1014,30,0,26,78,7,44,26,79,12,20,26,78
+2020-11-12,1400,27,80,9,15,109,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1013,30,0,26,78,7,44,27,80,11,18,26,78
+2020-11-12,1500,27,80,8,13,112,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1012,30,0,26,79,7,44,27,80,10,15,26,79
+2020-11-12,1600,26,79,7,11,108,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1013,30,0,26,78,7,44,26,79,9,14,26,78
+2020-11-12,1700,25,77,5,9,105,ESE,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1013,30,0,25,77,7,45,25,77,8,13,25,77
+2020-11-12,1800,24,75,4,7,101,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1013,30,0,25,76,8,46,24,75,8,12,25,76
+2020-11-12,1900,23,73,4,7,89,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1013,30,0,24,75,7,45,23,73,8,13,24,75
+2020-11-12,2000,22,72,4,7,77,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,38,10,6,1014,30,0,23,73,7,45,22,72,9,14,22,72
+2020-11-12,2100,21,70,4,7,66,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,40,10,6,1015,30,1,22,72,7,44,21,70,9,14,21,70
+2020-11-12,2200,20,68,5,7,71,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,44,10,6,1014,30,1,21,70,7,45,20,68,9,15,20,68
+2020-11-12,2300,20,67,5,8,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1014,30,1,20,68,8,46,20,67,10,16,20,67
+2020-11-13,0,19,66,5,8,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,1,19,66,9,47,19,66,11,17,19,66
+2020-11-13,100,19,65,5,8,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1014,30,1,19,65,9,49,19,65,10,16,19,65
+2020-11-13,200,18,65,5,8,81,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1014,30,1,18,65,10,50,18,65,10,16,18,65
+2020-11-13,300,18,65,4,7,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1014,30,1,18,65,11,52,18,65,9,15,18,65
+2020-11-13,400,18,65,5,8,82,E,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,66,10,6,1014,30,2,18,65,12,53,18,65,10,15,18,65
+2020-11-13,500,18,65,5,8,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1014,30,3,18,65,12,54,18,65,10,16,18,65
+2020-11-13,600,18,65,6,9,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,71,10,6,1014,30,4,18,65,13,56,18,65,10,16,18,65
+2020-11-13,700,20,67,7,11,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1015,30,6,20,68,14,57,20,67,11,17,20,67
+2020-11-13,800,21,70,8,13,95,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,68,10,6,1015,30,8,21,70,15,58,21,70,11,18,21,70
+2020-11-13,900,22,72,9,15,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,66,10,6,1016,30,10,23,73,16,60,22,72,12,19,23,73
+2020-11-13,1000,24,75,10,16,103,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,62,10,6,1015,30,14,24,76,16,61,24,75,12,19,24,76
+2020-11-13,1100,25,78,10,16,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1014,30,17,26,79,17,62,25,78,12,20,26,79
+2020-11-13,1200,27,80,11,17,109,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1014,30,20,28,82,17,63,27,80,13,20,28,82
+2020-11-13,1300,27,81,10,15,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1013,30,25,28,83,17,63,27,81,11,18,28,83
+2020-11-13,1400,27,81,8,13,112,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,31,28,83,17,63,27,81,10,16,28,83
+2020-11-13,1500,28,82,7,12,114,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1011,30,36,29,84,17,63,28,82,9,14,29,84
+2020-11-13,1600,27,80,6,10,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,32,28,82,17,63,27,80,8,13,28,82
+2020-11-13,1700,26,79,5,8,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1012,30,28,27,81,18,64,26,79,7,12,27,81
+2020-11-13,1800,25,78,4,6,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,63,10,6,1012,30,24,27,80,18,64,25,78,6,10,27,80
+2020-11-13,1900,25,76,4,6,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1012,30,25,26,79,18,64,25,76,7,11,26,79
+2020-11-13,2000,24,75,4,6,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1013,30,27,26,78,18,64,24,75,7,11,26,78
+2020-11-13,2100,23,73,3,5,87,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,71,10,6,1013,30,28,25,77,17,63,23,73,7,11,25,77
+2020-11-13,2200,23,73,4,6,83,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1013,30,38,24,76,18,64,23,73,7,11,24,76
+2020-11-13,2300,22,72,4,6,79,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1013,30,47,24,75,19,66,22,72,7,12,24,75
+2020-11-14,0,22,71,4,7,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,10,6,1013,30,57,23,74,19,67,22,71,8,12,22,71
+2020-11-14,100,21,70,4,7,76,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1012,30,48,22,72,19,66,21,70,8,12,21,70
+2020-11-14,200,21,70,4,6,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,10,6,1012,30,39,22,71,19,66,21,70,8,12,21,70
+2020-11-14,300,21,69,4,6,80,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,90,10,6,1012,30,30,21,69,19,66,21,69,8,13,21,69
+2020-11-14,400,21,69,4,7,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1012,30,34,21,70,19,65,21,69,9,14,21,69
+2020-11-14,500,21,69,5,8,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1012,30,39,21,70,18,65,21,69,9,15,21,69
+2020-11-14,600,21,69,6,9,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1012,30,43,22,71,18,64,21,69,10,16,21,69
+2020-11-14,700,22,72,7,11,112,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,79,10,6,1013,30,43,23,74,18,64,22,72,11,17,23,74
+2020-11-14,800,23,74,8,13,118,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,73,10,6,1013,30,42,25,77,18,64,23,74,11,18,25,77
+2020-11-14,900,25,76,9,15,123,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,67,10,6,1014,30,42,26,80,18,64,25,76,12,19,26,80
+2020-11-14,1000,26,79,9,15,125,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,61,10,6,1013,30,42,27,81,18,64,26,79,12,19,27,81
+2020-11-14,1100,27,81,10,15,126,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,43,28,83,17,63,27,81,12,19,28,83
+2020-11-14,1200,28,83,10,16,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1012,30,43,29,85,17,63,28,83,11,18,29,85
+2020-11-14,1300,28,83,9,14,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1011,30,37,29,85,17,63,28,83,10,16,29,85
+2020-11-14,1400,28,83,7,12,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1010,30,32,29,85,17,63,28,83,9,14,29,85
+2020-11-14,1500,29,83,6,10,129,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1010,30,26,29,85,17,63,29,83,8,12,29,85
+2020-11-14,1600,28,82,5,8,152,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1010,30,31,29,84,17,63,28,82,7,11,29,84
+2020-11-14,1700,27,81,4,7,176,S,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,56,10,6,1010,30,36,28,83,18,64,27,81,6,10,28,83
+2020-11-14,1800,27,80,4,6,200,SSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,59,10,6,1010,30,41,28,82,18,64,27,80,6,9,28,82
+2020-11-14,1900,26,79,3,5,246,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,61,10,6,1011,30,52,27,81,18,64,26,79,5,8,27,81
+2020-11-14,2000,25,78,3,5,292,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1011,30,63,27,80,18,64,25,78,5,8,27,80
+2020-11-14,2100,25,77,2,4,338,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1012,30,74,26,80,18,64,25,77,4,7,26,80
+2020-11-14,2200,24,75,3,5,311,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,69,26,79,18,64,24,75,5,9,26,79
+2020-11-14,2300,23,74,4,6,284,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,71,10,5,1012,30,64,25,78,18,64,23,74,7,11,25,78
+2020-11-15,0,23,73,4,6,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,9,5,1012,30,58,25,77,18,64,23,73,8,13,25,77
+2020-11-15,100,22,72,4,6,204,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,75,10,5,1011,30,42,24,76,17,63,22,72,7,12,24,76
+2020-11-15,200,22,71,3,5,150,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,75,10,6,1011,30,27,24,74,17,63,22,71,7,11,22,71
+2020-11-15,300,21,70,3,5,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1011,30,11,23,73,17,62,21,70,6,10,21,70
+2020-11-15,400,21,70,4,6,94,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,75,10,6,1011,30,11,22,72,16,61,21,70,7,11,21,70
+2020-11-15,500,21,70,4,7,91,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,10,6,1011,30,11,22,72,16,61,21,70,8,13,21,70
+2020-11-15,600,21,69,5,8,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,73,10,6,1012,30,11,22,71,16,60,21,69,9,14,21,69
+2020-11-15,700,22,72,6,9,94,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1012,30,12,23,73,16,60,22,72,9,15,23,73
+2020-11-15,800,23,74,7,11,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,63,10,6,1013,30,12,25,76,16,60,23,74,9,15,25,76
+2020-11-15,900,24,76,7,12,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,59,10,6,1014,30,13,26,79,16,60,24,76,10,15,26,79
+2020-11-15,1000,26,79,8,13,113,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,13,27,80,15,59,26,79,10,16,27,80
+2020-11-15,1100,27,81,9,14,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,12,28,82,15,58,27,81,11,17,28,82
+2020-11-15,1200,29,84,10,15,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1012,30,12,29,84,14,57,29,84,11,18,29,84
+2020-11-15,1300,29,84,8,13,125,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1011,30,12,29,84,14,57,29,84,10,16,29,84
+2020-11-15,1400,29,85,7,11,122,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1011,30,11,29,84,13,56,29,85,9,14,29,84
+2020-11-15,1500,29,85,6,9,119,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1010,30,11,29,84,13,55,29,85,7,12,29,84
+2020-11-15,1600,29,84,5,8,136,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1010,30,12,29,83,13,56,29,84,6,10,29,83
+2020-11-15,1700,28,82,4,6,154,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,13,28,83,14,57,28,82,6,9,28,83
+2020-11-15,1800,27,81,3,5,171,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1011,30,15,28,82,14,58,27,81,5,8,28,82
+2020-11-15,1900,26,80,3,5,221,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1011,30,12,27,81,15,58,26,80,5,8,27,81
+2020-11-15,2000,26,78,3,4,270,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1012,30,9,26,79,15,59,26,78,5,8,26,79
+2020-11-15,2100,25,76,3,4,319,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,6,26,78,15,59,25,76,5,8,26,78
+2020-11-15,2200,24,75,3,4,284,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,59,10,6,1012,30,6,25,78,15,59,24,75,5,9,25,78
+2020-11-15,2300,23,74,3,5,248,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1012,30,6,25,77,16,60,23,74,6,9,25,77
+2020-11-16,0,23,73,3,5,213,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1012,30,6,25,77,16,60,23,73,6,10,25,77
+2020-11-16,100,22,72,3,4,151,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1012,30,7,24,76,16,60,22,72,6,9,24,76
+2020-11-16,200,22,71,2,4,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,67,10,6,1012,30,7,24,75,15,60,22,71,5,8,22,71
+2020-11-16,300,21,71,2,4,26,NNE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,67,10,6,1012,30,8,23,74,15,59,21,71,5,8,21,71
+2020-11-16,400,21,70,3,5,42,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1012,30,8,23,73,15,58,21,70,6,9,21,70
+2020-11-16,500,21,70,3,6,58,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1012,30,9,22,72,14,58,21,70,6,10,21,70
+2020-11-16,600,21,70,4,6,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1013,30,9,22,71,14,57,21,70,7,12,21,70
+2020-11-16,700,22,72,5,8,82,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1013,30,10,23,74,14,57,22,72,8,12,23,74
+2020-11-16,800,23,74,6,9,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,57,10,6,1014,30,10,25,76,14,57,23,74,8,13,25,76
+2020-11-16,900,24,76,7,11,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1014,30,11,26,79,14,57,24,76,9,14,26,79
+2020-11-16,1000,26,78,7,12,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1013,30,11,27,80,14,57,26,78,9,15,27,80
+2020-11-16,1100,27,81,8,12,106,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1013,30,11,28,82,14,57,27,81,9,15,28,82
+2020-11-16,1200,29,84,8,13,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1012,30,11,29,83,14,57,29,84,10,15,29,83
+2020-11-16,1300,29,84,8,12,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1011,30,10,29,84,14,57,29,84,9,15,29,84
+2020-11-16,1400,29,84,7,11,99,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1011,30,8,29,84,13,56,29,84,9,14,29,84
+2020-11-16,1500,29,85,6,10,93,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1010,30,7,29,84,13,56,29,85,8,13,29,84
+2020-11-16,1600,29,83,6,9,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1010,30,7,28,83,13,56,29,83,8,13,28,83
+2020-11-16,1700,28,82,5,8,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1010,30,6,28,82,14,56,28,82,8,13,28,82
+2020-11-16,1800,27,80,4,7,79,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1011,30,5,27,81,14,57,27,80,8,13,27,81
+2020-11-16,1900,26,79,4,7,74,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,46,10,6,1011,30,5,27,80,13,56,26,79,8,12,27,80
+2020-11-16,2000,25,78,4,6,69,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,5,26,79,13,56,25,78,7,12,26,79
+2020-11-16,2100,25,76,3,5,65,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1012,30,5,26,78,13,55,25,76,7,12,26,78
+2020-11-16,2200,24,75,3,5,60,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,5,25,77,13,56,24,75,7,11,25,77
+2020-11-16,2300,23,74,3,5,56,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,5,25,77,13,56,23,74,6,10,25,77
+2020-11-17,0,23,73,3,4,51,NE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,5,25,77,14,57,23,73,6,9,25,77
+2020-11-17,100,22,72,3,4,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,59,10,6,1012,30,6,24,76,14,57,22,72,6,9,24,76
+2020-11-17,200,22,71,3,5,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1011,30,6,24,74,14,57,22,71,6,9,22,71
+2020-11-17,300,21,70,3,5,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1011,30,6,23,73,14,57,21,70,6,10,21,70
+2020-11-17,400,21,70,3,5,86,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1011,30,7,23,73,14,57,21,70,6,10,21,70
+2020-11-17,500,21,70,4,6,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1011,30,8,22,72,14,58,21,70,6,10,21,70
+2020-11-17,600,21,70,4,6,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1012,30,8,22,71,14,58,21,70,7,11,21,70
+2020-11-17,700,22,72,4,7,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1012,30,11,23,74,15,59,22,72,7,11,23,74
+2020-11-17,800,23,74,5,8,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,61,10,6,1013,30,13,25,76,15,59,23,74,7,12,25,76
+2020-11-17,900,25,76,6,9,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,16,26,79,16,60,25,76,8,12,26,79
+2020-11-17,1000,26,78,6,10,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1013,30,20,27,81,16,61,26,78,8,13,27,81
+2020-11-17,1100,27,80,7,11,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,25,28,82,16,61,27,80,8,13,28,82
+2020-11-17,1200,28,83,7,12,129,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1011,30,29,29,84,16,61,28,83,9,14,29,84
+2020-11-17,1300,28,83,6,10,129,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1011,30,28,29,84,16,61,28,83,8,12,29,84
+2020-11-17,1400,28,83,6,9,129,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1010,30,27,29,84,16,61,28,83,7,11,29,84
+2020-11-17,1500,28,83,5,8,128,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1009,30,26,29,84,16,61,28,83,6,10,29,84
+2020-11-17,1600,28,82,5,7,124,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1009,30,22,28,83,17,62,28,82,6,10,28,83
+2020-11-17,1700,27,80,4,7,119,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1010,30,19,28,82,17,62,27,80,7,11,28,82
+2020-11-17,1800,26,79,4,7,115,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,57,10,6,1010,30,16,27,81,17,63,26,79,7,11,27,81
+2020-11-17,1900,26,78,4,6,138,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1010,30,15,27,80,17,63,26,78,6,10,27,80
+2020-11-17,2000,25,77,3,5,160,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1011,30,14,26,79,17,63,25,77,6,9,26,79
+2020-11-17,2100,24,76,3,4,183,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,66,10,6,1011,30,14,26,78,17,63,24,76,5,8,26,78
+2020-11-17,2200,24,75,3,5,208,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1011,30,12,26,78,17,62,24,75,5,9,26,78
+2020-11-17,2300,24,75,3,5,233,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1010,30,11,25,78,16,62,24,75,6,9,25,78
+2020-11-18,0,24,74,3,5,258,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1010,30,9,25,77,16,61,24,74,6,9,25,77
+2020-11-18,100,23,74,3,4,211,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1010,30,11,25,77,16,61,23,74,5,8,25,77
+2020-11-18,200,23,73,2,4,163,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1009,30,14,25,77,16,60,23,73,4,7,25,77
+2020-11-18,300,23,73,2,3,116,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1009,30,16,25,77,16,60,23,73,4,6,25,77
+2020-11-18,400,23,73,2,4,110,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1009,30,18,25,77,16,60,23,73,4,6,25,77
+2020-11-18,500,23,73,3,4,103,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1009,30,20,25,77,16,60,23,73,4,7,25,77
+2020-11-18,600,23,73,3,5,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1010,30,22,25,77,16,60,23,73,5,8,25,77
+2020-11-18,700,24,75,4,7,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,61,10,6,1010,30,20,26,78,16,60,24,75,6,9,26,78
+2020-11-18,800,25,77,5,9,113,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,18,26,79,16,60,25,77,7,11,26,79
+2020-11-18,900,26,78,6,10,121,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,54,10,6,1012,30,17,27,80,16,60,26,78,8,13,27,80
+2020-11-18,1000,27,81,7,11,134,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1011,30,15,28,82,15,59,27,81,8,13,28,82
+2020-11-18,1100,28,83,8,12,147,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1011,30,14,29,83,14,58,28,83,9,14,29,83
+2020-11-18,1200,30,85,8,13,160,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1010,30,13,30,85,14,57,30,85,9,15,30,85
+2020-11-18,1300,30,86,7,12,173,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1010,30,11,30,85,14,56,30,86,8,13,30,85
+2020-11-18,1400,30,86,6,10,186,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1009,30,9,30,85,13,56,30,86,8,12,30,85
+2020-11-18,1500,30,86,5,9,199,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1008,30,7,30,85,13,55,30,86,7,11,30,85
+2020-11-18,1600,29,84,5,8,225,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1008,30,7,29,84,13,56,29,84,7,12,29,84
+2020-11-18,1700,28,82,5,8,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1009,30,8,28,83,14,57,28,82,8,12,28,83
+2020-11-18,1800,27,80,5,8,277,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1009,30,9,27,81,15,58,27,80,8,13,27,81
+2020-11-18,1900,26,78,5,8,295,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1009,30,8,27,80,15,58,26,78,9,15,27,80
+2020-11-18,2000,25,77,5,9,312,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1010,30,8,26,79,15,58,25,77,10,16,26,79
+2020-11-18,2100,24,75,6,9,329,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1011,30,8,25,77,15,59,24,75,11,18,25,77
+2020-11-18,2200,23,74,5,8,324,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,59,10,6,1011,30,8,25,77,15,59,23,74,10,15,25,77
+2020-11-18,2300,23,73,4,6,319,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1011,30,9,25,77,15,59,23,73,8,13,25,77
+2020-11-19,0,23,73,3,5,314,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,61,10,6,1011,30,9,25,77,15,58,23,73,6,10,25,77
+2020-11-19,100,22,72,3,5,289,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,61,10,6,1011,30,9,25,77,15,58,22,72,6,9,25,77
+2020-11-19,200,22,72,3,4,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1011,30,9,25,76,15,58,22,72,6,9,25,76
+2020-11-19,300,22,72,2,4,241,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1010,30,10,25,76,15,58,22,72,5,8,25,76
+2020-11-19,400,22,72,3,5,184,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1011,30,10,25,76,15,58,22,72,5,9,25,76
+2020-11-19,500,22,72,3,5,127,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1011,30,11,25,77,15,58,22,72,6,9,25,77
+2020-11-19,600,22,72,4,6,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1011,30,11,25,77,15,58,22,72,6,10,25,77
+2020-11-19,700,23,74,4,7,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,59,10,6,1012,30,12,25,78,15,58,23,74,6,10,25,78
+2020-11-19,800,24,76,5,8,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,13,26,78,15,59,24,76,7,11,26,78
+2020-11-19,900,25,78,6,9,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1013,30,14,26,79,15,59,25,78,7,12,26,79
+2020-11-19,1000,27,80,6,10,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1012,30,14,27,81,15,58,27,80,7,12,27,81
+2020-11-19,1100,28,82,6,10,113,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1012,30,14,28,83,15,58,28,82,7,12,28,83
+2020-11-19,1200,29,84,6,10,119,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1011,30,14,29,84,14,58,29,84,8,12,29,84
+2020-11-19,1300,29,85,5,8,152,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1010,30,14,29,85,15,58,29,85,6,10,29,85
+2020-11-19,1400,30,85,4,6,185,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1010,30,13,30,85,15,59,30,85,5,7,30,85
+2020-11-19,1500,30,86,2,4,218,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1009,30,12,30,86,15,59,30,86,3,5,30,86
+2020-11-19,1600,29,84,3,5,252,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1009,30,13,29,85,15,59,29,84,4,6,29,85
+2020-11-19,1700,28,82,3,5,286,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1009,30,13,29,84,15,59,28,82,5,8,29,84
+2020-11-19,1800,27,81,4,6,320,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1010,30,13,29,83,15,59,27,81,6,9,29,83
+2020-11-19,1900,26,79,4,6,317,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1010,30,14,28,83,14,58,26,79,6,10,28,83
+2020-11-19,2000,25,77,4,6,314,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1011,30,16,28,82,13,56,25,77,7,11,28,82
+2020-11-19,2100,24,75,4,7,312,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1011,30,17,27,81,13,55,24,75,8,12,27,81
+2020-11-19,2200,23,74,4,6,287,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1011,30,21,26,79,13,55,23,74,6,10,26,79
+2020-11-19,2300,23,74,3,4,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,54,10,6,1011,30,25,26,78,13,55,23,74,5,8,26,78
+2020-11-20,0,23,73,2,3,237,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,30,25,76,13,56,23,73,4,6,25,76
+2020-11-20,100,23,73,2,3,179,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1011,30,30,25,77,13,56,23,73,4,6,25,77
+2020-11-20,200,23,73,2,3,121,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1011,30,30,25,77,14,56,23,73,3,5,25,77
+2020-11-20,300,23,73,2,3,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,30,25,77,14,57,23,73,3,5,25,77
+2020-11-20,400,23,73,2,4,70,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,29,25,77,14,57,23,73,4,6,25,77
+2020-11-20,500,23,73,3,5,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,29,25,77,14,57,23,73,5,8,25,77
+2020-11-20,600,23,73,4,6,85,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1011,30,28,25,77,14,56,23,73,6,10,25,77
+2020-11-20,700,23,74,4,7,88,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1012,30,35,25,77,14,57,23,74,6,10,25,77
+2020-11-20,800,24,74,5,8,91,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,55,10,6,1013,30,41,25,77,14,57,24,74,6,10,25,77
+2020-11-20,900,24,75,5,8,94,E,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,54,10,6,1013,30,48,25,78,14,57,24,75,7,11,25,78
+2020-11-20,1000,24,76,5,8,111,ESE,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,53,10,5,1013,30,52,26,78,14,57,24,76,7,11,26,78
+2020-11-20,1100,25,77,5,8,129,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,9,5,1012,30,56,26,79,14,57,25,77,6,10,26,79
+2020-11-20,1200,25,78,5,8,146,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,9,5,1011,30,60,27,80,14,58,25,78,6,10,27,80
+2020-11-20,1300,26,80,5,8,208,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,5,1011,30,46,27,81,15,58,26,80,6,10,27,81
+2020-11-20,1400,28,82,5,8,271,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1010,30,32,28,83,15,59,28,82,6,10,28,83
+2020-11-20,1500,29,83,5,8,333,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1010,30,18,29,84,16,60,29,83,6,10,29,84
+2020-11-20,1600,28,82,5,8,337,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,49,10,6,1010,30,17,28,83,16,60,28,82,7,12,28,83
+2020-11-20,1700,27,80,5,8,342,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,52,10,6,1010,30,16,27,81,16,60,27,80,8,13,27,81
+2020-11-20,1800,26,78,5,8,346,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,55,10,6,1010,30,15,27,80,16,60,26,78,9,14,27,80
+2020-11-20,1900,25,76,5,8,337,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,56,10,6,1011,30,14,26,79,15,60,25,76,9,14,26,79
+2020-11-20,2000,24,75,4,7,328,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1012,30,13,25,78,15,59,24,75,9,14,25,78
+2020-11-20,2100,23,73,4,7,319,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,60,10,6,1012,30,11,25,77,15,58,23,73,9,14,25,77
+2020-11-20,2200,23,73,4,6,285,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,12,25,76,13,56,23,73,7,11,25,76
+2020-11-20,2300,22,72,3,4,252,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1012,30,13,24,76,11,53,22,72,6,9,24,76
+2020-11-21,0,22,72,2,3,218,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,45,10,6,1012,30,14,24,76,10,50,22,72,4,6,24,76
+2020-11-21,100,22,71,2,3,170,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,14,24,75,10,50,22,71,3,5,22,71
+2020-11-21,200,22,71,1,2,123,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1012,30,15,24,74,10,50,22,71,2,4,22,71
+2020-11-21,300,21,70,1,1,75,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1012,30,16,23,74,10,51,21,70,2,3,21,70
+2020-11-21,400,22,71,1,2,78,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1012,30,14,23,73,11,51,22,71,2,4,22,71
+2020-11-21,500,22,71,2,3,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,13,23,73,11,52,22,71,3,5,22,71
+2020-11-21,600,22,72,2,3,84,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1012,30,11,22,72,12,53,22,72,4,6,22,72
+2020-11-21,700,23,74,3,4,90,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,49,10,6,1013,30,12,24,74,12,53,23,74,4,6,24,74
+2020-11-21,800,24,76,3,5,96,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1013,30,12,25,77,12,54,24,76,4,6,25,77
+2020-11-21,900,25,78,4,6,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,45,10,6,1014,30,13,26,79,12,54,25,78,4,7,26,79
+2020-11-21,1000,27,80,4,7,130,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1013,30,13,27,80,12,54,27,80,5,8,27,80
+2020-11-21,1100,28,82,5,8,157,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1013,30,13,28,82,12,54,28,82,6,9,28,82
+2020-11-21,1200,29,84,6,9,184,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1012,30,14,29,83,12,54,29,84,7,11,29,83
+2020-11-21,1300,29,84,7,11,225,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1012,30,12,29,83,12,54,29,84,8,13,29,83
+2020-11-21,1400,29,84,7,12,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1011,30,10,29,83,12,54,29,84,9,15,29,83
+2020-11-21,1500,29,84,8,13,306,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1010,30,9,29,83,12,54,29,84,11,17,29,83
+2020-11-21,1600,28,82,8,13,308,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1010,30,7,28,82,13,55,28,82,12,19,28,82
+2020-11-21,1700,26,80,8,13,311,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1011,30,5,27,80,13,55,26,80,13,20,27,80
+2020-11-21,1800,25,77,8,13,314,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,47,10,6,1011,30,4,26,79,13,55,25,77,14,22,26,79
+2020-11-21,1900,24,76,7,11,287,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,3,26,78,12,54,24,76,12,19,26,78
+2020-11-21,2000,23,74,6,9,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1012,30,3,25,77,12,53,23,74,10,16,25,77
+2020-11-21,2100,23,73,4,7,234,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,47,10,6,1013,30,3,25,76,11,51,23,73,9,14,25,76
+2020-11-21,2200,22,72,4,6,177,S,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1013,30,3,24,75,11,51,22,72,8,13,24,75
+2020-11-21,2300,22,71,4,6,120,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,4,23,74,11,51,22,71,7,12,22,71
+2020-11-22,0,21,70,3,5,63,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,51,10,6,1013,30,4,23,73,11,51,21,70,6,10,21,70
+2020-11-22,100,20,69,4,6,72,ENE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,53,10,6,1012,30,4,21,71,10,51,20,69,8,13,20,69
+2020-11-22,200,20,67,5,8,81,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1012,30,4,20,68,10,50,20,67,10,16,20,67
+2020-11-22,300,19,66,5,9,89,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,5,19,66,10,50,19,66,11,18,19,66
+2020-11-22,400,19,66,5,9,92,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1012,30,4,19,67,10,50,19,66,11,18,19,66
+2020-11-22,500,19,66,5,9,94,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,57,10,6,1013,30,4,20,68,10,51,19,66,11,17,19,66
+2020-11-22,600,19,67,5,9,97,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1013,30,4,20,69,11,51,19,67,10,16,19,67
+2020-11-22,700,21,69,6,9,100,E,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1014,30,4,22,72,11,52,21,69,10,16,21,69
+2020-11-22,800,22,72,6,10,102,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,53,10,6,1014,30,5,24,75,12,53,22,72,9,15,22,72
+2020-11-22,900,23,74,7,11,105,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,50,10,6,1015,30,5,25,78,12,54,23,74,9,14,25,78
+2020-11-22,1000,25,77,7,11,125,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1014,30,5,26,79,12,54,25,77,9,14,26,79
+2020-11-22,1100,27,80,7,12,145,SE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1014,30,6,27,81,12,54,27,80,9,14,27,81
+2020-11-22,1200,28,83,7,12,165,SSE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1014,30,6,28,82,12,54,28,83,8,13,28,82
+2020-11-22,1300,28,83,7,11,195,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1013,30,6,28,82,12,54,28,83,8,13,28,82
+2020-11-22,1400,29,84,7,11,226,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1012,30,6,28,83,12,53,29,84,8,14,28,83
+2020-11-22,1500,29,84,6,10,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1012,30,6,28,83,12,53,29,84,9,14,28,83
+2020-11-22,1600,28,82,6,10,268,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1012,30,6,27,81,12,53,28,82,10,15,27,81
+2020-11-22,1700,26,79,6,10,279,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,1012,30,7,27,80,12,54,26,79,11,17,27,80
+2020-11-22,1800,25,77,6,10,290,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1012,30,7,26,79,13,55,25,77,12,19,26,79
+2020-11-22,1900,24,75,6,9,268,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,48,10,6,1013,30,7,25,78,12,54,24,75,11,17,25,78
+2020-11-22,2000,23,74,5,8,246,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1013,30,6,25,77,12,54,23,74,10,15,25,77
+2020-11-22,2100,22,72,4,6,225,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,52,10,6,1014,30,6,25,76,12,53,22,72,9,14,25,76

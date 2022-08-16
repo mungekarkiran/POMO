@@ -1,0 +1,839 @@
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+2010-05-17,0,24,76,4,7,259,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,87,10,6,1006,30,10,26,80,22,71,24,76,6,10,26,80
+2010-05-17,100,24,75,4,7,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,88,10,6,1007,30,10,26,79,22,71,24,75,7,11,26,79
+2010-05-17,200,24,75,4,6,237,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,89,10,6,1007,30,9,26,79,22,71,24,75,7,11,26,79
+2010-05-17,300,24,74,4,6,226,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,90,10,6,1007,30,9,26,79,22,71,24,74,7,11,26,79
+2010-05-17,400,26,79,4,7,246,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1007,30,6,28,82,21,70,26,79,7,11,28,82
+2010-05-17,500,28,83,5,8,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1008,30,3,30,86,20,68,28,83,7,11,30,86
+2010-05-17,600,30,87,6,9,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1008,30,0,32,90,19,67,30,87,6,10,32,90
+2010-05-17,700,33,91,6,10,290,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,41,10,6,1008,30,0,34,93,17,62,33,91,7,11,34,93
+2010-05-17,800,35,95,6,10,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1007,30,0,35,96,14,58,35,95,7,12,35,96
+2010-05-17,900,38,100,7,11,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1007,30,0,37,98,12,53,38,100,8,12,37,98
+2010-05-17,1000,38,101,7,12,295,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1006,30,2,38,100,11,52,38,101,8,13,38,100
+2010-05-17,1100,39,103,8,12,292,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1005,30,4,39,102,11,52,39,103,9,14,39,102
+2010-05-17,1200,40,104,8,13,288,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1004,30,6,40,104,10,51,40,104,9,15,40,104
+2010-05-17,1300,39,103,8,13,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1004,30,5,39,102,10,50,39,103,9,15,39,102
+2010-05-17,1400,39,102,8,13,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1004,30,5,38,100,9,49,39,102,10,15,38,100
+2010-05-17,1500,38,100,9,14,295,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1003,30,5,37,98,9,48,38,100,10,16,37,98
+2010-05-17,1600,35,96,7,12,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1004,30,4,35,94,10,50,35,96,10,16,35,94
+2010-05-17,1700,33,91,6,10,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1004,30,4,32,90,11,52,33,91,10,16,32,90
+2010-05-17,1800,30,87,5,9,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1005,30,3,30,85,12,54,30,87,10,15,30,85
+2010-05-17,1900,29,85,5,8,286,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,39,10,6,1005,30,3,29,84,13,56,29,85,9,14,29,84
+2010-05-17,2000,28,83,4,7,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,45,10,6,1006,30,3,28,83,15,58,28,83,8,13,28,83
+2010-05-17,2100,27,80,4,6,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1006,30,3,28,82,16,60,27,80,7,12,28,82
+2010-05-17,2200,27,80,4,6,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1006,30,2,28,82,17,62,27,80,7,12,28,82
+2010-05-17,2300,27,80,4,6,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1005,30,1,28,82,18,64,27,80,7,11,28,82
+2010-05-18,0,26,80,4,6,290,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1005,30,0,28,82,19,66,26,80,7,11,28,82
+2010-05-18,100,26,79,4,7,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1005,30,0,27,81,19,66,26,79,8,12,27,81
+2010-05-18,200,26,78,4,7,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,66,10,6,1005,30,0,27,81,19,66,26,78,8,13,27,81
+2010-05-18,300,25,77,4,7,302,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1005,30,0,27,80,19,66,25,77,9,14,27,80
+2010-05-18,400,27,81,5,8,309,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1006,30,0,28,83,17,62,27,81,8,14,28,83
+2010-05-18,500,30,85,6,10,317,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,43,10,6,1006,30,1,30,85,15,58,30,85,8,13,30,85
+2010-05-18,600,32,89,7,11,324,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1006,30,1,31,88,12,54,32,89,8,12,31,88
+2010-05-18,700,34,93,6,9,313,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,26,10,6,1006,30,2,33,92,11,52,34,93,7,11,33,92
+2010-05-18,800,36,98,5,8,302,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1006,30,2,36,96,10,49,36,98,6,9,36,96
+2010-05-18,900,39,102,4,6,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1006,30,2,38,100,8,47,39,102,5,7,38,100
+2010-05-18,1000,40,103,5,7,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1005,30,3,39,103,9,48,40,103,5,8,39,103
+2010-05-18,1100,40,105,5,8,304,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1004,30,4,40,105,9,49,40,105,6,9,40,105
+2010-05-18,1200,41,106,6,9,311,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1003,30,6,42,107,10,50,41,106,6,10,42,107
+2010-05-18,1300,40,105,6,9,306,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1003,30,5,41,105,10,49,40,105,7,11,41,105
+2010-05-18,1400,40,103,6,9,301,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1003,30,5,39,103,9,48,40,103,7,11,39,103
+2010-05-18,1500,39,102,6,10,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,16,10,6,1002,30,5,38,101,9,48,39,102,7,12,38,101
+2010-05-18,1600,36,98,6,9,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1003,30,4,36,96,9,48,36,98,8,13,36,96
+2010-05-18,1700,34,93,6,9,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1003,30,4,33,91,9,49,34,93,9,14,33,91
+2010-05-18,1800,32,89,5,9,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1004,30,3,30,87,10,49,32,89,9,15,30,87
+2010-05-18,1900,31,87,5,8,297,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1004,30,3,30,85,11,52,31,87,8,14,30,85
+2010-05-18,2000,29,85,4,7,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1005,30,2,29,84,13,55,29,85,8,12,29,84
+2010-05-18,2100,28,83,4,6,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1005,30,2,28,83,14,58,28,83,7,11,28,83
+2010-05-18,2200,28,82,4,6,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,47,10,6,1005,30,1,28,83,15,60,28,82,7,11,28,83
+2010-05-18,2300,27,81,4,6,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,52,10,6,1004,30,1,28,83,17,62,27,81,7,11,28,83
+2010-05-19,0,27,80,4,6,295,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,57,10,6,1004,30,0,28,82,18,64,27,80,7,11,28,82
+2010-05-19,100,26,80,3,5,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1004,30,0,28,82,18,65,26,80,6,10,28,82
+2010-05-19,200,26,79,3,4,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1004,30,0,27,81,19,66,26,79,5,8,27,81
+2010-05-19,300,26,78,2,3,297,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1004,30,0,27,81,19,67,26,78,4,7,27,81
+2010-05-19,400,28,82,3,5,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,58,10,6,1005,30,1,29,85,18,65,28,82,5,7,29,85
+2010-05-19,500,30,86,4,6,300,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1005,30,1,31,88,17,63,30,86,5,8,31,88
+2010-05-19,600,33,91,5,8,301,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,38,10,6,1006,30,2,33,92,17,62,33,91,5,9,33,92
+2010-05-19,700,35,95,4,7,304,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,31,10,6,1005,30,2,35,95,14,58,35,95,5,8,35,95
+2010-05-19,800,37,99,4,7,307,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1005,30,3,37,99,12,54,37,99,5,8,37,99
+2010-05-19,900,39,103,4,6,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1005,30,3,39,102,10,50,39,103,4,7,39,102
+2010-05-19,1000,39,102,5,8,312,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1004,30,4,39,101,10,50,39,102,6,9,39,101
+2010-05-19,1100,39,102,6,10,315,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1003,30,5,38,101,10,50,39,102,7,12,38,101
+2010-05-19,1200,39,102,8,12,318,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1002,30,5,38,100,10,49,39,102,9,14,38,100
+2010-05-19,1300,39,102,6,10,327,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1002,30,5,38,101,9,49,39,102,7,11,38,101
+2010-05-19,1400,39,102,4,7,336,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1001,30,4,38,101,9,49,39,102,5,8,38,101
+2010-05-19,1500,39,102,3,4,346,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1001,30,3,38,101,9,48,39,102,3,5,38,101
+2010-05-19,1600,37,98,3,5,322,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1002,30,2,36,97,10,51,37,98,4,7,36,97
+2010-05-19,1700,35,94,3,6,297,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1002,30,1,34,93,12,53,35,94,5,9,34,93
+2010-05-19,1800,33,91,4,6,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1003,30,0,32,90,13,56,33,91,7,11,32,90
+2010-05-19,1900,31,88,4,7,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,37,10,6,1003,30,0,31,88,14,58,31,88,7,11,31,88
+2010-05-19,2000,30,85,5,8,288,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1003,30,0,30,86,15,59,30,85,7,12,30,86
+2010-05-19,2100,28,83,5,8,296,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1004,30,0,29,84,16,61,28,83,8,13,29,84
+2010-05-19,2200,27,81,5,8,289,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,55,10,6,1003,30,0,28,83,17,63,27,81,8,12,28,83
+2010-05-19,2300,27,80,5,8,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1003,30,0,28,82,19,66,27,80,7,12,28,82
+2010-05-20,0,26,79,4,7,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1002,30,0,28,82,20,68,26,79,7,11,28,82
+2010-05-20,100,26,78,4,7,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,72,10,6,1003,30,0,28,82,20,69,26,78,7,11,28,82
+2010-05-20,200,26,78,4,6,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1003,30,0,28,82,21,70,26,78,6,10,28,82
+2010-05-20,300,25,78,4,6,297,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1004,30,0,28,82,21,71,25,78,6,10,28,82
+2010-05-20,400,27,81,4,7,298,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1004,30,0,29,85,20,68,27,81,6,10,29,85
+2010-05-20,500,29,85,5,8,299,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1004,30,0,31,88,19,66,29,85,6,10,31,88
+2010-05-20,600,31,89,6,9,300,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,44,10,6,1004,30,0,33,91,18,64,31,89,6,10,33,91
+2010-05-20,700,34,93,6,10,313,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,36,10,6,1004,30,0,35,94,16,61,34,93,7,11,35,94
+2010-05-20,800,36,97,7,11,326,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1004,30,0,36,97,14,57,36,97,8,13,36,97
+2010-05-20,900,39,102,7,12,339,NNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1003,30,0,38,101,12,53,39,102,9,14,38,101
+2010-05-20,1000,39,103,8,12,325,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,18,10,6,1003,30,1,39,103,11,52,39,103,9,14,39,103
+2010-05-20,1100,40,104,8,12,310,NW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1002,30,2,40,105,10,50,40,104,9,14,40,105
+2010-05-20,1200,41,106,8,13,295,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,15,10,6,1001,30,3,41,107,9,49,41,106,9,15,41,107
+2010-05-20,1300,40,104,8,14,288,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,17,10,6,1001,30,2,40,104,10,50,40,104,10,16,40,104
+2010-05-20,1400,39,101,9,15,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,19,10,6,1000,30,2,38,101,11,52,39,101,10,17,38,101
+2010-05-20,1500,37,99,10,15,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1000,30,2,37,98,12,53,37,99,11,18,37,98
+2010-05-20,1600,35,95,9,14,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1001,30,1,35,94,14,57,35,95,11,17,35,94
+2010-05-20,1700,32,90,8,13,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1001,30,1,33,91,15,60,32,90,11,17,33,91
+2010-05-20,1800,30,85,7,11,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1002,30,0,30,87,17,63,30,85,10,17,30,87
+2010-05-20,1900,29,83,7,11,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1002,30,0,30,85,18,64,29,83,10,16,30,85
+2010-05-20,2000,28,82,6,10,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,58,10,6,1002,30,0,29,84,18,65,28,82,9,15,29,84
+2010-05-20,2100,27,80,6,10,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,64,10,6,1002,30,0,28,82,19,66,27,80,9,14,28,82
+2010-05-20,2200,26,79,6,9,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1002,30,1,28,82,20,68,26,79,8,13,28,82
+2010-05-20,2300,26,79,6,9,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,73,10,6,1001,30,1,28,82,21,69,26,79,8,12,28,82
+2010-05-21,0,26,78,5,9,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1001,30,2,28,82,22,71,26,78,7,12,28,82
+2010-05-21,100,26,78,5,8,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1002,30,3,28,82,22,71,26,78,7,11,28,82
+2010-05-21,200,25,78,4,7,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1002,30,4,28,82,22,71,25,78,6,10,28,82
+2010-05-21,300,25,77,4,6,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1003,30,5,27,81,22,72,25,77,6,9,27,81
+2010-05-21,400,27,80,4,7,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1003,30,4,30,85,22,72,27,80,6,9,30,85
+2010-05-21,500,29,84,5,8,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1004,30,4,32,89,22,72,29,84,6,9,32,89
+2010-05-21,600,31,87,5,8,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1005,30,4,34,93,22,71,31,87,6,10,34,93
+2010-05-21,700,33,91,5,9,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1005,30,5,36,97,21,70,33,91,6,10,36,97
+2010-05-21,800,35,95,5,9,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1005,30,7,38,101,20,68,35,95,6,10,38,101
+2010-05-21,900,37,99,6,9,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1004,30,8,41,105,19,66,37,99,6,10,41,105
+2010-05-21,1000,38,100,6,10,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1004,30,14,40,104,18,65,38,100,7,12,40,104
+2010-05-21,1100,38,100,7,11,273,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,31,10,6,1003,30,20,40,104,17,63,38,100,8,13,40,104
+2010-05-21,1200,38,100,8,13,278,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,29,10,6,1002,30,26,39,103,17,62,38,100,9,15,39,103
+2010-05-21,1300,37,98,8,13,275,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,32,10,6,1002,30,21,38,101,17,63,37,98,9,15,38,101
+2010-05-21,1400,36,96,8,13,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.1,0.0,35,10,6,1002,30,17,37,99,18,64,36,96,10,16,37,99
+2010-05-21,1500,35,94,8,13,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.1,0.0,38,10,6,1002,30,12,36,98,18,64,35,94,10,17,36,98
+2010-05-21,1600,33,91,8,13,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1002,30,10,35,95,19,66,33,91,10,17,35,95
+2010-05-21,1700,32,89,8,13,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,49,10,6,1003,30,8,34,93,19,67,32,89,11,17,34,93
+2010-05-21,1800,30,86,8,13,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,55,10,6,1003,30,6,32,90,20,68,30,86,11,17,32,90
+2010-05-21,1900,30,85,8,13,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,57,10,6,1003,30,5,32,89,20,68,30,85,10,16,32,89
+2010-05-21,2000,29,84,7,12,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1003,30,4,31,88,20,69,29,84,10,15,31,88
+2010-05-21,2100,28,83,7,11,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1004,30,3,31,87,20,69,28,83,9,15,31,87
+2010-05-21,2200,28,82,7,11,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1004,30,3,30,86,21,70,28,82,9,15,30,86
+2010-05-21,2300,27,81,7,11,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1003,30,2,29,85,21,70,27,81,10,16,29,85
+2010-05-22,0,27,80,7,12,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1003,30,2,29,84,22,71,27,80,10,16,29,84
+2010-05-22,100,26,79,7,11,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1004,30,8,29,84,22,72,26,79,10,15,29,84
+2010-05-22,200,26,79,6,10,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1004,30,14,28,83,22,72,26,79,9,15,28,83
+2010-05-22,300,26,78,6,10,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,85,10,6,1005,30,20,28,83,23,73,26,78,9,14,28,83
+2010-05-22,400,27,81,6,10,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1005,30,15,30,86,23,73,27,81,8,14,30,86
+2010-05-22,500,29,84,7,11,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,70,10,6,1006,30,9,32,90,22,72,29,84,8,13,32,90
+2010-05-22,600,30,86,7,11,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1006,30,4,34,93,22,72,30,86,8,13,34,93
+2010-05-22,700,32,90,6,10,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1006,30,6,36,97,21,70,32,90,7,12,36,97
+2010-05-22,800,34,94,6,9,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1006,30,8,38,100,20,68,34,94,7,11,38,100
+2010-05-22,900,36,98,5,9,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1005,30,10,40,103,19,66,36,98,6,10,40,103
+2010-05-22,1000,38,100,6,10,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1004,30,10,40,104,18,64,38,100,7,11,40,104
+2010-05-22,1100,39,102,7,11,287,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1003,30,10,41,105,16,61,39,102,8,13,41,105
+2010-05-22,1200,40,104,8,12,294,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1002,30,11,41,106,15,59,40,104,9,14,41,106
+2010-05-22,1300,39,102,8,12,288,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1002,30,11,40,104,15,60,39,102,9,14,40,104
+2010-05-22,1400,37,99,7,12,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1002,30,11,39,101,16,61,37,99,9,14,39,101
+2010-05-22,1500,36,97,7,12,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1002,30,11,37,99,16,62,36,97,9,14,37,99
+2010-05-22,1600,34,94,8,12,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1003,30,7,36,97,18,64,34,94,9,15,36,97
+2010-05-22,1700,32,90,8,12,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1003,30,4,34,94,19,66,32,90,10,16,34,94
+2010-05-22,1800,30,87,8,13,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,55,10,6,1004,30,0,33,91,20,69,30,87,10,16,33,91
+2010-05-22,1900,29,85,7,12,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1004,30,0,32,89,21,70,29,85,10,16,32,89
+2010-05-22,2000,28,82,7,11,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1005,30,0,30,87,21,70,28,82,9,15,30,87
+2010-05-22,2100,27,80,6,10,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,74,10,6,1005,30,0,29,85,22,71,27,80,8,14,29,85
+2010-05-22,2200,26,80,6,10,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1005,30,4,29,84,22,72,26,80,8,14,29,84
+2010-05-22,2300,26,79,6,10,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1004,30,9,29,84,22,72,26,79,8,14,29,84
+2010-05-23,0,26,78,6,10,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1004,30,13,29,83,23,73,26,78,8,14,29,83
+2010-05-23,100,26,78,7,11,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,85,10,6,1004,30,13,28,83,23,73,26,78,10,16,28,83
+2010-05-23,200,25,78,8,13,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,86,10,6,1005,30,14,28,83,23,73,25,78,11,18,28,83
+2010-05-23,300,25,78,9,14,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,87,10,6,1005,30,14,28,82,23,73,25,78,13,21,28,82
+2010-05-23,400,27,80,8,13,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1006,30,10,29,85,22,72,27,80,11,18,29,85
+2010-05-23,500,28,83,8,12,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,66,10,6,1007,30,6,31,87,21,70,28,83,10,16,31,87
+2010-05-23,600,30,86,7,12,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,56,10,6,1007,30,2,32,90,20,68,30,86,8,13,32,90
+2010-05-23,700,32,90,7,12,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,48,10,6,1007,30,2,34,94,19,66,32,90,9,14,34,94
+2010-05-23,800,35,94,8,12,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1006,30,3,36,97,18,64,35,94,9,14,36,97
+2010-05-23,900,37,99,8,13,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1006,30,3,39,101,17,62,37,99,9,15,39,101
+2010-05-23,1000,38,101,8,13,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1005,30,4,39,103,16,60,38,101,9,15,39,103
+2010-05-23,1100,39,102,8,13,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1004,30,5,40,104,15,58,39,102,10,15,40,104
+2010-05-23,1200,40,104,9,14,291,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1003,30,6,41,105,14,56,40,104,10,16,41,105
+2010-05-23,1300,39,102,9,14,287,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1003,30,6,39,103,14,57,39,102,10,16,39,103
+2010-05-23,1400,37,99,9,15,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1003,30,6,38,100,15,59,37,99,11,17,38,100
+2010-05-23,1500,36,97,9,15,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1003,30,7,37,98,15,60,36,97,11,18,37,98
+2010-05-23,1600,34,93,9,14,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1003,30,5,35,95,17,62,34,93,11,17,35,95
+2010-05-23,1700,32,89,8,13,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1004,30,3,33,92,18,65,32,89,11,17,33,92
+2010-05-23,1800,30,85,8,13,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,56,10,6,1004,30,2,32,89,20,68,30,85,10,17,32,89
+2010-05-23,1900,29,83,8,12,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1005,30,1,31,87,20,69,29,83,10,16,31,87
+2010-05-23,2000,28,82,7,12,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1005,30,1,30,86,21,69,28,82,10,16,30,86
+2010-05-23,2100,27,80,7,12,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,72,10,6,1005,30,0,29,84,21,70,27,80,10,16,29,84
+2010-05-23,2200,26,79,7,11,259,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1005,30,1,28,83,21,71,26,79,10,16,28,83
+2010-05-23,2300,26,79,7,11,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1004,30,2,28,83,22,71,26,79,10,15,28,83
+2010-05-24,0,26,78,7,11,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1004,30,2,28,82,22,71,26,78,10,15,28,82
+2010-05-24,100,25,77,6,10,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1004,30,8,28,82,22,72,25,77,9,14,28,82
+2010-05-24,200,25,77,5,8,243,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,85,10,6,1004,30,13,27,81,22,72,25,77,8,12,27,81
+2010-05-24,300,25,76,4,7,232,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,88,10,6,1005,30,19,27,80,22,72,25,76,6,10,27,80
+2010-05-24,400,26,80,5,9,242,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1005,30,12,29,84,22,72,26,80,7,11,29,84
+2010-05-24,500,28,83,6,10,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1005,30,6,31,88,22,71,28,83,8,13,31,88
+2010-05-24,600,30,87,7,12,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1006,30,0,34,92,21,71,30,87,9,14,34,92
+2010-05-24,700,33,91,8,13,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,50,10,6,1006,30,1,35,95,20,68,33,91,9,15,35,95
+2010-05-24,800,35,95,8,14,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1005,30,2,37,99,18,65,35,95,10,16,37,99
+2010-05-24,900,37,99,9,14,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1005,30,3,39,102,17,63,37,99,10,17,39,102
+2010-05-24,1000,38,100,9,15,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,27,10,6,1004,30,2,39,102,15,60,38,100,11,18,39,102
+2010-05-24,1100,39,102,10,16,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1004,30,2,39,102,14,57,39,102,11,19,39,102
+2010-05-24,1200,40,103,11,17,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,20,10,6,1003,30,2,39,103,12,54,40,103,12,19,39,103
+2010-05-24,1300,38,101,11,17,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1003,30,1,38,100,12,54,38,101,12,20,38,100
+2010-05-24,1400,37,99,11,17,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1002,30,1,37,98,13,55,37,99,12,20,37,98
+2010-05-24,1500,36,97,11,18,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1002,30,0,35,96,13,55,36,97,13,20,35,96
+2010-05-24,1600,34,93,10,16,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1003,30,0,34,93,15,59,34,93,12,19,34,93
+2010-05-24,1700,32,89,9,14,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1004,30,0,33,91,17,62,32,89,11,18,33,91
+2010-05-24,1800,30,85,8,12,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,53,10,6,1005,30,0,31,88,19,66,30,85,10,17,31,88
+2010-05-24,1900,28,83,7,12,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,59,10,6,1005,30,0,30,86,19,67,28,83,10,16,30,86
+2010-05-24,2000,27,81,7,11,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1005,30,0,29,85,20,68,27,81,10,15,29,85
+2010-05-24,2100,26,80,7,11,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,70,10,6,1006,30,0,28,83,21,69,26,80,9,15,28,83
+2010-05-24,2200,26,79,7,11,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,74,10,6,1005,30,3,28,83,21,70,26,79,9,15,28,83
+2010-05-24,2300,26,78,7,11,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1005,30,5,28,82,22,71,26,78,9,15,28,82
+2010-05-25,0,25,77,6,10,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1005,30,8,28,82,22,72,25,77,9,15,28,82
+2010-05-25,100,25,77,7,11,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1005,30,12,27,81,22,72,25,77,9,15,27,81
+2010-05-25,200,25,76,7,11,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,86,10,6,1006,30,17,27,81,22,72,25,76,10,16,27,81
+2010-05-25,300,24,76,7,11,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,88,10,6,1006,30,21,27,80,22,72,24,76,10,16,27,80
+2010-05-25,400,26,79,7,12,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1006,30,14,28,83,22,71,26,79,10,16,28,83
+2010-05-25,500,28,82,8,13,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,70,10,6,1006,30,7,30,86,21,71,28,82,10,16,30,86
+2010-05-25,600,29,84,9,14,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1007,30,0,32,89,21,70,29,84,10,17,32,89
+2010-05-25,700,31,88,9,14,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,54,10,6,1006,30,1,34,93,20,68,31,88,10,16,34,93
+2010-05-25,800,33,92,8,13,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,46,10,6,1006,30,2,36,97,19,67,33,92,10,15,36,97
+2010-05-25,900,35,96,8,13,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1006,30,3,38,100,19,66,35,96,9,15,38,100
+2010-05-25,1000,36,97,9,15,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1005,30,3,38,101,18,64,36,97,11,17,38,101
+2010-05-25,1100,37,99,10,17,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1004,30,4,39,102,17,62,37,99,12,19,39,102
+2010-05-25,1200,38,100,11,18,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1003,30,4,39,103,16,61,38,100,13,21,39,103
+2010-05-25,1300,37,98,11,18,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1003,30,3,38,100,16,60,37,98,13,21,38,100
+2010-05-25,1400,36,96,11,18,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1003,30,3,37,98,16,60,36,96,13,21,37,98
+2010-05-25,1500,35,94,11,18,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1003,30,3,35,96,16,60,35,94,13,20,35,96
+2010-05-25,1600,32,90,10,16,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1004,30,2,33,92,16,61,32,90,12,19,33,92
+2010-05-25,1700,30,86,9,15,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1004,30,1,31,88,17,63,30,86,11,18,31,88
+2010-05-25,1800,28,82,8,13,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,55,10,6,1005,30,0,29,84,18,64,28,82,11,17,29,84
+2010-05-25,1900,27,80,8,13,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1006,30,1,28,83,19,66,27,80,11,17,28,83
+2010-05-25,2000,26,79,8,12,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1006,30,2,28,82,20,67,26,79,10,17,28,82
+2010-05-25,2100,25,77,7,12,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1007,30,3,27,81,21,69,25,77,10,16,27,81
+2010-05-25,2200,25,77,7,12,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1006,30,21,27,81,21,70,25,77,10,16,27,81
+2010-05-25,2300,25,77,7,11,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1006,30,39,27,81,22,72,25,77,10,16,27,81
+2010-05-26,0,25,77,7,11,254,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1005,30,58,27,81,23,73,25,77,10,15,27,81
+2010-05-26,100,25,77,6,10,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1005,30,57,27,81,23,73,25,77,9,15,27,81
+2010-05-26,200,25,77,6,10,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1005,30,56,27,81,23,73,25,77,9,14,27,81
+2010-05-26,300,25,77,6,10,256,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1006,30,55,27,81,23,73,25,77,8,13,27,81
+2010-05-26,400,26,79,7,11,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1006,30,38,29,84,22,72,26,79,9,15,29,84
+2010-05-26,500,27,81,8,13,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,73,10,6,1006,30,21,30,86,22,72,27,81,10,16,30,86
+2010-05-26,600,29,84,9,15,259,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1007,30,5,32,89,22,71,29,84,11,17,32,89
+2010-05-26,700,31,87,10,15,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,57,10,6,1007,30,6,33,92,21,69,31,87,11,18,33,92
+2010-05-26,800,33,91,10,16,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,49,10,6,1006,30,8,35,96,20,68,33,91,11,18,35,96
+2010-05-26,900,35,94,10,17,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1006,30,10,37,99,19,66,35,94,12,19,37,99
+2010-05-26,1000,35,95,11,18,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1006,30,9,38,100,19,66,35,95,13,20,38,100
+2010-05-26,1100,36,97,12,19,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1005,30,9,38,101,18,65,36,97,14,22,38,101
+2010-05-26,1200,37,98,13,20,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1004,30,8,39,101,18,64,37,98,14,23,39,101
+2010-05-26,1300,35,96,13,20,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1004,30,8,37,99,18,64,35,96,14,23,37,99
+2010-05-26,1400,34,94,13,20,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1004,30,9,36,97,18,64,34,94,14,23,36,97
+2010-05-26,1500,33,92,13,20,259,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1004,30,9,35,95,18,64,33,92,14,23,35,95
+2010-05-26,1600,31,88,11,18,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,49,10,6,1005,30,6,33,92,19,66,31,88,13,22,33,92
+2010-05-26,1700,29,85,10,17,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,58,10,6,1005,30,4,31,88,20,68,29,85,12,20,31,88
+2010-05-26,1800,28,82,9,15,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,66,10,6,1006,30,1,30,85,21,69,28,82,11,18,30,85
+2010-05-26,1900,27,80,9,14,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1006,30,5,29,84,21,70,27,80,11,18,29,84
+2010-05-26,2000,26,79,8,14,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1007,30,9,28,83,21,70,26,79,11,18,28,83
+2010-05-26,2100,26,78,8,13,259,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1007,30,13,28,82,22,71,26,78,11,18,28,82
+2010-05-26,2200,25,77,8,12,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1007,30,32,28,82,22,72,25,77,11,17,28,82
+2010-05-26,2300,25,77,7,12,251,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,85,10,6,1006,30,52,27,81,22,72,25,77,10,17,27,81
+2010-05-27,0,25,77,7,12,247,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,88,10,6,1006,30,71,27,81,23,73,25,77,10,16,27,81
+2010-05-27,100,25,77,7,12,255,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,8,5,1006,30,68,27,81,23,73,25,77,10,16,27,81
+2010-05-27,200,25,77,7,12,263,W,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.1,0.0,85,7,4,1006,30,65,28,82,23,73,25,77,10,15,28,82
+2010-05-27,300,25,78,7,12,271,W,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.1,0.0,84,5,3,1006,30,62,28,82,22,72,25,78,9,15,28,82
+2010-05-27,400,26,78,8,12,269,W,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.0,0.0,81,7,4,1007,30,53,28,83,22,72,26,78,9,15,28,83
+2010-05-27,500,26,79,8,13,267,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,8,5,1007,30,44,29,84,22,72,26,79,10,15,29,84
+2010-05-27,600,27,80,9,14,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,10,6,1008,30,35,29,85,22,71,27,80,10,16,29,85
+2010-05-27,700,29,84,9,15,271,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1007,30,26,31,88,21,70,29,84,11,18,31,88
+2010-05-27,800,31,88,10,17,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,55,10,6,1007,30,16,33,92,20,68,31,88,12,19,33,92
+2010-05-27,900,33,91,11,18,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1007,30,7,36,96,20,67,33,91,13,21,36,96
+2010-05-27,1000,34,93,12,19,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1006,30,8,36,97,19,66,34,93,14,22,36,97
+2010-05-27,1100,35,94,12,20,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1005,30,9,37,98,19,66,35,94,14,23,37,98
+2010-05-27,1200,35,96,13,21,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1004,30,11,38,100,18,65,35,96,15,24,38,100
+2010-05-27,1300,34,94,13,20,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1004,30,10,36,98,18,65,34,94,14,23,36,98
+2010-05-27,1400,33,92,12,20,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1004,30,9,35,95,18,65,33,92,14,23,35,95
+2010-05-27,1500,32,90,12,19,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1004,30,8,34,93,18,65,32,90,14,22,34,93
+2010-05-27,1600,31,87,11,18,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1004,30,6,32,90,19,67,31,87,13,21,32,90
+2010-05-27,1700,29,84,10,16,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,60,10,6,1005,30,5,31,88,20,68,29,84,12,20,31,88
+2010-05-27,1800,27,81,9,14,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,69,10,6,1006,30,3,29,85,21,70,27,81,11,18,29,85
+2010-05-27,1900,27,80,9,14,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,73,10,6,1006,30,15,29,84,21,70,27,80,11,18,29,84
+2010-05-27,2000,26,79,9,14,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1007,30,27,28,83,21,71,26,79,12,19,28,83
+2010-05-27,2100,25,77,9,14,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1007,30,40,27,81,22,71,25,77,12,19,27,81
+2010-05-27,2200,25,77,8,13,250,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,8,5,1007,30,50,27,81,22,72,25,77,11,18,27,81
+2010-05-27,2300,25,76,7,12,249,WSW,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.1,0.0,87,7,4,1006,30,61,27,80,22,72,25,76,10,17,27,80
+2010-05-28,0,24,76,7,11,248,WSW,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.1,0.0,90,5,3,1006,30,71,27,80,23,73,24,76,10,16,27,80
+2010-05-28,100,25,76,7,11,252,WSW,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.0,0.0,88,5,3,1006,30,68,27,81,22,72,25,76,10,15,27,81
+2010-05-28,200,25,77,7,11,256,WSW,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.2,0.0,86,5,3,1006,30,65,27,81,22,72,25,77,10,15,27,81
+2010-05-28,300,25,78,7,12,260,W,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.2,0.0,84,5,3,1007,30,62,28,82,22,72,25,78,9,15,28,82
+2010-05-28,400,26,79,7,12,257,WSW,263,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy light drizzle,0.1,0.0,80,7,4,1007,30,50,28,83,22,72,26,79,9,15,28,83
+2010-05-28,500,27,80,8,12,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,8,5,1008,30,39,29,84,22,72,27,80,9,15,29,84
+2010-05-28,600,27,81,8,13,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,73,10,6,1008,30,27,30,86,22,71,27,81,9,15,30,86
+2010-05-28,700,29,85,9,14,259,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,62,10,6,1008,30,23,32,89,21,70,29,85,10,16,32,89
+2010-05-28,800,31,89,9,15,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1008,30,19,34,93,20,68,31,89,11,17,34,93
+2010-05-28,900,34,92,10,16,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1008,30,14,36,97,19,66,34,92,12,19,36,97
+2010-05-28,1000,34,94,10,17,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1007,30,12,37,98,19,66,34,94,12,19,37,98
+2010-05-28,1100,35,96,11,17,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1006,30,11,38,100,18,65,35,96,12,20,38,100
+2010-05-28,1200,36,97,11,18,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1005,30,9,39,101,18,64,36,97,13,21,39,101
+2010-05-28,1300,35,95,11,17,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1005,30,7,37,99,18,64,35,95,12,20,37,99
+2010-05-28,1400,34,94,10,16,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1005,30,6,36,97,18,64,34,94,12,19,36,97
+2010-05-28,1500,33,92,10,15,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,39,10,6,1005,30,5,35,94,17,63,33,92,11,18,35,94
+2010-05-28,1600,31,89,9,14,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1005,30,3,33,91,18,65,31,89,11,17,33,91
+2010-05-28,1700,30,85,8,13,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,54,10,6,1006,30,2,31,88,19,66,30,85,10,17,31,88
+2010-05-28,1800,28,82,7,12,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,62,10,6,1007,30,0,30,85,20,68,28,82,10,16,30,85
+2010-05-28,1900,27,80,7,11,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1007,30,0,29,84,20,68,27,80,9,14,29,84
+2010-05-28,2000,26,79,6,9,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,72,10,6,1007,30,0,28,82,21,69,26,79,8,13,28,82
+2010-05-28,2100,25,77,5,8,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1008,30,0,27,81,21,70,25,77,7,11,27,81
+2010-05-28,2200,25,77,5,8,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1008,30,5,27,80,21,70,25,77,7,11,27,80
+2010-05-28,2300,25,76,5,8,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1007,30,11,27,80,22,71,25,76,7,12,27,80
+2010-05-29,0,24,76,5,8,254,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,87,10,6,1007,30,16,26,80,22,71,24,76,8,12,26,80
+2010-05-29,100,24,75,5,8,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,89,10,6,1007,30,26,26,79,22,72,24,75,8,12,26,79
+2010-05-29,200,24,75,5,8,259,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1008,30,36,26,79,22,72,24,75,8,13,26,79
+2010-05-29,300,23,74,5,8,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,10,6,1008,30,47,26,78,22,72,23,74,8,13,26,78
+2010-05-29,400,25,76,6,9,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1008,30,47,27,81,22,72,25,76,8,13,27,81
+2010-05-29,500,26,78,6,9,268,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1009,30,48,28,83,22,72,26,78,7,12,28,83
+2010-05-29,600,27,80,6,10,272,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1009,30,49,30,85,23,73,27,80,7,12,30,85
+2010-05-29,700,29,85,6,10,275,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,65,10,6,1009,30,35,32,90,21,70,29,85,7,12,32,90
+2010-05-29,800,32,89,7,11,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1009,30,21,34,94,20,68,32,89,8,12,34,94
+2010-05-29,900,34,94,7,11,281,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1008,30,8,37,98,19,66,34,94,8,12,37,98
+2010-05-29,1000,35,95,8,12,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1007,30,7,37,99,18,64,35,95,9,14,37,99
+2010-05-29,1100,36,97,9,14,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,32,10,6,1006,30,5,38,100,17,62,36,97,10,16,38,100
+2010-05-29,1200,37,99,9,15,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1005,30,4,38,100,15,60,37,99,11,17,38,100
+2010-05-29,1300,36,97,9,15,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1005,30,4,37,99,15,59,36,97,11,17,37,99
+2010-05-29,1400,36,96,9,15,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1005,30,3,36,97,15,59,36,96,10,17,36,97
+2010-05-29,1500,35,94,9,14,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,30,10,6,1004,30,3,35,95,15,58,35,94,10,17,35,95
+2010-05-29,1600,33,91,8,13,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1005,30,2,33,92,16,61,33,91,10,16,33,92
+2010-05-29,1700,31,87,7,11,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1006,30,1,32,89,17,63,31,87,9,15,32,89
+2010-05-29,1800,28,83,6,10,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,55,10,6,1006,30,0,30,86,19,65,28,83,9,14,30,86
+2010-05-29,1900,28,82,6,9,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1007,30,0,29,84,19,67,28,82,8,13,29,84
+2010-05-29,2000,27,80,5,8,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1007,30,0,28,83,20,68,27,80,7,12,28,83
+2010-05-29,2100,26,78,5,8,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,73,10,6,1008,30,0,28,82,21,69,26,78,6,10,28,82
+2010-05-29,2200,25,78,5,8,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1007,30,0,27,81,21,70,25,78,6,10,27,81
+2010-05-29,2300,25,77,5,8,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1007,30,0,27,81,21,71,25,77,7,11,27,81
+2010-05-30,0,25,76,5,8,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1007,30,0,27,80,22,71,25,76,7,11,27,80
+2010-05-30,100,24,76,5,8,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,86,10,6,1007,30,6,26,80,22,71,24,76,7,11,26,80
+2010-05-30,200,24,75,5,8,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,89,10,6,1008,30,12,26,79,22,71,24,75,7,12,26,79
+2010-05-30,300,23,74,5,8,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,91,10,6,1008,30,18,25,78,22,71,23,74,8,12,25,78
+2010-05-30,400,25,77,5,8,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,81,10,6,1008,30,12,27,81,21,70,25,77,7,12,27,81
+2010-05-30,500,27,80,5,9,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1009,30,7,29,84,21,69,27,80,7,11,29,84
+2010-05-30,600,29,83,6,9,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1009,30,2,31,87,20,68,29,83,7,11,31,87
+2010-05-30,700,31,87,6,9,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1009,30,3,32,90,18,65,31,87,7,11,32,90
+2010-05-30,800,33,91,6,10,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1008,30,3,34,93,17,62,33,91,7,11,34,93
+2010-05-30,900,35,95,6,10,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,31,10,6,1008,30,4,35,96,15,59,35,95,7,11,35,96
+2010-05-30,1000,36,96,7,12,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,28,10,6,1007,30,5,36,97,14,57,36,96,8,14,36,97
+2010-05-30,1100,37,98,9,14,285,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1006,30,5,36,97,13,55,37,98,10,16,36,97
+2010-05-30,1200,38,100,10,16,289,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,21,10,6,1005,30,5,37,98,12,53,38,100,11,18,37,98
+2010-05-30,1300,37,98,9,15,287,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1005,30,4,36,96,11,52,37,98,11,17,36,96
+2010-05-30,1400,36,97,9,14,286,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1005,30,2,35,95,11,52,36,97,10,16,35,95
+2010-05-30,1500,35,96,8,13,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,22,10,6,1005,30,0,34,93,10,51,35,96,10,15,34,93
+2010-05-30,1600,33,92,7,12,281,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1005,30,0,32,90,12,54,33,92,9,14,32,90
+2010-05-30,1700,31,88,6,10,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,37,10,6,1006,30,0,31,87,14,57,31,88,8,14,31,87
+2010-05-30,1800,29,84,5,8,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1007,30,0,29,84,15,60,29,84,8,13,29,84
+2010-05-30,1900,28,82,5,8,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1007,30,0,28,83,16,62,28,82,8,12,28,83
+2010-05-30,2000,27,80,5,8,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,58,10,6,1007,30,0,28,82,18,64,27,80,7,11,28,82
+2010-05-30,2100,26,78,4,7,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1008,30,0,27,81,19,66,26,78,7,11,27,81
+2010-05-30,2200,25,77,4,7,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1008,30,1,27,80,19,66,25,77,7,11,27,80
+2010-05-30,2300,25,77,4,7,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,72,10,6,1007,30,2,26,80,19,67,25,77,6,10,26,80
+2010-05-31,0,24,76,4,7,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1007,30,3,26,79,20,67,24,76,6,10,26,79
+2010-05-31,100,24,75,4,7,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1007,30,3,26,79,20,68,24,75,7,11,26,79
+2010-05-31,200,24,75,4,7,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1008,30,4,26,78,20,68,24,75,7,11,26,78
+2010-05-31,300,23,74,4,7,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1008,30,4,25,78,20,68,23,74,7,12,25,78
+2010-05-31,400,25,78,5,8,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,70,10,6,1008,30,4,27,81,19,67,25,78,7,11,27,81
+2010-05-31,500,27,81,5,8,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1008,30,4,29,84,19,65,27,81,6,10,29,84
+2010-05-31,600,29,84,5,8,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,51,10,6,1009,30,3,30,87,18,64,29,84,6,10,30,87
+2010-05-31,700,31,88,6,9,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,42,10,6,1008,30,4,32,90,16,61,31,88,7,11,32,90
+2010-05-31,800,34,92,6,10,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,34,10,6,1008,30,4,34,93,15,58,34,92,7,12,34,93
+2010-05-31,900,36,96,7,11,289,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1008,30,5,35,96,13,55,36,96,8,13,35,96
+2010-05-31,1000,36,98,8,12,286,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,25,10,6,1007,30,7,36,97,13,56,36,98,9,14,36,97
+2010-05-31,1100,37,99,8,13,283,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,24,10,6,1006,30,10,37,99,13,56,37,99,9,15,37,99
+2010-05-31,1200,38,100,9,14,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,23,10,6,1005,30,12,38,100,13,56,38,100,10,16,38,100
+2010-05-31,1300,37,98,9,15,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,26,10,6,1005,30,12,37,99,14,57,37,98,10,17,37,99
+2010-05-31,1400,36,96,9,15,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,29,10,6,1005,30,12,36,97,15,59,36,96,11,17,36,97
+2010-05-31,1500,35,94,10,15,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1005,30,12,36,96,16,60,35,94,11,18,36,96
+2010-05-31,1600,33,91,9,14,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1005,30,10,34,93,17,62,33,91,11,17,34,93
+2010-05-31,1700,31,87,8,13,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1006,30,8,32,90,18,65,31,87,10,17,32,90
+2010-05-31,1800,29,84,7,12,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,56,10,6,1007,30,5,31,87,19,67,29,84,10,16,31,87
+2010-05-31,1900,28,82,7,12,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1008,30,6,30,86,20,67,28,82,10,16,30,86
+2010-05-31,2000,27,81,7,12,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,66,10,6,1008,30,7,29,84,20,68,27,81,10,16,29,84
+2010-05-31,2100,26,79,7,12,246,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1008,30,7,28,83,21,69,26,79,10,16,28,83
+2010-05-31,2200,26,79,7,11,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1008,30,12,28,83,21,70,26,79,9,15,28,83
+2010-05-31,2300,26,79,6,10,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1008,30,16,28,83,22,71,26,79,8,13,28,83
+2010-06-01,0,26,78,5,9,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1008,30,20,28,83,22,72,26,78,7,12,28,83
+2010-06-01,100,25,78,5,9,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1008,30,28,28,82,22,72,25,78,7,12,28,82
+2010-06-01,200,25,77,5,8,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1008,30,35,28,82,23,73,25,77,7,12,28,82
+2010-06-01,300,25,76,5,8,266,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1009,30,43,27,81,23,73,25,76,8,12,27,81
+2010-06-01,400,26,79,5,8,264,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1009,30,31,29,84,22,72,26,79,7,11,29,84
+2010-06-01,500,28,82,5,8,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1010,30,19,30,87,22,71,28,82,6,10,30,87
+2010-06-01,600,29,85,5,8,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1010,30,8,32,90,22,71,29,85,6,9,32,90
+2010-06-01,700,32,89,5,8,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1010,30,13,34,94,20,68,32,89,6,9,34,94
+2010-06-01,800,34,93,5,8,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1009,30,18,36,97,19,66,34,93,6,9,36,97
+2010-06-01,900,36,98,5,8,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1009,30,23,38,101,17,63,36,98,6,10,38,101
+2010-06-01,1000,36,97,5,9,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1008,30,31,38,100,17,63,36,97,6,10,38,100
+2010-06-01,1100,35,95,6,9,279,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1007,30,39,37,98,17,63,35,95,6,10,37,98
+2010-06-01,1200,35,94,6,9,284,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1006,30,46,36,97,17,62,35,94,7,11,36,97
+2010-06-01,1300,34,94,6,10,279,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1006,30,40,36,97,18,64,34,94,7,12,36,97
+2010-06-01,1400,34,93,7,11,274,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,41,9,5,1006,30,33,36,96,18,65,34,93,8,13,36,96
+2010-06-01,1500,33,92,7,12,269,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,44,9,5,1006,30,27,36,96,19,67,33,92,9,14,36,96
+2010-06-01,1600,31,88,7,12,266,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,53,9,5,1007,30,22,34,93,20,68,31,88,9,14,34,93
+2010-06-01,1700,30,85,7,11,264,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.5,0.0,61,9,5,1007,30,18,32,90,21,70,30,85,9,15,32,90
+2010-06-01,1800,28,82,7,11,261,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.7,0.0,70,9,5,1008,30,14,31,87,22,71,28,82,9,15,31,87
+2010-06-01,1900,27,81,7,11,258,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.3,0.0,73,9,5,1009,30,14,30,86,22,71,27,81,9,15,30,86
+2010-06-01,2000,27,80,7,11,254,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.5,0.0,76,9,5,1009,30,14,29,85,22,72,27,80,9,14,29,85
+2010-06-01,2100,26,79,6,10,251,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.7,0.0,79,9,5,1009,30,15,29,83,22,72,26,79,9,14,29,83
+2010-06-01,2200,26,79,6,10,250,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.3,0.0,80,9,5,1009,30,21,28,83,22,72,26,79,8,13,28,83
+2010-06-01,2300,26,78,6,10,250,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1009,30,28,28,83,22,72,26,78,8,13,28,83
+2010-06-02,0,25,78,6,9,249,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1009,30,35,28,82,22,72,25,78,8,13,28,82
+2010-06-02,100,25,77,5,8,254,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1009,30,33,28,82,22,72,25,77,7,11,28,82
+2010-06-02,200,25,77,4,6,259,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1009,30,31,27,81,22,72,25,77,6,9,27,81
+2010-06-02,300,25,76,3,5,264,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,10,6,1009,30,29,27,80,22,72,25,76,4,7,27,80
+2010-06-02,400,26,79,4,6,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1010,30,26,28,83,22,71,26,79,5,8,28,83
+2010-06-02,500,27,81,4,7,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1010,30,23,29,85,21,70,27,81,5,9,29,85
+2010-06-02,600,29,83,5,8,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,61,10,6,1011,30,19,31,87,20,68,29,83,6,10,31,87
+2010-06-02,700,30,87,6,9,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1010,30,21,33,91,20,67,30,87,7,11,33,91
+2010-06-02,800,32,90,6,10,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,46,10,6,1010,30,24,35,94,19,66,32,90,7,12,35,94
+2010-06-02,900,34,94,7,11,264,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1010,30,26,37,98,19,65,34,94,8,13,37,98
+2010-06-02,1000,34,93,7,11,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1009,30,27,36,97,18,65,34,93,8,13,36,97
+2010-06-02,1100,34,93,7,11,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,40,10,6,1009,30,28,36,96,18,65,34,93,8,13,36,96
+2010-06-02,1200,33,92,7,11,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1008,30,29,35,96,18,65,33,92,8,12,35,96
+2010-06-02,1300,33,91,7,11,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,44,10,6,1008,30,36,35,95,19,66,33,91,8,13,35,95
+2010-06-02,1400,32,89,7,12,263,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.8,0.0,48,10,6,1008,30,43,34,94,19,67,32,89,8,13,34,94
+2010-06-02,1500,31,88,7,12,264,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,1.0,0.0,52,10,6,1008,30,51,34,93,20,68,31,88,9,14,34,93
+2010-06-02,1600,30,86,7,11,267,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.5,0.0,57,10,6,1009,30,40,32,90,20,69,30,86,9,14,32,90
+2010-06-02,1700,29,84,6,10,270,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,63,9,5,1010,30,28,31,88,21,69,29,84,9,14,31,88
+2010-06-02,1800,27,81,6,9,274,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,69,9,5,1010,30,17,30,86,21,70,27,81,9,14,30,86
+2010-06-02,1900,27,80,5,9,270,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,73,9,5,1011,30,18,29,85,22,71,27,80,8,13,29,85
+2010-06-02,2000,26,79,5,8,266,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,77,9,5,1011,30,18,29,84,22,71,26,79,7,11,29,84
+2010-06-02,2100,26,78,5,8,262,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,81,9,5,1012,30,18,28,83,22,72,26,78,6,10,28,83
+2010-06-02,2200,26,78,4,7,265,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,83,9,5,1011,30,22,28,82,22,72,26,78,6,9,28,82
+2010-06-02,2300,25,77,4,6,268,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1011,30,27,28,82,23,73,25,77,5,8,28,82
+2010-06-03,0,25,77,3,5,270,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1010,30,31,28,82,23,73,25,77,5,7,28,82
+2010-06-03,100,25,76,4,6,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,10,6,1011,30,32,27,81,23,73,25,76,5,9,27,81
+2010-06-03,200,24,76,4,7,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,90,10,6,1011,30,32,27,80,23,73,24,76,6,10,27,80
+2010-06-03,300,24,75,4,7,245,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,92,10,6,1011,30,33,27,80,23,73,24,75,7,11,27,80
+2010-06-03,400,26,78,5,7,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1011,30,26,28,82,22,72,26,78,6,10,28,82
+2010-06-03,500,27,80,5,7,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1011,30,19,29,85,22,71,27,80,6,9,29,85
+2010-06-03,600,28,83,5,8,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,66,10,6,1011,30,11,31,88,21,71,28,83,5,9,31,88
+2010-06-03,700,30,86,6,9,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1011,30,15,32,90,21,70,30,86,7,11,32,90
+2010-06-03,800,31,88,7,11,280,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,54,9,5,1011,30,19,34,93,20,69,31,88,8,13,34,93
+2010-06-03,900,33,91,8,13,288,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,47,9,5,1011,30,23,36,96,20,68,33,91,10,15,36,96
+2010-06-03,1000,33,92,8,13,289,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,45,9,5,1010,30,20,36,97,20,68,33,92,10,16,36,97
+2010-06-03,1100,34,93,8,13,290,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,44,9,5,1009,30,18,37,98,20,67,34,93,10,16,37,98
+2010-06-03,1200,34,94,8,13,290,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,42,9,5,1008,30,15,37,99,19,67,34,94,10,16,37,99
+2010-06-03,1300,34,93,7,12,288,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,43,9,5,1008,30,14,36,98,19,67,34,93,9,14,36,98
+2010-06-03,1400,33,92,7,11,286,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,44,9,5,1008,30,14,36,97,19,67,33,92,8,13,36,97
+2010-06-03,1500,33,91,6,10,283,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,45,9,5,1008,30,13,35,95,19,67,33,91,7,11,35,95
+2010-06-03,1600,31,88,6,9,280,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,52,9,5,1008,30,14,34,93,20,68,31,88,7,12,34,93
+2010-06-03,1700,30,85,6,9,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,59,10,6,1009,30,14,32,90,21,69,30,85,7,12,32,90
+2010-06-03,1800,28,83,5,9,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,67,10,6,1010,30,15,31,87,21,70,28,83,7,12,31,87
+2010-06-03,1900,27,81,5,9,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,72,10,6,1010,30,14,30,86,22,71,27,81,7,12,30,86
+2010-06-03,2000,27,80,5,8,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1010,30,14,29,85,22,72,27,80,7,12,29,85
+2010-06-03,2100,26,79,5,8,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1011,30,13,29,83,23,73,26,79,7,12,29,83
+2010-06-03,2200,26,78,5,8,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1011,30,17,28,83,23,73,26,78,7,11,28,83
+2010-06-03,2300,25,78,5,8,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1011,30,21,28,82,23,73,25,78,7,11,28,82
+2010-06-04,0,25,77,5,8,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,10,6,1011,30,26,28,82,23,73,25,77,7,11,28,82
+2010-06-04,100,25,77,5,8,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,10,6,1010,30,27,27,81,23,73,25,77,7,11,27,81
+2010-06-04,200,25,76,5,7,264,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,90,10,6,1010,30,29,27,81,23,73,25,76,7,11,27,81
+2010-06-04,300,24,76,4,7,266,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1010,30,30,27,80,23,73,24,76,7,11,27,80
+2010-06-04,400,26,78,5,8,268,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1011,30,24,28,83,22,72,26,78,7,11,28,83
+2010-06-04,500,27,81,6,9,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1011,30,18,30,86,22,72,27,81,7,11,30,86
+2010-06-04,600,29,83,6,10,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1012,30,11,32,89,22,71,29,83,7,11,32,89
+2010-06-04,700,30,86,7,11,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1011,30,16,33,91,21,70,30,86,8,12,33,91
+2010-06-04,800,32,89,7,12,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,53,10,6,1011,30,20,35,94,21,69,32,89,8,14,35,94
+2010-06-04,900,33,92,8,13,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1011,30,24,36,97,20,68,33,92,9,15,36,97
+2010-06-04,1000,34,92,9,14,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1010,30,25,37,98,20,68,34,92,10,17,37,98
+2010-06-04,1100,34,93,10,16,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1010,30,25,37,99,20,68,34,93,11,18,37,99
+2010-06-04,1200,35,94,11,17,284,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,42,10,6,1009,30,25,38,100,20,67,35,94,12,20,38,100
+2010-06-04,1300,34,93,10,16,282,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1009,30,21,37,98,20,67,34,93,12,19,37,98
+2010-06-04,1400,33,91,10,15,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1008,30,18,36,96,19,67,33,91,11,18,36,96
+2010-06-04,1500,32,90,9,14,279,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1008,30,14,35,94,19,67,32,90,10,17,35,94
+2010-06-04,1600,31,87,8,13,275,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,53,10,6,1009,30,11,33,91,20,67,31,87,9,15,33,91
+2010-06-04,1700,29,84,7,11,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,59,10,6,1009,30,8,31,88,20,68,29,84,9,14,31,88
+2010-06-04,1800,27,81,6,9,267,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,66,10,6,1010,30,5,29,84,20,68,27,81,8,13,29,84
+2010-06-04,1900,26,80,6,9,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,70,10,6,1010,30,5,28,83,21,69,26,80,8,12,28,83
+2010-06-04,2000,26,79,6,9,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1011,30,6,28,82,21,70,26,79,8,12,28,82
+2010-06-04,2100,25,77,5,9,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1011,30,6,27,81,22,71,25,77,8,12,27,81
+2010-06-04,2200,25,77,6,9,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1011,30,25,27,81,22,71,25,77,8,13,27,81
+2010-06-04,2300,25,76,6,9,262,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,84,10,6,1010,30,44,27,80,22,71,25,76,8,13,27,80
+2010-06-05,0,24,76,6,10,262,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.2,0.0,87,10,6,1010,30,63,26,80,22,71,24,76,8,13,26,80
+2010-06-05,100,24,75,6,9,266,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,87,10,6,1010,30,68,26,79,22,71,24,75,8,12,26,79
+2010-06-05,200,24,75,5,9,270,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.5,0.0,88,10,6,1010,30,74,26,79,22,71,24,75,7,11,26,79
+2010-06-05,300,24,75,5,8,274,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.7,0.0,89,10,6,1010,30,79,26,79,22,72,24,75,6,10,26,79
+2010-06-05,400,25,76,5,9,274,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.4,0.0,84,10,6,1011,30,64,27,80,22,71,25,76,7,11,27,80
+2010-06-05,500,25,78,6,10,274,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,79,9,5,1011,30,49,28,82,21,71,25,78,7,11,28,82
+2010-06-05,600,26,79,6,10,273,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.2,0.0,74,9,5,1011,30,35,28,83,21,70,26,79,7,12,28,83
+2010-06-05,700,28,82,8,12,274,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,65,9,5,1011,30,28,30,86,20,69,28,82,9,14,30,86
+2010-06-05,800,30,86,9,14,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,56,10,6,1010,30,21,32,89,20,68,30,86,10,16,32,89
+2010-06-05,900,32,89,10,16,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1010,30,15,34,92,19,66,32,89,11,18,34,92
+2010-06-05,1000,32,90,10,16,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1009,30,15,34,94,19,66,32,90,12,19,34,94
+2010-06-05,1100,33,91,10,17,277,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1008,30,15,35,96,19,66,33,91,12,19,35,96
+2010-06-05,1200,34,93,11,17,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1007,30,15,36,97,19,66,34,93,12,19,36,97
+2010-06-05,1300,33,91,10,16,274,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1007,30,14,35,95,19,66,33,91,11,19,35,95
+2010-06-05,1400,32,90,9,15,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,47,10,6,1007,30,13,34,94,19,67,32,90,11,18,34,94
+2010-06-05,1500,31,88,9,14,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,50,10,6,1007,30,11,33,92,19,67,31,88,10,17,33,92
+2010-06-05,1600,30,85,8,13,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,58,10,6,1007,30,11,32,89,20,68,30,85,10,16,32,89
+2010-06-05,1700,28,82,7,12,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,66,10,6,1007,30,11,30,86,21,70,28,82,9,15,30,86
+2010-06-05,1800,26,80,7,11,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,75,10,6,1008,30,11,29,84,22,71,26,80,8,14,29,84
+2010-06-05,1900,26,78,6,10,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1008,30,27,28,82,22,71,26,78,8,13,28,82
+2010-06-05,2000,25,77,6,9,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1009,30,43,27,81,22,71,25,77,8,12,27,81
+2010-06-05,2100,24,76,5,9,258,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,87,10,6,1009,30,59,27,80,22,72,24,76,7,12,27,80
+2010-06-05,2200,24,76,6,9,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,88,10,6,1009,30,63,26,80,22,72,24,76,7,12,26,80
+2010-06-05,2300,24,75,6,9,253,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,88,10,6,1008,30,67,26,79,22,72,24,75,8,12,26,79
+2010-06-06,0,24,75,6,10,250,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,88,10,6,1008,30,71,26,79,22,71,24,75,8,13,26,79
+2010-06-06,100,24,75,6,10,255,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,88,10,6,1008,30,70,26,79,22,71,24,75,8,13,26,79
+2010-06-06,200,24,75,6,9,260,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,87,10,6,1008,30,70,26,79,22,71,24,75,8,13,26,79
+2010-06-06,300,24,75,6,9,264,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,87,10,6,1008,30,69,26,79,21,71,24,75,8,13,26,79
+2010-06-06,400,25,76,6,9,263,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,82,10,6,1008,30,57,27,80,21,70,25,76,7,12,27,80
+2010-06-06,500,26,78,5,9,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1009,30,44,28,82,21,70,26,78,7,11,28,82
+2010-06-06,600,26,80,5,8,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,74,10,6,1009,30,32,29,83,21,70,26,80,6,10,29,83
+2010-06-06,700,28,83,6,10,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,64,10,6,1009,30,27,30,87,20,69,28,83,7,12,30,87
+2010-06-06,800,30,87,8,12,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,54,10,6,1008,30,21,32,90,20,67,30,87,9,14,32,90
+2010-06-06,900,32,90,9,14,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1008,30,15,34,94,19,66,32,90,10,16,34,94
+2010-06-06,1000,33,91,10,15,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1007,30,18,35,94,19,66,33,91,11,18,35,94
+2010-06-06,1100,33,91,11,17,261,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,44,9,5,1007,30,22,35,95,19,66,33,91,13,20,35,95
+2010-06-06,1200,33,91,11,18,261,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,45,9,5,1006,30,25,35,96,19,67,33,91,14,22,35,96
+2010-06-06,1300,32,89,11,18,254,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,48,9,5,1006,30,26,34,93,19,67,32,89,13,21,34,93
+2010-06-06,1400,31,88,11,17,247,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,51,9,5,1006,30,27,33,91,19,67,31,88,13,20,33,91
+2010-06-06,1500,30,86,11,17,240,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,54,9,5,1006,30,29,32,89,19,67,30,86,12,19,32,89
+2010-06-06,1600,28,83,9,15,239,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,61,9,5,1006,30,24,30,86,20,68,28,83,11,18,30,86
+2010-06-06,1700,27,80,8,13,238,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,68,10,6,1007,30,20,29,84,20,68,27,80,10,17,29,84
+2010-06-06,1800,25,78,7,12,236,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,75,10,6,1007,30,16,27,81,21,69,25,78,10,15,27,81
+2010-06-06,1900,25,77,7,11,233,SW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,78,10,6,1007,30,27,27,80,21,69,25,77,9,15,27,80
+2010-06-06,2000,24,76,7,11,231,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1007,30,38,26,79,21,69,24,76,9,15,26,79
+2010-06-06,2100,24,75,7,11,228,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1008,30,49,26,78,21,69,24,75,9,14,26,78
+2010-06-06,2200,24,74,7,11,229,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1007,30,54,26,78,21,70,24,74,9,14,26,78
+2010-06-06,2300,23,74,7,11,230,SW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,86,10,6,1007,30,59,26,78,21,70,23,74,9,14,26,78
+2010-06-07,0,23,74,6,10,231,SW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,88,10,6,1007,30,65,25,78,21,70,23,74,9,14,25,78
+2010-06-07,100,23,74,7,11,230,SW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1007,30,68,25,78,21,70,23,74,9,15,25,78
+2010-06-07,200,23,74,7,11,229,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,87,10,6,1007,30,71,25,78,21,70,23,74,9,15,25,78
+2010-06-07,300,23,74,7,12,228,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,87,10,6,1007,30,75,25,78,21,70,23,74,10,16,25,78
+2010-06-07,400,24,75,7,12,232,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,84,10,6,1007,30,69,26,78,21,70,24,75,9,15,26,78
+2010-06-07,500,24,76,7,11,235,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1007,30,62,26,79,21,69,24,76,8,14,26,79
+2010-06-07,600,25,76,7,11,239,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,79,10,6,1008,30,56,27,80,21,69,25,76,8,12,27,80
+2010-06-07,700,27,80,7,12,241,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,69,10,6,1007,30,46,29,84,20,68,27,80,8,14,29,84
+2010-06-07,800,29,84,8,13,244,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,58,10,6,1007,30,35,31,87,20,67,29,84,9,15,31,87
+2010-06-07,900,31,88,9,14,246,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1007,30,24,33,91,19,66,31,88,10,16,33,91
+2010-06-07,1000,32,89,9,15,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,46,10,6,1006,30,22,34,93,19,66,32,89,11,17,34,93
+2010-06-07,1100,33,91,10,16,251,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1006,30,21,35,94,19,65,33,91,12,19,35,94
+2010-06-07,1200,33,92,11,18,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1005,30,19,35,96,18,65,33,92,13,20,35,96
+2010-06-07,1300,32,90,11,17,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1005,30,19,34,93,19,65,32,90,12,20,34,93
+2010-06-07,1400,31,88,11,17,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1005,30,19,33,91,19,66,31,88,12,20,33,91
+2010-06-07,1500,30,86,11,17,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,52,10,6,1005,30,19,32,89,19,66,30,86,12,19,32,89
+2010-06-07,1600,28,83,9,15,255,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,60,10,6,1006,30,20,30,86,19,67,28,83,11,18,30,86
+2010-06-07,1700,27,80,8,13,252,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,69,9,5,1007,30,21,28,83,20,68,27,80,10,16,28,83
+2010-06-07,1800,25,77,6,10,249,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,78,9,5,1008,30,22,27,80,21,69,25,77,9,14,27,80
+2010-06-07,1900,24,76,6,9,242,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,80,9,5,1008,30,32,26,79,21,69,24,76,8,13,26,79
+2010-06-07,2000,24,75,5,8,236,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,83,10,6,1008,30,43,26,79,21,70,24,75,7,11,26,79
+2010-06-07,2100,23,74,4,7,230,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,86,10,6,1009,30,53,26,78,21,70,23,74,6,10,26,78
+2010-06-07,2200,23,74,4,7,234,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,88,10,6,1008,30,58,25,78,21,70,23,74,6,9,25,78
+2010-06-07,2300,23,74,4,7,239,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,89,10,6,1008,30,62,25,78,21,70,23,74,6,9,25,78
+2010-06-08,0,23,73,4,7,244,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,91,10,6,1007,30,67,25,78,21,71,23,73,6,9,25,78
+2010-06-08,100,23,73,3,5,241,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,91,10,6,1007,30,70,25,77,21,70,23,73,5,7,25,77
+2010-06-08,200,23,73,2,4,238,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,91,10,6,1008,30,72,25,77,21,70,23,73,3,5,25,77
+2010-06-08,300,23,73,2,3,235,SW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,91,10,6,1008,30,75,25,77,21,70,23,73,2,3,25,77
+2010-06-08,400,24,76,3,4,247,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,83,10,6,1008,30,56,27,80,21,70,24,76,3,5,27,80
+2010-06-08,500,26,78,4,6,258,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1008,30,37,28,82,21,69,26,78,4,7,28,82
+2010-06-08,600,27,81,5,8,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,67,10,6,1009,30,18,29,85,21,69,27,81,5,9,29,85
+2010-06-08,700,29,84,5,9,281,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1008,30,20,31,87,20,68,29,84,6,10,31,87
+2010-06-08,800,30,87,6,10,293,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,53,9,5,1008,30,22,32,90,19,67,30,87,7,11,32,90
+2010-06-08,900,32,89,7,11,305,NW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,46,9,5,1008,30,24,34,93,19,66,32,89,8,13,34,93
+2010-06-08,1000,33,91,7,11,299,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,43,9,5,1007,30,21,34,94,18,65,33,91,8,13,34,94
+2010-06-08,1100,33,92,7,11,293,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1006,30,18,35,95,18,64,33,92,8,13,35,95
+2010-06-08,1200,34,93,7,12,287,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,38,10,6,1005,30,15,36,96,18,64,34,93,8,13,36,96
+2010-06-08,1300,33,92,7,11,281,WNW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,40,10,6,1005,30,15,35,94,18,64,33,92,8,12,35,94
+2010-06-08,1400,33,91,6,10,276,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,41,10,6,1005,30,16,34,93,18,64,33,91,7,11,34,93
+2010-06-08,1500,32,89,6,9,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,43,10,6,1004,30,16,33,92,18,64,32,89,6,10,33,92
+2010-06-08,1600,30,86,5,9,271,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,50,10,6,1005,30,15,32,89,18,65,30,86,7,11,32,89
+2010-06-08,1700,29,83,5,9,272,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,57,10,6,1006,30,14,30,86,19,66,29,83,7,11,30,86
+2010-06-08,1800,27,81,5,8,273,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,63,10,6,1006,30,12,29,83,20,67,27,81,7,12,29,83
+2010-06-08,1900,26,79,5,8,270,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1007,30,17,28,82,20,68,26,79,7,11,28,82
+2010-06-08,2000,26,78,4,7,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,74,10,6,1007,30,21,27,81,21,69,26,78,6,9,27,81
+2010-06-08,2100,25,77,4,6,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,80,10,6,1007,30,25,27,80,21,70,25,77,5,8,27,80
+2010-06-08,2200,25,76,4,6,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,82,10,6,1007,30,42,27,80,21,70,25,76,5,8,27,80
+2010-06-08,2300,24,76,4,6,258,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,85,10,6,1007,30,60,26,80,22,71,24,76,5,8,26,80
+2010-06-09,0,24,75,3,5,255,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1007,30,77,26,79,22,71,24,75,5,8,26,79
+2010-06-09,100,24,75,3,6,257,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1007,30,75,26,79,22,71,24,75,5,8,26,79
+2010-06-09,200,24,75,4,6,260,W,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1006,30,73,26,79,22,71,24,75,5,8,26,79
+2010-06-09,300,24,75,4,6,263,W,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1006,30,70,26,79,22,71,24,75,5,8,26,79
+2010-06-09,400,26,78,4,6,275,W,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,79,10,6,1007,30,57,28,82,21,71,26,78,5,8,28,82
+2010-06-09,500,27,81,4,7,288,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,71,10,6,1007,30,44,29,85,21,70,27,81,5,8,29,85
+2010-06-09,600,29,83,4,7,301,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,63,10,6,1007,30,32,31,88,21,70,29,83,5,8,31,88
+2010-06-09,700,31,87,4,7,313,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,55,10,6,1007,30,36,33,92,20,68,31,87,5,8,33,92
+2010-06-09,800,33,91,4,6,326,NNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.5,0.0,47,10,6,1006,30,41,35,95,20,67,33,91,4,7,35,95
+2010-06-09,900,35,95,4,6,339,NNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.6,0.0,39,10,6,1006,30,46,37,99,19,66,35,95,4,7,37,99
+2010-06-09,1000,34,93,4,6,332,NNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.3,0.0,42,9,5,1005,30,46,37,98,19,67,34,93,5,9,37,98
+2010-06-09,1100,33,92,4,7,324,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,45,8,4,1004,30,46,36,96,19,67,33,92,7,11,36,96
+2010-06-09,1200,32,90,5,8,317,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.5,0.1,47,7,4,1004,30,46,35,95,20,67,32,90,8,13,35,95
+2010-06-09,1300,32,90,4,6,311,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.7,0.0,48,7,4,1003,30,39,35,95,20,68,32,90,6,10,35,95
+2010-06-09,1400,32,89,3,5,305,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.7,0.1,50,7,4,1003,30,32,35,94,20,68,32,89,5,7,35,94
+2010-06-09,1500,32,89,2,4,299,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.3,0.1,51,7,4,1003,30,26,34,94,20,68,32,89,3,4,34,94
+2010-06-09,1600,30,86,2,3,292,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,58,8,4,1004,30,28,33,91,21,69,30,86,3,5,33,91
+2010-06-09,1700,29,84,2,3,284,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.7,0.0,65,8,5,1004,30,30,32,89,21,70,29,84,3,5,32,89
+2010-06-09,1800,27,81,2,3,277,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.9,0.0,72,9,5,1005,30,33,30,86,22,71,27,81,3,5,30,86
+2010-06-09,1900,27,81,2,3,276,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.5,0.0,74,9,5,1005,30,32,30,85,22,71,27,81,3,4,30,85
+2010-06-09,2000,27,80,2,3,275,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.7,0.0,76,9,5,1005,30,31,29,85,22,72,27,80,2,4,29,85
+2010-06-09,2100,26,79,1,2,274,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.9,0.0,78,9,5,1006,30,30,29,84,22,72,26,79,2,3,29,84
+2010-06-09,2200,26,79,2,3,282,WNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.5,0.0,80,9,5,1006,30,36,29,83,22,72,26,79,3,5,29,83
+2010-06-09,2300,26,78,2,4,290,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1005,30,41,28,83,22,72,26,78,4,6,28,83
+2010-06-10,0,26,78,3,4,298,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1005,30,46,28,83,22,72,26,78,4,7,28,83
+2010-06-10,100,25,78,3,4,294,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1005,30,46,28,82,22,72,25,78,4,7,28,82
+2010-06-10,200,25,77,2,4,290,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1005,30,45,28,82,22,72,25,77,4,7,28,82
+2010-06-10,300,25,77,2,4,286,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1005,30,45,27,81,22,72,25,77,4,6,27,81
+2010-06-10,400,27,80,2,4,289,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1006,30,45,29,84,22,71,27,80,4,6,29,84
+2010-06-10,500,28,83,3,4,292,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,67,10,6,1006,30,45,31,87,21,70,28,83,3,5,31,87
+2010-06-10,600,30,86,3,4,296,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1006,30,46,32,90,21,69,30,86,3,5,32,90
+2010-06-10,700,32,90,2,3,317,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,50,10,6,1006,30,45,35,94,20,68,32,90,2,4,35,94
+2010-06-10,800,34,94,1,2,338,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,42,10,6,1005,30,44,37,98,19,66,34,94,2,2,37,98
+2010-06-10,900,37,98,1,1,359,N,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,33,10,6,1005,30,44,39,102,18,64,37,98,1,1,39,102
+2010-06-10,1000,36,97,2,3,347,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1004,30,44,38,101,18,64,36,97,2,3,38,101
+2010-06-10,1100,36,96,2,4,334,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1003,30,44,38,100,18,64,36,96,3,5,38,100
+2010-06-10,1200,35,96,3,5,321,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1002,30,44,37,99,18,64,35,96,4,6,37,99
+2010-06-10,1300,35,95,4,6,313,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,37,10,6,1002,30,39,37,98,18,64,35,95,5,8,37,98
+2010-06-10,1400,34,93,4,7,305,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,39,10,6,1002,30,35,36,97,18,65,34,93,6,9,36,97
+2010-06-10,1500,33,92,5,8,297,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1002,30,31,35,96,18,65,33,92,7,11,35,96
+2010-06-10,1600,32,90,5,8,287,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1002,30,26,34,94,19,67,32,90,7,11,34,94
+2010-06-10,1700,31,87,5,8,278,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,54,10,6,1003,30,21,33,92,20,68,31,87,7,11,33,92
+2010-06-10,1800,29,85,5,8,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,61,10,6,1003,30,17,32,89,21,70,29,85,7,11,32,89
+2010-06-10,1900,28,83,4,7,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1004,30,27,31,88,21,70,28,83,6,10,31,88
+2010-06-10,2000,28,82,4,6,250,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,70,10,6,1004,30,37,30,86,22,71,28,82,6,9,30,86
+2010-06-10,2100,27,80,3,5,240,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,75,10,6,1004,30,47,29,85,22,72,27,80,5,8,29,85
+2010-06-10,2200,27,80,3,5,248,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1004,30,40,29,84,22,72,27,80,5,8,29,84
+2010-06-10,2300,26,79,3,5,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1003,30,34,29,84,22,72,26,79,5,7,29,84
+2010-06-11,0,26,79,3,5,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1003,30,28,29,83,22,72,26,79,5,7,29,83
+2010-06-11,100,26,79,4,6,285,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,80,10,6,1003,30,33,28,83,22,72,26,79,5,8,28,83
+2010-06-11,200,26,78,4,6,307,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1003,30,38,28,83,22,72,26,78,6,9,28,83
+2010-06-11,300,26,78,4,7,329,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1004,30,43,28,83,22,72,26,78,6,10,28,83
+2010-06-11,400,26,79,4,7,326,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1004,30,44,29,84,22,72,26,79,6,10,29,84
+2010-06-11,500,27,81,4,7,323,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,72,10,6,1004,30,44,29,85,22,71,27,81,6,9,29,85
+2010-06-11,600,28,82,4,7,320,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,68,10,6,1004,30,44,30,86,21,70,28,82,5,8,30,86
+2010-06-11,700,30,86,4,7,216,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,58,10,6,1004,30,39,33,91,20,69,30,86,5,8,33,91
+2010-06-11,800,33,91,4,6,111,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,48,10,6,1004,30,33,35,96,20,67,33,91,5,7,35,96
+2010-06-11,900,35,96,4,6,7,N,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1003,30,28,38,101,19,66,35,96,4,7,38,101
+2010-06-11,1000,35,96,4,6,108,ESE,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,1002,30,34,38,100,18,65,35,96,5,8,38,100
+2010-06-11,1100,35,95,4,7,209,SSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1002,30,40,37,99,17,63,35,95,5,8,37,99
+2010-06-11,1200,35,95,4,7,310,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1001,30,47,36,98,17,62,35,95,6,9,36,98
+2010-06-11,1300,35,95,5,8,295,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,1001,30,38,36,97,17,62,35,95,6,10,36,97
+2010-06-11,1400,35,94,5,9,280,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1000,30,29,36,97,17,63,35,94,7,12,36,97
+2010-06-11,1500,35,94,6,10,265,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,36,10,6,1000,30,20,36,97,17,63,35,94,8,13,36,97
+2010-06-11,1600,33,91,7,11,261,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,45,10,6,1000,30,19,34,94,19,65,33,91,9,14,34,94
+2010-06-11,1700,31,87,7,12,256,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,54,9,5,1001,30,18,33,91,20,67,31,87,10,16,33,91
+2010-06-11,1800,29,84,8,13,252,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,62,9,5,1002,30,17,31,88,21,69,29,84,10,17,31,88
+2010-06-11,1900,28,82,7,11,251,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,66,9,5,1002,30,20,30,87,21,70,28,82,9,15,30,87
+2010-06-11,2000,27,81,6,10,250,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,71,9,5,1003,30,24,30,86,22,71,27,81,8,14,30,86
+2010-06-11,2100,27,80,6,9,249,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,75,9,5,1003,30,27,29,84,22,71,27,80,7,12,29,84
+2010-06-11,2200,26,79,5,9,252,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,77,9,5,1003,30,36,29,84,22,72,26,79,7,12,29,84
+2010-06-11,2300,26,79,5,9,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,79,10,6,1003,30,45,29,83,22,72,26,79,7,12,29,83
+2010-06-12,0,26,78,5,8,259,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1002,30,53,28,83,22,72,26,78,7,11,28,83
+2010-06-12,100,26,78,5,8,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1002,30,45,28,83,23,73,26,78,7,11,28,83
+2010-06-12,200,26,78,5,8,255,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1002,30,37,28,83,23,73,26,78,7,11,28,83
+2010-06-12,300,25,78,5,8,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1002,30,29,28,83,23,73,25,78,7,11,28,83
+2010-06-12,400,26,79,5,9,260,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1003,30,35,29,85,23,73,26,79,7,11,29,85
+2010-06-12,500,27,81,6,9,267,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,76,10,6,1003,30,42,30,87,23,73,27,81,7,12,30,87
+2010-06-12,600,28,83,6,10,274,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,71,10,6,1004,30,49,32,89,23,73,28,83,7,12,32,89
+2010-06-12,700,31,87,6,9,295,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,61,10,6,1003,30,44,34,93,22,71,31,87,7,10,34,93
+2010-06-12,800,33,91,5,8,315,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,51,10,6,1003,30,40,36,97,21,69,33,91,6,9,36,97
+2010-06-12,900,35,95,4,7,336,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,41,10,6,1002,30,36,38,101,20,68,35,95,5,8,38,101
+2010-06-12,1000,35,96,4,6,324,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,38,10,6,1001,30,39,38,100,19,66,35,96,5,7,38,100
+2010-06-12,1100,36,96,3,5,313,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,35,10,6,1001,30,43,38,100,18,64,36,96,4,7,38,100
+2010-06-12,1200,36,96,3,4,301,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,32,10,6,1000,30,46,37,99,17,62,36,96,4,6,37,99
+2010-06-12,1300,35,95,3,5,281,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,33,10,6,1000,30,39,36,97,17,62,35,95,4,6,36,97
+2010-06-12,1400,34,94,3,5,260,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,35,9,5,999,30,33,36,96,17,62,34,94,4,6,36,96
+2010-06-12,1500,34,93,3,5,240,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,36,9,5,999,29,26,35,95,17,62,34,93,4,6,35,95
+2010-06-12,1600,32,90,4,7,246,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.0,0.0,42,9,5,1000,30,21,34,93,18,64,32,90,5,9,34,93
+2010-06-12,1700,31,88,5,8,253,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,48,10,6,1000,30,16,32,90,18,65,31,88,7,12,32,90
+2010-06-12,1800,30,85,6,10,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,54,10,6,1001,30,11,31,88,19,67,30,85,9,15,31,88
+2010-06-12,1900,29,84,6,10,260,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,60,10,6,1001,30,9,31,87,20,68,29,84,9,14,31,87
+2010-06-12,2000,28,82,6,9,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,65,10,6,1002,30,7,30,86,21,69,28,82,8,13,30,86
+2010-06-12,2100,27,81,6,9,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,71,10,6,1002,30,5,30,85,21,71,27,81,8,13,30,85
+2010-06-12,2200,27,80,6,9,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,75,10,6,1002,30,7,29,85,22,71,27,80,8,13,29,85
+2010-06-12,2300,26,80,6,10,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,79,10,6,1002,30,9,29,84,22,72,26,80,8,14,29,84
+2010-06-13,0,26,79,6,10,263,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1002,30,10,29,84,23,73,26,79,9,14,29,84
+2010-06-13,100,26,79,6,10,256,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,83,10,6,1002,30,12,29,84,23,73,26,79,9,14,29,84
+2010-06-13,200,26,78,6,10,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1002,30,13,29,83,23,73,26,78,9,14,29,83
+2010-06-13,300,26,78,6,10,241,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,84,10,6,1002,30,14,28,83,23,73,26,78,9,14,28,83
+2010-06-13,400,27,80,6,10,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,77,10,6,1003,30,11,29,85,22,72,27,80,8,13,29,85
+2010-06-13,500,28,82,6,10,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,69,10,6,1003,30,8,30,87,22,71,28,82,7,12,30,87
+2010-06-13,600,29,84,6,10,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,62,10,6,1004,30,5,31,89,21,69,29,84,7,11,31,89
+2010-06-13,700,31,88,6,9,266,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,53,10,6,1003,30,6,33,92,20,67,31,88,7,11,33,92
+2010-06-13,800,33,92,5,9,264,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,44,10,6,1003,30,7,35,95,19,65,33,92,6,10,35,95
+2010-06-13,900,35,96,5,8,262,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,35,10,6,1002,30,8,37,99,17,63,35,96,6,9,37,99
+2010-06-13,1000,36,97,6,9,269,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,33,10,6,1001,30,15,38,101,17,63,36,97,6,10,38,101
+2010-06-13,1100,37,99,6,10,277,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,31,10,6,1000,30,23,39,102,17,63,37,99,7,12,39,102
+2010-06-13,1200,38,101,7,11,285,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,28,10,6,999,30,30,40,104,17,62,38,101,8,13,40,104
+2010-06-13,1300,37,99,7,12,279,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,31,10,6,999,30,31,39,103,17,63,37,99,8,14,39,103
+2010-06-13,1400,36,97,8,12,273,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,34,10,6,999,29,31,38,101,18,64,36,97,9,14,38,101
+2010-06-13,1500,35,95,8,13,267,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,36,10,6,999,29,32,37,99,18,64,35,95,9,15,37,99
+2010-06-13,1600,33,92,8,13,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,43,10,6,999,30,24,36,96,19,66,33,92,10,15,36,96
+2010-06-13,1700,32,89,8,13,257,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,51,10,6,1000,30,16,34,93,20,67,32,89,10,16,34,93
+2010-06-13,1800,30,86,8,13,252,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,58,10,6,1001,30,9,32,90,21,69,30,86,10,16,32,90
+2010-06-13,1900,29,84,7,12,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,63,10,6,1001,30,8,32,89,21,70,29,84,10,15,32,89
+2010-06-13,2000,28,83,7,11,246,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,68,10,6,1002,30,7,31,88,22,71,28,83,9,14,31,88
+2010-06-13,2100,27,81,6,10,244,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,74,10,6,1002,30,6,30,86,22,72,27,81,8,14,30,86
+2010-06-13,2200,27,81,7,11,247,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,76,10,6,1003,30,16,30,86,22,72,27,81,9,14,30,86
+2010-06-13,2300,27,80,7,11,250,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1003,30,27,30,86,23,73,27,80,10,15,30,86
+2010-06-14,0,27,80,7,12,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,81,10,6,1003,30,38,30,85,23,73,27,80,10,16,30,85
+2010-06-14,100,26,80,7,12,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1003,30,46,30,85,23,74,26,80,10,15,30,85
+2010-06-14,200,26,79,7,11,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1003,30,54,29,85,23,74,26,79,9,15,29,85
+2010-06-14,300,26,79,7,11,265,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,84,10,6,1003,30,62,29,85,23,74,26,79,9,14,29,85
+2010-06-14,400,27,80,7,11,264,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,83,10,6,1003,30,63,30,86,23,74,27,80,9,14,30,86
+2010-06-14,500,27,81,7,11,263,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.3,0.0,81,10,6,1004,30,63,31,87,24,74,27,81,9,14,31,87
+2010-06-14,600,27,81,6,10,262,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.4,0.0,80,10,6,1004,30,64,31,88,24,74,27,81,9,14,31,88
+2010-06-14,700,29,83,6,10,266,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.2,0.0,74,9,5,1004,30,56,33,91,23,74,29,83,8,13,33,91
+2010-06-14,800,30,85,6,10,270,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,69,8,4,1004,30,47,34,93,23,74,30,85,8,13,34,93
+2010-06-14,900,31,87,6,10,273,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.5,0.1,63,7,4,1004,30,39,35,96,23,73,31,87,7,12,35,96
+2010-06-14,1000,31,88,6,10,270,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.7,0.0,62,7,4,1003,30,46,36,96,23,73,31,88,9,15,36,96
+2010-06-14,1100,31,88,6,10,266,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.3,0.1,61,7,4,1002,30,54,36,97,23,73,31,88,11,17,36,97
+2010-06-14,1200,32,89,6,10,263,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,3.0,0.1,60,7,4,1002,30,61,36,98,23,73,32,89,12,20,36,98
+2010-06-14,1300,30,86,6,10,259,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.5,0.1,68,6,3,1002,30,62,35,94,23,74,30,86,11,18,35,94
+2010-06-14,1400,29,83,6,10,255,WSW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,4.2,0.2,75,4,2,1002,30,62,33,91,24,74,29,83,9,15,33,91
+2010-06-14,1500,27,81,6,10,250,WSW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,5.6,0.2,83,3,1,1002,30,62,31,87,24,75,27,81,8,13,31,87
+2010-06-14,1600,26,80,6,9,250,WSW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Torrential rain shower,2.8,0.1,86,4,2,1003,30,72,30,86,24,75,26,80,8,13,30,86
+2010-06-14,1700,26,79,6,9,249,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,1.6,0.1,89,6,3,1003,30,82,29,84,24,75,26,79,8,12,29,84
+2010-06-14,1800,25,77,5,8,248,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,2.1,0.1,92,7,4,1004,30,92,28,83,24,75,25,77,8,12,28,83
+2010-06-14,1900,25,77,4,7,241,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Moderate rain,1.1,0.0,93,6,3,1004,30,93,28,83,24,75,25,77,6,10,28,83
+2010-06-14,2000,25,77,3,5,235,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,5.7,0.2,93,6,3,1004,30,94,28,82,24,75,25,77,5,8,28,82
+2010-06-14,2100,25,77,2,4,228,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,7.6,0.3,94,5,3,1004,30,95,28,82,24,75,25,77,3,5,28,82
+2010-06-14,2200,25,77,2,4,240,WSW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,3.8,0.2,94,6,3,1004,30,90,28,82,24,75,25,77,3,5,28,82
+2010-06-14,2300,25,77,2,4,253,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Moderate rain,1.8,0.1,94,6,3,1004,30,85,28,82,24,75,25,77,3,5,28,82
+2010-06-15,0,25,77,2,4,265,W,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Moderate rain,2.4,0.1,93,7,4,1004,30,80,28,82,24,75,25,77,3,5,28,82
+2010-06-15,100,25,77,2,3,260,W,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Moderate rain,1.2,0.0,93,7,4,1004,30,73,28,82,24,75,25,77,2,4,28,82
+2010-06-15,200,25,77,1,2,256,WSW,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Heavy rain at times,2.8,0.1,94,6,3,1004,30,66,28,82,24,75,25,77,2,3,28,82
+2010-06-15,300,25,76,1,1,251,WSW,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Heavy rain at times,3.7,0.1,94,6,3,1004,30,60,28,82,24,74,25,76,1,2,28,82
+2010-06-15,400,25,76,1,2,276,W,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Heavy rain at times,1.9,0.1,93,7,4,1004,30,57,28,82,23,74,25,76,2,2,28,82
+2010-06-15,500,25,76,2,3,301,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.7,0.0,92,9,5,1004,30,54,27,81,23,74,25,76,2,3,27,81
+2010-06-15,600,25,76,2,3,326,NW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.9,0.0,91,10,6,1004,30,51,27,81,23,74,25,76,3,4,27,81
+2010-06-15,700,25,77,2,3,329,NNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.5,0.0,89,9,5,1004,30,51,28,82,23,74,25,77,2,4,28,82
+2010-06-15,800,26,78,2,3,332,NNW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.9,0.0,87,9,5,1004,30,51,29,83,23,74,26,78,2,4,29,83
+2010-06-15,900,26,79,2,3,336,NNW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,1.2,0.0,84,8,4,1004,30,51,29,84,23,74,26,79,2,3,29,84
+2010-06-15,1000,26,78,2,3,310,NW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.6,0.0,87,8,4,1004,30,67,29,84,23,74,26,78,2,3,29,84
+2010-06-15,1100,25,77,1,2,284,WNW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,1.9,0.1,90,7,4,1003,30,84,28,83,24,74,25,77,2,3,28,83
+2010-06-15,1200,25,77,1,2,259,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,2.6,0.1,94,7,4,1003,30,100,28,82,24,75,25,77,2,3,28,82
+2010-06-15,1300,24,76,3,4,243,WSW,302,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Moderate rain,1.3,0.1,94,6,3,1002,30,100,27,81,23,74,24,76,4,6,27,81
+2010-06-15,1400,24,75,4,7,227,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,8.1,0.3,95,6,3,1002,30,100,27,80,23,74,24,75,6,10,27,80
+2010-06-15,1500,24,74,6,9,212,SSW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,10.8,0.4,96,5,3,1001,30,100,26,79,23,73,24,74,8,14,26,79
+2010-06-15,1600,23,74,6,10,216,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,5.4,0.2,96,5,3,1002,30,100,26,79,23,73,23,74,9,15,26,79
+2010-06-15,1700,23,74,6,10,221,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,4.0,0.2,97,5,3,1002,30,100,26,78,23,73,23,74,10,16,26,78
+2010-06-15,1800,23,73,7,11,226,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_cloudy_with_heavy_rain.png,Heavy rain,5.3,0.2,97,5,3,1003,30,100,26,78,23,73,23,73,11,18,26,78
+2010-06-15,1900,23,73,7,11,229,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,2.7,0.1,97,5,3,1003,30,100,25,78,22,72,23,73,11,17,25,78
+2010-06-15,2000,23,73,7,11,232,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,8.8,0.3,97,5,3,1003,30,100,25,78,22,72,23,73,11,17,25,78
+2010-06-15,2100,23,73,7,11,235,SW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,11.8,0.5,98,5,3,1003,30,100,25,77,22,72,23,73,10,17,25,77
+2010-06-15,2200,23,73,6,10,245,WSW,308,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Heavy rain,5.9,0.2,98,4,2,1003,30,100,25,78,23,73,23,73,10,16,25,78
+2010-06-15,2300,23,74,6,9,255,WSW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,3.4,0.1,98,4,2,1003,30,100,26,78,23,73,23,74,10,16,26,78
+2010-06-16,0,23,74,5,8,266,W,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,4.5,0.2,98,3,1,1003,30,100,26,79,23,74,23,74,10,16,26,79
+2010-06-16,100,23,74,4,6,290,WNW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,2.2,0.1,98,3,1,1003,30,100,26,79,23,74,23,74,7,12,26,79
+2010-06-16,200,24,74,3,4,314,NW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,5.9,0.2,98,3,1,1003,30,100,26,79,23,74,24,74,5,8,26,79
+2010-06-16,300,24,74,2,3,339,NNW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,7.9,0.3,98,3,1,1003,30,100,26,79,23,74,24,74,2,4,26,79
+2010-06-16,400,24,75,2,3,306,NW,359,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0034_cloudy_with_heavy_rain_night.png,Torrential rain shower,3.9,0.2,97,4,2,1003,30,98,26,80,23,74,24,75,2,4,26,80
+2010-06-16,500,24,75,2,3,273,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,1.0,0.0,96,6,3,1004,30,96,27,80,23,74,24,75,3,4,27,80
+2010-06-16,600,24,76,2,3,240,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,1.3,0.1,96,7,4,1004,30,94,27,80,24,74,24,76,3,4,27,80
+2010-06-16,700,25,77,3,4,230,SW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate or heavy rain shower,0.6,0.0,92,7,4,1004,30,86,28,82,24,74,25,77,3,6,28,82
+2010-06-16,800,26,78,3,6,220,SW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.2,0.0,89,7,4,1004,30,78,29,84,24,75,26,78,4,7,29,84
+2010-06-16,900,26,80,4,7,210,SSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.6,0.1,86,7,4,1004,30,71,30,86,24,75,26,80,5,8,30,86
+2010-06-16,1000,27,80,4,6,221,SW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.8,0.0,85,7,4,1004,30,75,30,87,24,75,27,80,5,8,30,87
+2010-06-16,1100,27,81,3,5,231,SW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.0,0.0,84,7,4,1004,30,80,31,88,24,75,27,81,5,8,31,88
+2010-06-16,1200,28,82,3,5,242,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.4,0.1,83,7,4,1003,30,85,32,89,24,76,28,82,5,8,32,89
+2010-06-16,1300,27,80,3,4,249,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.7,0.0,85,7,4,1003,30,82,31,87,24,75,27,80,4,7,31,87
+2010-06-16,1400,26,79,2,4,256,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.1,0.1,88,7,4,1002,30,79,30,85,24,75,26,79,3,6,30,85
+2010-06-16,1500,26,78,2,4,264,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.8,0.1,91,7,4,1002,30,76,29,84,24,75,26,78,3,5,29,84
+2010-06-16,1600,25,77,3,5,241,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.4,0.1,93,8,4,1003,30,72,28,82,24,75,25,77,4,6,28,82
+2010-06-16,1700,24,76,3,6,219,SW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png,Patchy light rain,0.3,0.0,94,8,5,1003,30,69,27,81,23,74,24,76,5,8,27,81
+2010-06-16,1800,24,75,4,6,197,SSW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png,Patchy light rain,0.4,0.0,95,9,5,1004,30,65,27,80,23,74,24,75,6,10,27,80
+2010-06-16,1900,24,75,4,6,210,SSW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png,Patchy light rain,0.2,0.0,95,9,5,1004,30,65,26,79,23,73,24,75,6,9,26,79
+2010-06-16,2000,23,74,4,6,223,SW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png,Patchy light rain,0.3,0.0,95,9,5,1004,30,65,26,79,23,73,23,74,6,9,26,79
+2010-06-16,2100,23,74,4,6,236,SW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png,Patchy light rain,0.4,0.0,95,9,5,1004,30,65,26,78,22,72,23,74,6,9,26,78
+2010-06-16,2200,23,74,4,6,232,SW,293,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0033_cloudy_with_light_rain_night.png,Patchy light rain,0.2,0.0,95,7,4,1004,30,67,26,78,22,72,23,74,5,9,26,78
+2010-06-16,2300,23,73,4,6,229,SW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,4,2,1004,30,70,25,78,22,72,23,73,5,9,25,78
+2010-06-17,0,23,73,4,6,226,SW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1003,30,73,25,78,22,72,23,73,5,8,25,78
+2010-06-17,100,23,73,3,5,240,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1003,30,68,25,77,22,72,23,73,5,8,25,77
+2010-06-17,200,23,73,3,4,254,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1003,30,64,25,77,22,72,23,73,4,7,25,77
+2010-06-17,300,23,73,2,4,268,W,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1003,30,59,25,77,22,71,23,73,4,6,25,77
+2010-06-17,400,23,74,2,3,254,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,93,5,2,1004,30,55,26,78,22,72,23,74,3,5,26,78
+2010-06-17,500,24,75,2,3,240,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,89,7,4,1004,30,51,26,80,22,72,24,75,3,5,26,80
+2010-06-17,600,25,77,2,3,226,SW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,85,10,6,1004,30,48,27,81,22,72,25,77,3,4,27,81
+2010-06-17,700,26,79,3,4,237,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,78,10,6,1004,30,39,29,84,22,72,26,79,3,5,29,84
+2010-06-17,800,28,82,3,5,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,71,10,6,1004,30,30,31,88,22,72,28,82,4,6,31,88
+2010-06-17,900,29,85,4,6,259,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,64,10,6,1004,30,22,33,91,22,72,29,85,5,7,33,91
+2010-06-17,1000,30,85,4,7,268,W,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,64,10,6,1004,30,44,33,92,22,72,30,85,5,8,33,92
+2010-06-17,1100,30,86,4,7,277,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.5,0.0,63,10,6,1003,30,66,33,92,22,72,30,86,6,9,33,92
+2010-06-17,1200,30,86,4,7,286,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.7,0.0,63,10,6,1003,30,89,34,93,22,72,30,86,6,10,34,93
+2010-06-17,1300,29,85,4,7,291,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.4,0.0,67,9,5,1003,30,74,33,91,23,73,29,85,6,10,33,91
+2010-06-17,1400,29,83,4,7,296,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.6,0.1,72,8,4,1003,30,60,32,90,23,73,29,83,6,9,32,90
+2010-06-17,1500,28,82,4,7,301,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.1,0.1,76,7,4,1002,30,45,31,89,23,74,28,82,5,9,31,89
+2010-06-17,1600,27,80,4,6,283,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,81,8,4,1003,30,58,30,86,23,74,27,80,5,8,30,86
+2010-06-17,1700,26,79,3,5,265,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.3,0.0,86,9,5,1004,30,71,29,84,23,74,26,79,4,7,29,84
+2010-06-17,1800,25,77,2,4,247,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Light rain shower,0.4,0.0,91,10,6,1004,30,84,28,82,24,74,25,77,4,6,28,82
+2010-06-17,1900,25,77,2,4,241,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.2,0.0,92,10,6,1005,30,73,28,82,23,74,25,77,3,6,28,82
+2010-06-17,2000,25,76,2,3,235,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.3,0.0,93,10,6,1005,30,63,27,81,23,74,25,76,3,5,27,81
+2010-06-17,2100,25,76,2,3,229,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.4,0.0,94,10,6,1005,30,53,27,81,23,74,25,76,3,5,27,81
+2010-06-17,2200,24,76,2,4,233,SW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.2,0.0,93,10,6,1005,30,51,27,81,23,74,24,76,4,6,27,81
+2010-06-17,2300,24,76,3,4,238,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1005,30,50,27,81,23,74,24,76,4,7,27,81
+2010-06-18,0,24,76,3,5,242,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1005,30,49,27,81,23,74,24,76,5,8,27,81
+2010-06-18,100,24,76,2,4,261,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,94,10,6,1005,30,52,27,81,23,74,24,76,4,6,27,81
+2010-06-18,200,24,76,1,2,280,W,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,94,10,6,1005,30,56,27,80,23,74,24,76,2,4,27,80
+2010-06-18,300,24,75,1,1,299,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.1,0.0,94,10,6,1005,30,59,27,80,23,74,24,75,1,2,27,80
+2010-06-18,400,25,77,1,2,300,WNW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.0,0.0,90,10,6,1005,30,59,28,82,23,74,25,77,2,3,28,82
+2010-06-18,500,26,79,2,3,301,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,86,10,6,1005,30,59,29,84,23,74,26,79,2,4,29,84
+2010-06-18,600,27,80,3,4,302,WNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,82,10,6,1006,30,59,30,86,23,74,27,80,3,5,30,86
+2010-06-18,700,28,82,3,5,316,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,77,10,6,1006,30,49,32,89,23,74,28,82,4,6,32,89
+2010-06-18,800,29,84,4,6,329,NNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.5,0.0,72,9,5,1006,30,39,33,92,24,74,29,84,5,7,33,92
+2010-06-18,900,30,86,5,8,343,NNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.6,0.0,68,9,5,1005,30,29,35,95,24,74,30,86,5,9,35,95
+2010-06-18,1000,30,87,4,7,344,NNW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,68,8,5,1005,30,40,35,96,24,75,30,87,5,8,35,96
+2010-06-18,1100,31,87,4,6,344,NNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,68,8,4,1004,30,51,36,96,24,75,31,87,5,8,36,96
+2010-06-18,1200,31,87,3,5,345,NNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.5,0.1,68,7,4,1003,30,61,36,97,24,75,31,87,5,8,36,97
+2010-06-18,1300,30,86,3,4,332,NNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,0.8,0.0,70,7,4,1003,30,65,36,96,24,76,30,86,4,6,36,96
+2010-06-18,1400,30,85,2,3,319,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.1,0.1,73,7,4,1003,30,68,35,95,24,76,30,85,3,5,35,95
+2010-06-18,1500,29,85,2,3,306,NW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.8,0.1,76,7,4,1002,30,72,34,94,25,76,29,85,2,4,34,94
+2010-06-18,1600,28,83,2,3,287,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.4,0.1,80,8,4,1003,30,63,33,91,24,76,28,83,3,4,33,91
+2010-06-18,1700,27,81,2,3,268,W,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,83,8,5,1003,30,53,32,89,24,76,27,81,3,5,32,89
+2010-06-18,1800,27,80,2,3,250,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,87,9,5,1004,30,43,30,87,24,76,27,80,4,6,30,87
+2010-06-18,1900,26,79,2,4,247,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,88,9,5,1004,30,46,30,86,24,75,26,79,4,7,30,86
+2010-06-18,2000,26,79,3,4,245,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.4,0.0,89,10,6,1004,30,49,29,85,24,75,26,79,5,8,29,85
+2010-06-18,2100,26,78,3,5,243,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.5,0.0,90,10,6,1005,30,52,29,84,24,75,26,78,5,9,29,84
+2010-06-18,2200,25,78,3,5,252,WSW,353,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Light rain shower,0.3,0.0,91,10,6,1004,30,46,29,83,24,75,25,78,5,8,29,83
+2010-06-18,2300,25,78,3,5,262,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,92,10,6,1004,30,41,29,83,24,75,25,78,5,8,29,83
+2010-06-19,0,25,77,3,5,271,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1004,30,35,28,83,24,75,25,77,5,8,28,83
+2010-06-19,100,25,77,3,4,267,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1004,30,37,28,83,24,75,25,77,4,7,28,83
+2010-06-19,200,25,77,2,4,263,W,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1004,30,39,28,83,24,75,25,77,4,7,28,83
+2010-06-19,300,25,77,2,4,259,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,93,10,6,1004,30,41,28,82,24,75,25,77,4,6,28,82
+2010-06-19,400,25,78,3,4,257,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Partly cloudy,0.0,0.0,91,10,6,1004,30,54,29,83,24,75,25,78,4,6,29,83
+2010-06-19,500,26,78,3,5,255,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,89,10,6,1005,30,68,29,84,24,75,26,78,4,7,29,84
+2010-06-19,600,26,79,3,5,253,WSW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,87,10,6,1005,30,81,30,85,24,75,26,79,5,7,30,85
+2010-06-19,700,27,81,3,4,284,WNW,119,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,83,10,6,1005,30,70,31,87,24,75,27,81,4,6,31,87
+2010-06-19,800,28,82,2,3,315,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,80,10,6,1005,30,59,32,89,24,75,28,82,3,4,32,89
+2010-06-19,900,29,83,2,3,347,NNW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,76,10,6,1005,30,48,33,91,24,75,29,83,2,3,33,91
+2010-06-19,1000,28,83,2,3,322,NW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,80,9,5,1004,30,59,33,91,24,76,28,83,3,4,33,91
+2010-06-19,1100,28,82,2,3,297,WNW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.6,0.1,83,8,4,1004,30,70,32,90,25,76,28,82,3,5,32,90
+2010-06-19,1200,27,81,2,4,273,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.1,0.1,87,7,4,1003,30,81,32,89,25,77,27,81,4,7,32,89
+2010-06-19,1300,27,80,3,5,270,W,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,90,7,4,1003,30,77,31,87,25,77,27,80,5,9,31,87
+2010-06-19,1400,26,79,4,6,267,W,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Heavy rain at times,3.9,0.2,92,6,3,1003,30,72,30,86,25,76,26,79,6,10,30,86
+2010-06-19,1500,25,78,5,8,264,W,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Heavy rain at times,5.2,0.2,95,6,3,1003,30,68,29,84,25,76,25,78,8,12,29,84
+2010-06-19,1600,25,77,5,7,255,WSW,305,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Heavy rain at times,2.6,0.1,95,7,4,1003,30,69,29,83,24,76,25,77,8,12,29,83
+2010-06-19,1700,25,77,5,7,247,WSW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,0.9,0.0,95,7,4,1004,30,70,28,83,24,76,25,77,7,12,28,83
+2010-06-19,1800,25,77,4,7,238,WSW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,1.2,0.0,95,8,4,1004,30,72,28,82,24,75,25,77,7,12,28,82
+2010-06-19,1900,25,77,5,8,232,SW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate rain at times,0.6,0.0,95,8,4,1004,30,72,28,82,24,75,25,77,8,13,28,82
+2010-06-19,2000,25,76,5,8,226,SW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate rain at times,1.0,0.0,96,8,4,1004,30,73,28,82,24,75,25,76,8,13,28,82
+2010-06-19,2100,25,76,5,8,220,SW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate rain at times,1.3,0.1,96,8,4,1005,30,74,27,81,24,75,25,76,8,14,27,81
+2010-06-19,2200,24,76,5,8,221,SW,299,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0026_heavy_rain_showers_night.png,Moderate rain at times,0.7,0.0,96,6,3,1004,30,71,27,81,24,75,24,76,8,12,27,81
+2010-06-19,2300,24,76,4,7,223,SW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,4,2,1004,30,68,27,81,24,75,24,76,7,11,27,81
+2010-06-20,0,24,76,4,6,224,SW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,2,1,1004,30,66,27,81,24,74,24,76,6,10,27,81
+2010-06-20,100,24,76,4,6,234,SW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,95,2,1,1004,30,63,27,81,23,74,24,76,6,9,27,81
+2010-06-20,200,24,75,3,5,245,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1005,30,60,27,80,23,74,24,75,5,8,27,80
+2010-06-20,300,24,75,3,5,256,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,96,2,1,1005,30,57,27,80,23,74,24,75,5,8,27,80
+2010-06-20,400,25,77,3,5,253,WSW,143,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png,Mist,0.0,0.0,92,5,2,1005,30,45,28,82,23,74,25,77,5,7,28,82
+2010-06-20,500,26,78,3,5,250,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,89,7,4,1006,30,33,29,83,23,74,26,78,4,7,29,83
+2010-06-20,600,26,79,3,5,248,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,85,10,6,1006,30,21,30,85,24,74,26,79,4,6,30,85
+2010-06-20,700,27,81,3,6,249,WSW,113,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png,Clear,0.0,0.0,81,10,6,1006,30,24,31,88,24,75,27,81,4,6,31,88
+2010-06-20,800,28,83,4,6,251,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,76,10,6,1006,30,28,32,90,24,75,28,83,4,7,32,90
+2010-06-20,900,29,85,4,6,252,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,72,10,6,1006,30,31,34,93,24,75,29,85,4,7,34,93
+2010-06-20,1000,30,86,4,7,253,WSW,116,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,69,10,6,1005,30,32,35,95,24,75,30,86,5,9,35,95
+2010-06-20,1100,31,87,5,8,253,WSW,386,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0016_thundery_showers.png,Patchy light rain with thunder,0.6,0.0,67,10,6,1004,30,33,36,96,24,75,31,87,7,10,36,96
+2010-06-20,1200,31,88,5,9,254,WSW,386,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0016_thundery_showers.png,Patchy light rain with thunder,0.8,0.0,64,10,6,1004,30,34,37,98,24,75,31,88,8,12,37,98
+2010-06-20,1300,30,87,5,8,251,WSW,386,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0016_thundery_showers.png,Patchy light rain with thunder,0.4,0.0,68,9,5,1004,30,37,36,96,24,75,30,87,7,12,36,96
+2010-06-20,1400,30,85,5,8,247,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.6,0.1,72,8,4,1004,30,39,35,94,24,75,30,85,7,11,35,94
+2010-06-20,1500,29,84,5,8,244,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,2.2,0.1,76,7,4,1004,30,42,33,92,24,75,29,84,6,10,33,92
+2010-06-20,1600,28,82,5,8,245,WSW,356,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,1.1,0.0,80,8,4,1004,30,40,32,89,24,75,28,82,6,10,32,89
+2010-06-20,1700,26,80,5,8,246,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,85,8,5,1005,30,39,30,86,24,75,26,80,7,11,30,86
+2010-06-20,1800,25,78,5,8,247,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,90,9,5,1006,30,37,28,83,24,74,25,78,7,12,28,83
+2010-06-20,1900,25,77,5,8,238,WSW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.0,0.0,90,9,5,1005,30,36,28,82,23,74,25,77,7,12,28,82
+2010-06-20,2000,25,76,5,8,230,SW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,91,9,5,1005,30,35,27,81,23,73,25,76,7,11,27,81
+2010-06-20,2100,24,76,5,8,221,SW,176,http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png,Patchy rain possible,0.1,0.0,92,9,5,1005,30,34,27,80,23,73,24,76,7,11,27,80

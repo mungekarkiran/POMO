@@ -1,0 +1,9 @@
+Model_name,Accuracy,Loss,Hamming_loss,Filename
+lr_Classifier,72.42,27.58,7.38,MultiLabelModel_lr_Classifier.pkl
+knn_Classifier,84.16,15.84,3.97,MultiLabelModel_knn_Classifier.pkl
+nb_Classifier,62.57,37.43,14.56,MultiLabelModel_nb_Classifier.pkl
+svm_Classifier,78.57,21.43,5.99,MultiLabelModel_svm_Classifier.pkl
+dt_Classifier,92.91,7.09,1.58,MultiLabelModel_dt_Classifier.pkl
+rf_Classifier,95.82,4.18,0.88,MultiLabelModel_rf_Classifier.pkl
+gb_Classifier,95.74,4.26,0.99,MultiLabelModel_gb_Classifier.pkl
+ab_Classifier,95.35,4.65,1.06,MultiLabelModel_ab_Classifier.pkl

@@ -1,0 +1,49 @@
+Feature_name,Model_name,Accuracy,Loss,Precision,Recall,f1_score,Cohen_kappa,Filename
+Label (Disease Yes/No),lr_Classifier,89.52,10.48,89.24,85.01,87.07,78.27,Label_Disease_Yes_No__lr_Classifier.pkl
+Label (Disease Yes/No),knn_Classifier,88.1,11.9,89.83,80.46,84.88,75.12,Label_Disease_Yes_No__knn_Classifier.pkl
+Label (Disease Yes/No),nb_Classifier,86.84,13.16,89.47,77.42,83.01,72.36,Label_Disease_Yes_No__nb_Classifier.pkl
+Label (Disease Yes/No),svm_Classifier,88.97,11.03,87.0,86.34,86.67,77.26,Label_Disease_Yes_No__svm_Classifier.pkl
+Label (Disease Yes/No),dt_Classifier,93.46,6.54,94.4,89.56,91.92,86.43,Label_Disease_Yes_No__dt_Classifier.pkl
+Label (Disease Yes/No),rf_Classifier,96.53,3.47,94.81,96.96,95.87,92.88,Label_Disease_Yes_No__rf_Classifier.pkl
+Label (Disease Yes/No),gb_Classifier,96.45,3.55,94.8,96.77,95.77,92.72,Label_Disease_Yes_No__gb_Classifier.pkl
+Label (Disease Yes/No),ab_Classifier,95.11,4.89,94.12,94.12,94.12,89.94,Label_Disease_Yes_No__ab_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),lr_Classifier,84.4,15.6,78.95,59.66,67.96,57.91,Type_of_Disease_Bacterial_Blight_Telya__lr_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),knn_Classifier,88.02,11.98,83.78,70.45,76.54,68.58,Type_of_Disease_Bacterial_Blight_Telya__knn_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),nb_Classifier,74.39,25.61,53.08,66.19,58.91,40.63,Type_of_Disease_Bacterial_Blight_Telya__nb_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),svm_Classifier,86.29,13.71,88.7,57.95,70.1,61.71,Type_of_Disease_Bacterial_Blight_Telya__svm_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),dt_Classifier,96.3,3.7,94.46,92.05,93.24,90.69,Type_of_Disease_Bacterial_Blight_Telya__dt_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),rf_Classifier,97.87,2.13,96.83,95.45,96.14,94.67,Type_of_Disease_Bacterial_Blight_Telya__rf_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),gb_Classifier,97.56,2.44,95.99,95.17,95.58,93.89,Type_of_Disease_Bacterial_Blight_Telya__gb_Classifier.pkl
+Type of Disease (Bacterial Blight/Telya),ab_Classifier,97.56,2.44,97.07,94.03,95.53,93.85,Type_of_Disease_Bacterial_Blight_Telya__ab_Classifier.pkl
+Anthracnose,lr_Classifier,83.06,16.94,40.32,12.32,18.87,12.3,Anthracnose_lr_Classifier.pkl
+Anthracnose,knn_Classifier,94.72,5.28,83.33,83.74,83.54,80.39,Anthracnose_knn_Classifier.pkl
+Anthracnose,nb_Classifier,80.06,19.94,43.49,82.27,56.9,45.49,Anthracnose_nb_Classifier.pkl
+Anthracnose,svm_Classifier,92.83,7.17,91.79,60.59,73.0,69.06,Anthracnose_svm_Classifier.pkl
+Anthracnose,dt_Classifier,97.56,2.44,95.26,89.16,92.11,90.67,Anthracnose_dt_Classifier.pkl
+Anthracnose,rf_Classifier,98.66,1.34,97.45,94.09,95.74,94.94,Anthracnose_rf_Classifier.pkl
+Anthracnose,gb_Classifier,98.19,1.81,94.55,94.09,94.32,93.24,Anthracnose_gb_Classifier.pkl
+Anthracnose,ab_Classifier,98.03,1.97,94.06,93.6,93.83,92.66,Anthracnose_ab_Classifier.pkl
+Fruit Spot/ Rot,lr_Classifier,97.95,2.05,92.48,88.49,90.44,89.29,Fruit_Spot_Rot_lr_Classifier.pkl
+Fruit Spot/ Rot,knn_Classifier,99.21,0.79,94.48,98.56,96.48,96.04,Fruit_Spot_Rot_knn_Classifier.pkl
+Fruit Spot/ Rot,nb_Classifier,92.28,7.72,58.8,98.56,73.66,69.47,Fruit_Spot_Rot_nb_Classifier.pkl
+Fruit Spot/ Rot,svm_Classifier,97.24,2.76,100.0,74.82,85.6,84.11,Fruit_Spot_Rot_svm_Classifier.pkl
+Fruit Spot/ Rot,dt_Classifier,99.84,0.16,100.0,98.56,99.28,99.19,Fruit_Spot_Rot_dt_Classifier.pkl
+Fruit Spot/ Rot,rf_Classifier,99.92,0.08,100.0,99.28,99.64,99.59,Fruit_Spot_Rot_rf_Classifier.pkl
+Fruit Spot/ Rot,gb_Classifier,99.84,0.16,100.0,98.56,99.28,99.19,Fruit_Spot_Rot_gb_Classifier.pkl
+Fruit Spot/ Rot,ab_Classifier,99.76,0.24,99.28,98.56,98.92,98.78,Fruit_Spot_Rot_ab_Classifier.pkl
+Fusarium Wilt,lr_Classifier,99.84,0.16,100.0,93.55,96.67,96.59,Fusarium_Wilt_lr_Classifier.pkl
+Fusarium Wilt,knn_Classifier,99.05,0.95,100.0,61.29,76.0,75.55,Fusarium_Wilt_knn_Classifier.pkl
+Fusarium Wilt,nb_Classifier,93.93,6.07,27.88,93.55,42.96,40.73,Fusarium_Wilt_nb_Classifier.pkl
+Fusarium Wilt,svm_Classifier,97.64,2.36,100.0,3.23,6.25,6.11,Fusarium_Wilt_svm_Classifier.pkl
+Fusarium Wilt,dt_Classifier,99.92,0.08,100.0,96.77,98.36,98.32,Fusarium_Wilt_dt_Classifier.pkl
+Fusarium Wilt,rf_Classifier,99.84,0.16,100.0,93.55,96.67,96.59,Fusarium_Wilt_rf_Classifier.pkl
+Fusarium Wilt,gb_Classifier,99.84,0.16,100.0,93.55,96.67,96.59,Fusarium_Wilt_gb_Classifier.pkl
+Fusarium Wilt,ab_Classifier,99.84,0.16,100.0,93.55,96.67,96.59,Fusarium_Wilt_ab_Classifier.pkl
+Fruit Borer / Blight Blora,lr_Classifier,95.59,4.41,86.29,90.68,88.43,85.71,Fruit_Borer_Blight_Blora_lr_Classifier.pkl
+Fruit Borer / Blight Blora,knn_Classifier,98.19,1.81,93.12,97.46,95.24,94.12,Fruit_Borer_Blight_Blora_knn_Classifier.pkl
+Fruit Borer / Blight Blora,nb_Classifier,91.73,8.27,70.03,97.03,81.35,76.21,Fruit_Borer_Blight_Blora_nb_Classifier.pkl
+Fruit Borer / Blight Blora,svm_Classifier,95.82,4.18,98.41,78.81,87.53,85.06,Fruit_Borer_Blight_Blora_svm_Classifier.pkl
+Fruit Borer / Blight Blora,dt_Classifier,99.76,0.24,99.57,99.15,99.36,99.22,Fruit_Borer_Blight_Blora_dt_Classifier.pkl
+Fruit Borer / Blight Blora,rf_Classifier,99.68,0.32,99.15,99.15,99.15,98.96,Fruit_Borer_Blight_Blora_rf_Classifier.pkl
+Fruit Borer / Blight Blora,gb_Classifier,99.68,0.32,99.15,99.15,99.15,98.96,Fruit_Borer_Blight_Blora_gb_Classifier.pkl
+Fruit Borer / Blight Blora,ab_Classifier,99.76,0.24,99.57,99.15,99.36,99.22,Fruit_Borer_Blight_Blora_ab_Classifier.pkl

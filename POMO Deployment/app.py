@@ -131,6 +131,41 @@ treatment_dict = {
         "At initial stage drench 2ml Propiconazole + 4ml Chloropyriphos per liter water solution, drench 8-10 lit of solution per tree. Drench with Formaldehyde @ 25 ml/l. "]
 }
 
+ROOT_PATH = os.getcwd()
+DOCS_DIR = "static\Docs"
+MULTI_MODEL_FILE = "MultiLabelModel_result.csv"
+MULTI_MODEL_FILE_PATH = os.path.join(ROOT_PATH, DOCS_DIR, MULTI_MODEL_FILE)
+
+MODELS_DIR = "static\Models"
+MODELS_FILE_PATH = os.path.join(ROOT_PATH, MODELS_DIR)
+
+# def predict_ensemble_voting_classifier(X_test, path : str = RESULT_FILE_PATH):
+    
+#     # selecting top 3 models
+#     if os.path.exists(path):   
+
+#         models_df = pd.read_csv(path)
+#         models_list = list(models_df.sort_values(by = ['Accuracy'], ascending = False)[0:3]['Filename'].values)
+
+#         # get model prediction results
+#         output_list = []
+#         for path in models_list:
+#             model = pickle.load(open(path, 'rb')) 
+#             pred = model.predict(X_test)
+#             output_list.append(pred)
+        
+#         # get predicted values (from votting)
+#         and_of_pred = (output_list[0] & output_list[1] & output_list[2])
+#         or_of_pred = (output_list[0] | output_list[1] | output_list[2])
+#         y_pred_new = np.nan_to_num(and_of_pred // or_of_pred)
+        
+#         return y_pred_new
+
+#     else:
+#         raise Exception(f"[ {RESULT_FILE_PATH} ] : file not found.")
+
+
+
 # def save_and_display_gradcam(img_path, heatmap, cam_path="static//gCam.jpeg", alpha=0.99):
 def save_and_display_gradcam(img_path, heatmap, cam_path, alpha=0.99):
     # Load the original image
