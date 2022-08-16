@@ -213,7 +213,12 @@ def upload():
         preds, preClass, heat, gCam = model_predict(file_path, model)
         result = str(preds[0])
         # print('----> \t\t heat, gCam : ', heat, gCam)
-        print("result : ", result)
+        print("----> \t\t result : ", result)
+        preds_result_index = list(preds[0])
+        result_index = preds_result_index.index(max(preds_result_index))
+        print("----> index value : ", result_index )
+        print("**"*20)
+        time.sleep(5)
 
         # df = pd.DataFrame({"Class": ["0","1","2","3","4","5"],"Probability": preds[0]})
         df = pd.DataFrame({
