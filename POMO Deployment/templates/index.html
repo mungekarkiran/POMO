@@ -85,6 +85,28 @@
                 </div>
                 <!-- {% endif %}     -->
             </div>
+
+            <div class="row">
+                <div class="col">
+                    <h3>Management</h3>
+                    <ol>
+                        {% for m_list in management %}
+                        <li>{{ m_list }}</li>
+                        {% endfor %}
+                    </ol>  
+                </div>
+                
+                <div class="col">
+                    <h3>Treatments or Pesticides</h3>
+                    <ol>
+                        {% for t_list in treatment %}
+                        <li>{{ t_list }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+
+            </div>
+
             {% endif %}
         </div>
 

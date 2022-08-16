@@ -99,6 +99,23 @@ management_dict = {
     4 : ["Do not allow water to stagnate, try to create drainage facility. ", "Do not irrigate for 2-3 days after drenching. "]
 } 
 
+treatment_dict = {
+    0 : [
+        "Before pruning it should be sprayed with 1% Bordeaux mixture. ", 
+        "After Ethrel spraying Paste or smear with 0.5g Streptomycin Sulphate + 2.5g Copper oxy chloride + 200g red oxide per lit of water. ", 
+        "Spray 0.5g Streptomycin Sulphate or Bacterinashak + 2.5g copper oxy chloride per liter of water. ", 
+        "Next Day or another day spray with 1g ZnSo4 + 1g MgSo4 + 1g Boron + 1g CaSo4 Per litre of water. "],
+    1 : [
+        "Spray Dimethoate 0.06% prior to flowering is important. ", 
+        "In severe condition spray methyl oxy-demeton 0.05% and repeat after fruit set. ", 
+        "Spraying of Melathion 1ml/lit. "],
+    2 : [
+        "The plant is healthy. "],
+    3 : [
+        "Spraying Mancozeb (0.25%) or Captaf (0.25%) effectively control the disease. "],
+    4 : [
+        "At initial stage drench 2ml Propiconazole + 4ml Chloropyriphos per liter water solution, drench 8-10 lit of solution per tree. Drench with Formaldehyde @ 25 ml/l. "]
+}
 
 # def save_and_display_gradcam(img_path, heatmap, cam_path="static//gCam.jpeg", alpha=0.99):
 def save_and_display_gradcam(img_path, heatmap, cam_path, alpha=0.99):
@@ -226,12 +243,14 @@ def upload():
         preds_result_index = list(preds[0])
         result_index = preds_result_index.index(max(preds_result_index))
         print("----> index value : ", result_index )
+        management_list = management_dict[result_index]
+        treatment_list = treatment_dict[result_index]
         print("**"*20)
         time.sleep(5)
 
         # df = pd.DataFrame({"Class": ["0","1","2","3","4","5"],"Probability": preds[0]})
         df = pd.DataFrame({
-            "Class": ["Anthracnose","Bacterial Blight","Blight Borer","Healthy","Rot","Fusarium Wilt"],
+            "Class": ["Anthracnose", "Bacterial Blight", "Blight Borer", "Healthy", "Rot", "Fusarium Wilt"],
             "Probability": preds[0]
             })
         fig = px.bar(df, x="Class", y="Probability", color="Class")
@@ -241,7 +260,7 @@ def upload():
         # gCam = os.path.join('static/gCam.jpeg')
         time.sleep(0.3)
         # return render_template('index.html', result=result, file_path=file_path[7:],heat=heat[7:],gCam=gCam[7:],test2=preClass,graphJSON=graphJSON)
-        return render_template('index.html', result=result, file_path=file_path[7:],heat=heat,gCam=gCam[8:],test2=preClass,graphJSON=graphJSON)
+        return render_template('index.html', result=result, file_path=file_path[7:], heat=heat, gCam=gCam[8:], test2=preClass, graphJSON=graphJSON, management=management_list, treatment=treatment_list)
     return None
 
 @app.route('/WeatherBasedPomegranateDiseasePrediction', methods=['GET', 'POST'])
