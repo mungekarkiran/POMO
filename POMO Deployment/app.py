@@ -333,6 +333,11 @@ def WeatherBasedDiseasePredict():
         output = predict_ensemble_voting_classifier(input_test, MULTI_MODEL_FILE_PATH)
         print('--- > output : ', output)
 
+        # 25	50	5	1014	0.000000	4	9.8	45
+        # 26	43	9	1012	0.000000	5	9.7	42
+        # 25	58	5	1013	0.066667	3	9.8	50
+
+        
 
     return render_template('WeatherBasedPomegranateDiseasePrediction.html')
     
