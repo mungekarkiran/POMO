@@ -314,8 +314,26 @@ def upload():
 
 @app.route('/WeatherBasedPomegranateDiseasePrediction', methods=['GET', 'POST'])
 def WeatherBasedPomegranateDiseasePrediction():
+    return render_template('WeatherBasedPomegranateDiseasePrediction.html')
+
+@app.route('/WeatherBasedDiseasePredict', methods=['GET', 'POST'])
+def WeatherBasedDiseasePredict():
+    if request.method == 'POST':
+        TempC = request.form.get('TempC')
+        Humidity = request.form.get('Humidity')
+        WindSpeed = request.form.get('WindSpeed')
+        Pressure = request.form.get('Pressure')
+        Precipitation = request.form.get('Precipitation')
+        WeatherDesc = request.form.get('WeatherDesc')
+        SunshineHours = request.form.get('SunshineHours')
+        SoilMoisure = request.form.get('SoilMoisure')
+
+        print('--- > Input are : ', TempC, Humidity, WindSpeed, Pressure, Precipitation, WeatherDesc, SunshineHours, SoilMoisure)
 
     return render_template('WeatherBasedPomegranateDiseasePrediction.html')
+    
+        
+
 
 if __name__ == '__main__':
     app.run(debug=True)
