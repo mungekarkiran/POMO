@@ -282,7 +282,6 @@ def WeatherBasedDiseasePredict():
         SoilMoisure = float(request.form.get('SoilMoisure'))
 
         print('--- > Input are : ', TempC, Humidity, WindSpeed, Pressure, Precipitation, WeatherDesc, SunshineHours, SoilMoisure)
-
         input_test = np.array([[TempC, Humidity, WindSpeed, Pressure, Precipitation, WeatherDesc, SunshineHours, SoilMoisure]])
         output = predict_ensemble_voting_classifier(input_test, MULTI_MODEL_FILE_PATH)
         print('--- > Output are : ', output)
@@ -306,9 +305,6 @@ def WeatherBasedDiseasePredict():
                 pred_disease_treatment.extend(disease_treatment_list[ind])
                 
     return render_template('WeatherBasedPomegranateDiseasePrediction.html', disease=pred_disease, disease_management=pred_disease_management, disease_treatment=pred_disease_treatment)
-    
-        
-
 
 if __name__ == '__main__':
     app.run(debug=True)
