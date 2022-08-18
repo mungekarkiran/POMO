@@ -74,6 +74,8 @@ import json
 import plotly
 import plotly.express as px
 
+from disease_info import *
+
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -91,54 +93,6 @@ model = load_model(MODEL_PATH)
 
 print('\nModel loaded. Start serving...')
 print('\nModel loaded. Check http://127.0.0.1:5000/')
-
-management_dict = {
-    0 : [
-        "Wide row spacing. ", 
-        "Selection of disease free seedlings for fresh planting. ", 
-        "Pruning affected branches, fruits regularly and burning. ", 
-        "Bahar should be done in Haste or Ambe Bahar. ", 
-        "Give minimum four month rest after harvesting the fruits. "],
-    1 : [
-        "Clean cultivation and aintenance of health and vigour of the tree should be followe. ", 
-        "The fruits if screened with polythene or paper bags may escape infestation. ", 
-        "Removal and destruction of all the affected fruits."],
-    2 : [
-        "The plant is healthy. "],
-    3 : [
-        "Affected fruits should be collected and destroyed. ", 
-        "Select Haste or Ambe bahar. ", 
-        "Wider plant spacing, yearly pruning of trees. "],
-    4 : [
-        "Do not allow water to stagnate, try to create drainage facility. ", 
-        "Do not irrigate for 2-3 days after drenching. "]
-} 
-
-treatment_dict = {
-    0 : [
-        "Before pruning it should be sprayed with 1% Bordeaux mixture. ", 
-        "After Ethrel spraying Paste or smear with 0.5g Streptomycin Sulphate + 2.5g Copper oxy chloride + 200g red oxide per lit of water. ", 
-        "Spray 0.5g Streptomycin Sulphate or Bacterinashak + 2.5g copper oxy chloride per liter of water. ", 
-        "Next Day or another day spray with 1g ZnSo4 + 1g MgSo4 + 1g Boron + 1g CaSo4 Per litre of water. "],
-    1 : [
-        "Spray Dimethoate 0.06% prior to flowering is important. ", 
-        "In severe condition spray methyl oxy-demeton 0.05% and repeat after fruit set. ", 
-        "Spraying of Melathion 1ml/lit. "],
-    2 : [
-        "The plant is healthy. "],
-    3 : [
-        "Spraying Mancozeb (0.25%) or Captaf (0.25%) effectively control the disease. "],
-    4 : [
-        "At initial stage drench 2ml Propiconazole + 4ml Chloropyriphos per liter water solution, drench 8-10 lit of solution per tree. Drench with Formaldehyde @ 25 ml/l. "]
-}
-
-ROOT_PATH = os.getcwd()
-DOCS_DIR = "static\Docs"
-MULTI_MODEL_FILE = "MultiLabelModel_result.csv"
-MULTI_MODEL_FILE_PATH = os.path.join(ROOT_PATH, DOCS_DIR, MULTI_MODEL_FILE)
-
-MODELS_DIR = "static\Models"
-MODELS_FILE_PATH = os.path.join(ROOT_PATH, MODELS_DIR)
 
 def predict_ensemble_voting_classifier(X_test, path : str):
     
@@ -331,15 +285,27 @@ def WeatherBasedDiseasePredict():
 
         input_test = np.array([[TempC, Humidity, WindSpeed, Pressure, Precipitation, WeatherDesc, SunshineHours, SoilMoisure]])
         output = predict_ensemble_voting_classifier(input_test, MULTI_MODEL_FILE_PATH)
-        print('--- > output : ', output)
+        print('--- > Output are : ', output)
 
         # 25	50	5	1014	0.000000	4	9.8	45
         # 26	43	9	1012	0.000000	5	9.7	42
         # 25	58	5	1013	0.066667	3	9.8	50
 
-        
+        # getting predicated disease by ensemble voting classifier
+        pred_disease = [type_of_disease[ind] for ind, val in enumerate(output[0]) if val == 1]
+        if len(pred_disease) == 0: pred_disease = ['The weather is suitable for the healthy growth of pomegranate. ']
 
-    return render_template('WeatherBasedPomegranateDiseasePrediction.html')
+        pred_disease_management = []
+        for ind, val in enumerate(output[0]): 
+            if val == 1:
+                pred_disease_management.extend(disease_management_list[ind])
+
+        pred_disease_treatment = []
+        for ind, val in enumerate(output[0]): 
+            if val == 1:
+                pred_disease_treatment.extend(disease_treatment_list[ind])
+                
+    return render_template('WeatherBasedPomegranateDiseasePrediction.html', disease=pred_disease, disease_management=pred_disease_management, disease_treatment=pred_disease_treatment)
     
         
 

@@ -81,4 +81,36 @@
         <div class="col"></div>
     </div>
 </div>
+
+
+
+<div class="container">
+    <div class="row g-3">
+        <div class="col">
+            {% if disease %}
+            <h3>Type of Disease</h3>
+            <ol>
+            {% for dis in disease %}
+                <li>{{dis}} </li>
+            {% endfor %}
+            </ol>
+        </div>
+        <div class="col">
+            <ol>
+            {% for dm in disease_management %}
+                <li>{{dm}} </li>
+            {% endfor %}
+            </ol>
+        </div>
+        <div class="col">
+            <ol>
+            {% for dt in disease_treatment %}
+                <li>{{dt}} </li>
+            {% endfor %}
+            </ol>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
 {% endblock %}
