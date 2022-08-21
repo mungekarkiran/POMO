@@ -297,14 +297,16 @@ def WeatherBasedDiseasePredict():
         pred_disease_management = []
         for ind, val in enumerate(output[0]): 
             if val == 1:
-                pred_disease_management.extend(disease_management_list[ind])
+                # pred_disease_management.extend(disease_management_list[ind])
+                pred_disease_management.append(disease_management_list[ind])
 
         pred_disease_treatment = []
         for ind, val in enumerate(output[0]): 
             if val == 1:
-                pred_disease_treatment.extend(disease_treatment_list[ind])
+                # pred_disease_treatment.extend(disease_treatment_list[ind])
+                pred_disease_treatment.append(disease_treatment_list[ind])
                 
-    return render_template('WeatherBasedPomegranateDiseasePrediction.html', disease=pred_disease, disease_management=pred_disease_management, disease_treatment=pred_disease_treatment)
+    return render_template('WeatherBasedPomegranateDiseasePrediction.html', disease=pred_disease, disease_management=pred_disease_management, disease_treatment=pred_disease_treatment, result=[pred_disease, pred_disease_management, pred_disease_treatment])
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -82,7 +82,7 @@
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row g-3">
         <div class="col">
             {% if disease %}
@@ -111,6 +111,46 @@
         </div>
         {% endif %}
     </div>
+</div> -->
+
+<div class="container">
+    {% if disease %}
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+                <th scope="col"><center>Predicted Pomegranate Disease</center></th>
+                <th scope="col"><center>Management</center></th>
+                <th scope="col"><center>Treatments or Pesticides</center></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% set disease, disease_management, disease_treatment = result %}
+            {% for ind in [0,1,2,3,4,5] %}
+            <tr>
+                <th>{{disease[ind]}}</th>
+                <!-- <td>{{disease_management[ind]}}</td> -->
+                <td>
+                    <ol>
+                        {% for dm in disease_management[ind] %}
+                        <li>{{dm}} </li>
+                        {% endfor %}
+                    </ol>
+                </td>
+                <!-- <td>{{disease_treatment[ind]}}</td> -->
+                <td>
+                    <ol>
+                        {% for dt in disease_treatment[ind] %}
+                        <li>{{dt}} </li>
+                        {% endfor %}
+                    </ol>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+      {% endif %}
 </div>
+
+
 
 {% endblock %}
