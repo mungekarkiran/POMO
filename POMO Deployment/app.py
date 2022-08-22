@@ -286,9 +286,15 @@ def WeatherBasedDiseasePredict():
         output = predict_ensemble_voting_classifier(input_test, MULTI_MODEL_FILE_PATH)
         print('--- > Output are : ', output)
 
-        # 25	50	5	1014	0.000000	4	9.8	45
-        # 26	43	9	1012	0.000000	5	9.7	42
-        # 25	58	5	1013	0.066667	3	9.8	50
+        # 25	50	5	1014	0.000000	4	9.8	45 == 10000
+        # 26	43	9	1012	0.000000	5	9.7	42 == 00000
+        # 25	58	5	1013	0.066667	3	9.8	50 == 11000
+        # 23	91	26	999	1.733333	1	3.8	70	== 00110 != 00111 
+        # 26	89	5	1004	0.766667	1	6.2	65 == 10101
+        # 25	78	12	1001	2.200000	1	9.1	64 == 11000 != 11101
+        # 23	44	5	1013	0.000000	5	9.8	45 == 00000
+        # 24	90	7	1006	0.066667	3	5.4	55 == 00001
+        # 24	91	6	1004	0.100000	3	3.8	65	== 00101
 
         # getting predicated disease by ensemble voting classifier
         pred_disease = [type_of_disease[ind] for ind, val in enumerate(output[0]) if val == 1]
@@ -299,13 +305,15 @@ def WeatherBasedDiseasePredict():
             if val == 1:
                 # pred_disease_management.extend(disease_management_list[ind])
                 pred_disease_management.append(disease_management_list[ind])
+        if len(pred_disease_management) == 0: pred_disease_management = [['The healthy growth of pomegranate. ']]
 
         pred_disease_treatment = []
         for ind, val in enumerate(output[0]): 
             if val == 1:
                 # pred_disease_treatment.extend(disease_treatment_list[ind])
                 pred_disease_treatment.append(disease_treatment_list[ind])
-                
+        if len(pred_disease_treatment) == 0: pred_disease_treatment = [['The healthy growth of pomegranate. ']]
+
     return render_template('WeatherBasedPomegranateDiseasePrediction.html', disease=pred_disease, disease_management=pred_disease_management, disease_treatment=pred_disease_treatment, result=[pred_disease, pred_disease_management, pred_disease_treatment])
 
 if __name__ == '__main__':
