@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+    <div class="alert alert-primary" role="alert">
+        <h1>Time Series Based Pomegranate Disease Forecasting</h1>
+    </div>
+
+    <div>
+        <form action="/next_forecast" method="post" enctype="multipart/form-data">
+            <label>Upload your 30 days weather parameters in (.csv) formate :</label>
+            <input type="file" name="file" class="file">
+            <label>Select number of next days for forecasting :</label>
+            <select name="next_days" aria-label="Default select example">
+                <option value="30" selected>30 days</option>
+                <option value="60">60 days</option>
+                <option value="90">90 days</option>
+                <option value="120">120 days</option>
+                <option value="150">150 days</option>
+                <option value="180">180 days</option>
+                <option value="210">210 days</option>
+                <option value="240">240 days</option>
+                <option value="270">270 days</option>
+                <option value="300">300 days</option>
+                <option value="330">330 days</option>
+                <option value="360">360 days</option>
+              </select>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+    <br>
+</center>
+
+
+
+
+{% endblock %}
