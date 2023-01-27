@@ -1,0 +1,237 @@
+[2022-07-24 18:39:12,777] root - INFO - ========== Initializing fit_ensemble_voting_classifier ==========
+
+
+[2022-07-24 18:39:12,792] root - INFO - Model : LogisticRegression running...
+[2022-07-24 18:39:12,806] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:19,961] root - INFO - Classification on Training dataset : [ 'Accuracy': 73.12, 'Loss': 26.88, 'Zero_one_loss': 26.88, 'Hamming_loss': 7.28 ]
+[2022-07-24 18:39:20,558] root - INFO - Classification on Testing dataset : [ 'Accuracy': 70.02, 'Loss': 29.98, 'Zero_one_loss': 29.98, 'Hamming_loss': 7.81 ]
+[2022-07-24 18:39:20,558] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:20,559] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_LogisticRegression.pkl
+[2022-07-24 18:39:21,664] root - INFO - Model data : {'Accuracy': 73.12, 'Loss': 26.88, 'Hamming_loss': 7.28, 'Model_name': 'LogisticRegression', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_LogisticRegression.pkl'} 
+
+
+[2022-07-24 18:39:21,685] root - INFO - Model : KNeighborsClassifier running...
+[2022-07-24 18:39:21,691] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:22,990] root - INFO - Classification on Training dataset : [ 'Accuracy': 89.12, 'Loss': 10.88, 'Zero_one_loss': 10.88, 'Hamming_loss': 2.68 ]
+[2022-07-24 18:39:23,774] root - INFO - Classification on Testing dataset : [ 'Accuracy': 89.15, 'Loss': 10.85, 'Zero_one_loss': 10.85, 'Hamming_loss': 2.82 ]
+[2022-07-24 18:39:23,774] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:23,778] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_KNeighborsClassifier.pkl
+[2022-07-24 18:39:23,779] root - INFO - Model data : {'Accuracy': 89.12, 'Loss': 10.88, 'Hamming_loss': 2.68, 'Model_name': 'KNeighborsClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_KNeighborsClassifier.pkl'} 
+
+
+[2022-07-24 18:39:23,790] root - INFO - Model : GaussianNB running...
+[2022-07-24 18:39:23,793] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:23,900] root - INFO - Classification on Training dataset : [ 'Accuracy': 63.3, 'Loss': 36.7, 'Zero_one_loss': 36.7, 'Hamming_loss': 13.18 ]
+[2022-07-24 18:39:23,990] root - INFO - Classification on Testing dataset : [ 'Accuracy': 63.4, 'Loss': 36.6, 'Zero_one_loss': 36.6, 'Hamming_loss': 13.73 ]
+[2022-07-24 18:39:23,990] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:23,992] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GaussianNB.pkl
+[2022-07-24 18:39:23,993] root - INFO - Model data : {'Accuracy': 63.3, 'Loss': 36.7, 'Hamming_loss': 13.18, 'Model_name': 'GaussianNB', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GaussianNB.pkl'} 
+
+
+[2022-07-24 18:39:24,004] root - INFO - Model : SVC running...
+[2022-07-24 18:39:24,006] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:32,081] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.47, 'Loss': 2.53, 'Zero_one_loss': 2.53, 'Hamming_loss': 0.51 ]
+[2022-07-24 18:39:33,655] root - INFO - Classification on Testing dataset : [ 'Accuracy': 98.01, 'Loss': 1.99, 'Zero_one_loss': 1.99, 'Hamming_loss': 0.43 ]
+[2022-07-24 18:39:33,655] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:33,658] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_SVC.pkl
+[2022-07-24 18:39:33,658] root - INFO - Model data : {'Accuracy': 97.47, 'Loss': 2.53, 'Hamming_loss': 0.51, 'Model_name': 'SVC', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_SVC.pkl'} 
+
+
+[2022-07-24 18:39:33,667] root - INFO - Model : DecisionTreeClassifier running...
+[2022-07-24 18:39:33,672] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:33,984] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:39:34,081] root - INFO - Classification on Testing dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:39:34,081] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:34,084] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_DecisionTreeClassifier.pkl
+[2022-07-24 18:39:34,085] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'DecisionTreeClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_DecisionTreeClassifier.pkl'} 
+
+
+[2022-07-24 18:39:34,095] root - INFO - Model : RandomForestClassifier running...
+[2022-07-24 18:39:34,098] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:36,808] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:39:39,481] root - INFO - Classification on Testing dataset : [ 'Accuracy': 99.92, 'Loss': 0.08, 'Zero_one_loss': 0.08, 'Hamming_loss': 0.02 ]
+[2022-07-24 18:39:39,482] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:39,528] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_RandomForestClassifier.pkl
+[2022-07-24 18:39:39,529] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'RandomForestClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_RandomForestClassifier.pkl'} 
+
+
+[2022-07-24 18:39:39,538] root - INFO - Model : GradientBoostingClassifier running...
+[2022-07-24 18:39:39,541] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:42,022] root - INFO - Classification on Training dataset : [ 'Accuracy': 98.26, 'Loss': 1.74, 'Zero_one_loss': 1.74, 'Hamming_loss': 0.37 ]
+[2022-07-24 18:39:43,026] root - INFO - Classification on Testing dataset : [ 'Accuracy': 98.96, 'Loss': 1.04, 'Zero_one_loss': 1.04, 'Hamming_loss': 0.22 ]
+[2022-07-24 18:39:43,026] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:43,055] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GradientBoostingClassifier.pkl
+[2022-07-24 18:39:43,056] root - INFO - Model data : {'Accuracy': 98.26, 'Loss': 1.74, 'Hamming_loss': 0.37, 'Model_name': 'GradientBoostingClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GradientBoostingClassifier.pkl'} 
+
+
+[2022-07-24 18:39:43,066] root - INFO - Model : AdaBoostClassifier running...
+[2022-07-24 18:39:43,069] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:39:44,300] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.16, 'Loss': 2.84, 'Zero_one_loss': 2.84, 'Hamming_loss': 0.62 ]
+[2022-07-24 18:39:45,098] root - INFO - Classification on Testing dataset : [ 'Accuracy': 97.45, 'Loss': 2.55, 'Zero_one_loss': 2.55, 'Hamming_loss': 0.61 ]
+[2022-07-24 18:39:45,099] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:39:45,734] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_AdaBoostClassifier.pkl
+[2022-07-24 18:39:45,735] root - INFO - Model data : {'Accuracy': 97.16, 'Loss': 2.84, 'Hamming_loss': 0.62, 'Model_name': 'AdaBoostClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_AdaBoostClassifier.pkl'} 
+
+
+[2022-07-24 18:39:45,756] root - INFO - Result file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Docs\MultiLabelModel_result.csv
+[2022-07-24 18:39:49,733] root - INFO - ========== Done fit_ensemble_voting_classifier ==========
+
+
+[2022-07-24 18:40:15,280] root - INFO - ========== Initializing fit_ensemble_voting_classifier ==========
+
+
+[2022-07-24 18:40:15,297] root - INFO - Model : LogisticRegression running...
+[2022-07-24 18:40:15,306] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:16,370] root - INFO - Classification on Training dataset : [ 'Accuracy': 70.9, 'Loss': 29.1, 'Zero_one_loss': 29.1, 'Hamming_loss': 7.79 ]
+[2022-07-24 18:40:17,121] root - INFO - Classification on Testing dataset : [ 'Accuracy': 74.32, 'Loss': 25.68, 'Zero_one_loss': 25.68, 'Hamming_loss': 6.81 ]
+[2022-07-24 18:40:17,122] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:17,123] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_LogisticRegression.pkl
+[2022-07-24 18:40:17,124] root - INFO - Model data : {'Accuracy': 70.9, 'Loss': 29.1, 'Hamming_loss': 7.79, 'Model_name': 'LogisticRegression', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_LogisticRegression.pkl'} 
+
+
+[2022-07-24 18:40:17,133] root - INFO - Model : KNeighborsClassifier running...
+[2022-07-24 18:40:17,136] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:18,251] root - INFO - Classification on Training dataset : [ 'Accuracy': 89.12, 'Loss': 10.88, 'Zero_one_loss': 10.88, 'Hamming_loss': 2.66 ]
+[2022-07-24 18:40:19,037] root - INFO - Classification on Testing dataset : [ 'Accuracy': 89.23, 'Loss': 10.77, 'Zero_one_loss': 10.77, 'Hamming_loss': 2.82 ]
+[2022-07-24 18:40:19,038] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:19,041] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_KNeighborsClassifier.pkl
+[2022-07-24 18:40:19,042] root - INFO - Model data : {'Accuracy': 89.12, 'Loss': 10.88, 'Hamming_loss': 2.66, 'Model_name': 'KNeighborsClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_KNeighborsClassifier.pkl'} 
+
+
+[2022-07-24 18:40:19,052] root - INFO - Model : GaussianNB running...
+[2022-07-24 18:40:19,055] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:19,163] root - INFO - Classification on Training dataset : [ 'Accuracy': 62.89, 'Loss': 37.11, 'Zero_one_loss': 37.11, 'Hamming_loss': 13.41 ]
+[2022-07-24 18:40:19,250] root - INFO - Classification on Testing dataset : [ 'Accuracy': 64.43, 'Loss': 35.57, 'Zero_one_loss': 35.57, 'Hamming_loss': 13.03 ]
+[2022-07-24 18:40:19,250] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:19,252] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GaussianNB.pkl
+[2022-07-24 18:40:19,253] root - INFO - Model data : {'Accuracy': 62.89, 'Loss': 37.11, 'Hamming_loss': 13.41, 'Model_name': 'GaussianNB', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GaussianNB.pkl'} 
+
+
+[2022-07-24 18:40:19,268] root - INFO - Model : SVC running...
+[2022-07-24 18:40:19,271] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:27,527] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.5, 'Loss': 2.5, 'Zero_one_loss': 2.5, 'Hamming_loss': 0.53 ]
+[2022-07-24 18:40:29,108] root - INFO - Classification on Testing dataset : [ 'Accuracy': 98.09, 'Loss': 1.91, 'Zero_one_loss': 1.91, 'Hamming_loss': 0.38 ]
+[2022-07-24 18:40:29,108] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:29,111] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_SVC.pkl
+[2022-07-24 18:40:29,111] root - INFO - Model data : {'Accuracy': 97.5, 'Loss': 2.5, 'Hamming_loss': 0.53, 'Model_name': 'SVC', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_SVC.pkl'} 
+
+
+[2022-07-24 18:40:29,120] root - INFO - Model : DecisionTreeClassifier running...
+[2022-07-24 18:40:29,123] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:29,236] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:40:29,335] root - INFO - Classification on Testing dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:40:29,335] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:29,337] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_DecisionTreeClassifier.pkl
+[2022-07-24 18:40:29,337] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'DecisionTreeClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_DecisionTreeClassifier.pkl'} 
+
+
+[2022-07-24 18:40:29,347] root - INFO - Model : RandomForestClassifier running...
+[2022-07-24 18:40:29,350] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:32,088] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:40:34,749] root - INFO - Classification on Testing dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:40:34,749] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:34,791] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_RandomForestClassifier.pkl
+[2022-07-24 18:40:34,792] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'RandomForestClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_RandomForestClassifier.pkl'} 
+
+
+[2022-07-24 18:40:34,801] root - INFO - Model : GradientBoostingClassifier running...
+[2022-07-24 18:40:34,805] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:36,143] root - INFO - Classification on Training dataset : [ 'Accuracy': 98.08, 'Loss': 1.92, 'Zero_one_loss': 1.92, 'Hamming_loss': 0.42 ]
+[2022-07-24 18:40:37,118] root - INFO - Classification on Testing dataset : [ 'Accuracy': 99.12, 'Loss': 0.88, 'Zero_one_loss': 0.88, 'Hamming_loss': 0.21 ]
+[2022-07-24 18:40:37,118] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:37,149] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GradientBoostingClassifier.pkl
+[2022-07-24 18:40:37,149] root - INFO - Model data : {'Accuracy': 98.08, 'Loss': 1.92, 'Hamming_loss': 0.42, 'Model_name': 'GradientBoostingClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GradientBoostingClassifier.pkl'} 
+
+
+[2022-07-24 18:40:37,160] root - INFO - Model : AdaBoostClassifier running...
+[2022-07-24 18:40:37,163] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:40:38,243] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.06, 'Loss': 2.94, 'Zero_one_loss': 2.94, 'Hamming_loss': 0.66 ]
+[2022-07-24 18:40:39,087] root - INFO - Classification on Testing dataset : [ 'Accuracy': 97.69, 'Loss': 2.31, 'Zero_one_loss': 2.31, 'Hamming_loss': 0.53 ]
+[2022-07-24 18:40:39,087] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:40:39,101] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_AdaBoostClassifier.pkl
+[2022-07-24 18:40:39,102] root - INFO - Model data : {'Accuracy': 97.06, 'Loss': 2.94, 'Hamming_loss': 0.66, 'Model_name': 'AdaBoostClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_AdaBoostClassifier.pkl'} 
+
+
+[2022-07-24 18:40:39,118] root - INFO - Result file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Docs\MultiLabelModel_result.csv
+[2022-07-24 18:40:40,894] root - INFO - ========== Done fit_ensemble_voting_classifier ==========
+
+
+[2022-07-24 18:42:28,180] root - INFO - ========== Initializing fit_ensemble_voting_classifier ==========
+
+
+[2022-07-24 18:42:28,184] root - INFO - Model : LogisticRegression running...
+[2022-07-24 18:42:28,187] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:28,942] root - INFO - Classification on Training dataset : [ 'Accuracy': 70.69, 'Loss': 29.31, 'Zero_one_loss': 29.31, 'Hamming_loss': 7.63 ]
+[2022-07-24 18:42:29,602] root - INFO - Classification on Testing dataset : [ 'Accuracy': 73.6, 'Loss': 26.4, 'Zero_one_loss': 26.4, 'Hamming_loss': 7.37 ]
+[2022-07-24 18:42:29,602] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:29,603] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_LogisticRegression.pkl
+[2022-07-24 18:42:29,604] root - INFO - Model data : {'Accuracy': 70.69, 'Loss': 29.31, 'Hamming_loss': 7.63, 'Model_name': 'LogisticRegression', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_LogisticRegression.pkl'} 
+
+
+[2022-07-24 18:42:29,613] root - INFO - Model : KNeighborsClassifier running...
+[2022-07-24 18:42:29,616] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:30,784] root - INFO - Classification on Training dataset : [ 'Accuracy': 89.3, 'Loss': 10.7, 'Zero_one_loss': 10.7, 'Hamming_loss': 2.67 ]
+[2022-07-24 18:42:31,600] root - INFO - Classification on Testing dataset : [ 'Accuracy': 87.48, 'Loss': 12.52, 'Zero_one_loss': 12.52, 'Hamming_loss': 3.16 ]
+[2022-07-24 18:42:31,601] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:31,604] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_KNeighborsClassifier.pkl
+[2022-07-24 18:42:31,605] root - INFO - Model data : {'Accuracy': 89.3, 'Loss': 10.7, 'Hamming_loss': 2.67, 'Model_name': 'KNeighborsClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_KNeighborsClassifier.pkl'} 
+
+
+[2022-07-24 18:42:31,616] root - INFO - Model : GaussianNB running...
+[2022-07-24 18:42:31,619] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:31,722] root - INFO - Classification on Training dataset : [ 'Accuracy': 62.72, 'Loss': 37.28, 'Zero_one_loss': 37.28, 'Hamming_loss': 13.34 ]
+[2022-07-24 18:42:31,817] root - INFO - Classification on Testing dataset : [ 'Accuracy': 64.35, 'Loss': 35.65, 'Zero_one_loss': 35.65, 'Hamming_loss': 13.44 ]
+[2022-07-24 18:42:31,817] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:31,818] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GaussianNB.pkl
+[2022-07-24 18:42:31,819] root - INFO - Model data : {'Accuracy': 62.72, 'Loss': 37.28, 'Hamming_loss': 13.34, 'Model_name': 'GaussianNB', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GaussianNB.pkl'} 
+
+
+[2022-07-24 18:42:31,830] root - INFO - Model : SVC running...
+[2022-07-24 18:42:31,833] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:39,954] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.13, 'Loss': 2.87, 'Zero_one_loss': 2.87, 'Hamming_loss': 0.61 ]
+[2022-07-24 18:42:41,705] root - INFO - Classification on Testing dataset : [ 'Accuracy': 97.85, 'Loss': 2.15, 'Zero_one_loss': 2.15, 'Hamming_loss': 0.45 ]
+[2022-07-24 18:42:41,705] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:41,708] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_SVC.pkl
+[2022-07-24 18:42:41,708] root - INFO - Model data : {'Accuracy': 97.13, 'Loss': 2.87, 'Hamming_loss': 0.61, 'Model_name': 'SVC', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_SVC.pkl'} 
+
+
+[2022-07-24 18:42:41,719] root - INFO - Model : DecisionTreeClassifier running...
+[2022-07-24 18:42:41,722] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:41,833] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:42:41,931] root - INFO - Classification on Testing dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:42:41,931] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:41,932] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_DecisionTreeClassifier.pkl
+[2022-07-24 18:42:41,932] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'DecisionTreeClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_DecisionTreeClassifier.pkl'} 
+
+
+[2022-07-24 18:42:41,941] root - INFO - Model : RandomForestClassifier running...
+[2022-07-24 18:42:41,946] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:44,690] root - INFO - Classification on Training dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:42:47,401] root - INFO - Classification on Testing dataset : [ 'Accuracy': 100.0, 'Loss': 0.0, 'Zero_one_loss': 0.0, 'Hamming_loss': 0.0 ]
+[2022-07-24 18:42:47,402] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:47,451] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_RandomForestClassifier.pkl
+[2022-07-24 18:42:47,452] root - INFO - Model data : {'Accuracy': 100.0, 'Loss': 0.0, 'Hamming_loss': 0.0, 'Model_name': 'RandomForestClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_RandomForestClassifier.pkl'} 
+
+
+[2022-07-24 18:42:47,461] root - INFO - Model : GradientBoostingClassifier running...
+[2022-07-24 18:42:47,464] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:49,420] root - INFO - Classification on Training dataset : [ 'Accuracy': 97.95, 'Loss': 2.05, 'Zero_one_loss': 2.05, 'Hamming_loss': 0.47 ]
+[2022-07-24 18:42:50,449] root - INFO - Classification on Testing dataset : [ 'Accuracy': 99.36, 'Loss': 0.64, 'Zero_one_loss': 0.64, 'Hamming_loss': 0.14 ]
+[2022-07-24 18:42:50,449] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:50,479] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_GradientBoostingClassifier.pkl
+[2022-07-24 18:42:50,479] root - INFO - Model data : {'Accuracy': 97.95, 'Loss': 2.05, 'Hamming_loss': 0.47, 'Model_name': 'GradientBoostingClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_GradientBoostingClassifier.pkl'} 
+
+
+[2022-07-24 18:42:50,488] root - INFO - Model : AdaBoostClassifier running...
+[2022-07-24 18:42:50,492] root - INFO - Initializing builMultiLabelModels
+[2022-07-24 18:42:51,549] root - INFO - Classification on Training dataset : [ 'Accuracy': 96.82, 'Loss': 3.18, 'Zero_one_loss': 3.18, 'Hamming_loss': 0.7 ]
+[2022-07-24 18:42:52,318] root - INFO - Classification on Testing dataset : [ 'Accuracy': 97.93, 'Loss': 2.07, 'Zero_one_loss': 2.07, 'Hamming_loss': 0.48 ]
+[2022-07-24 18:42:52,318] root - INFO - Done builMultiLabelModels
+[2022-07-24 18:42:52,332] root - INFO - Model file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Models\MultiLabelModel_AdaBoostClassifier.pkl
+[2022-07-24 18:42:52,333] root - INFO - Model data : {'Accuracy': 96.82, 'Loss': 3.18, 'Hamming_loss': 0.7, 'Model_name': 'AdaBoostClassifier', 'Filename': 'D:\\test\\Basic_Python\\Project POMO\\data scraping\\Artifact\\2022-07-24-18-39-12\\Models\\MultiLabelModel_AdaBoostClassifier.pkl'} 
+
+
+[2022-07-24 18:42:52,349] root - INFO - Result file saved : D:\test\Basic_Python\Project POMO\data scraping\Artifact\2022-07-24-18-39-12\Docs\MultiLabelModel_result.csv
+[2022-07-24 18:42:54,043] root - INFO - ========== Done fit_ensemble_voting_classifier ==========
+
+

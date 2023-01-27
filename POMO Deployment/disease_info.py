@@ -106,9 +106,10 @@ disease_treatment_list = [
 
 
 ROOT_PATH = os.getcwd()
-DOCS_DIR = "static\Docs"
+STATIC_DIR = "static"
+DOCS_DIR = "Docs"
 MULTI_MODEL_FILE = "MultiLabelModel_result.csv"
-MULTI_MODEL_FILE_PATH = os.path.join(ROOT_PATH, DOCS_DIR, MULTI_MODEL_FILE)
+MULTI_MODEL_FILE_PATH = os.path.join(ROOT_PATH, STATIC_DIR, DOCS_DIR, MULTI_MODEL_FILE)
 
-MODELS_DIR = "static\Models"
-MODELS_FILE_PATH = os.path.join(ROOT_PATH, MODELS_DIR)
+MODELS_DIR = "Models"
+MODELS_FILE_PATH = os.path.join(ROOT_PATH, STATIC_DIR, MODELS_DIR)
