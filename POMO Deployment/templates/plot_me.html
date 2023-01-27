@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+ <body>
+  <h1>Hello Plotly (but not Dash)</h1>
+  <div id='chart' class='chart'></div>
+
+  <div id='chart1' class='chart'></div>
+
+  <div id='chart2' class='chart'></div>
+
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  Plotly.plot('chart',graphs,{});
+
+  var graphs1 = {{graphJSON1 | safe}};
+  Plotly.plot('chart1',graphs1,{});
+
+  var graphs2 = {{graphJSON2 | safe}};
+  Plotly.plot('chart2',graphs2,{});
+</script>
+</html>
