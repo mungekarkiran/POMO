@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+    <div class="alert alert-primary" role="alert">
+        <h1>Time Series Based Pomegranate Disease Forecasting</h1>
+    </div>
+
+    <div>
+        <form action="/next_forecast" method="post" enctype="multipart/form-data">
+            <label>Upload your 30 days weather parameters in (.csv) formate :</label>
+            <input type="file" name="file" class="file">
+            <label>Select number of next days for forecasting :</label>
+            <select name="next_days" aria-label="Default select example">
+                <option value="30" selected>30 days</option>
+                <option value="60">60 days</option>
+                <option value="90">90 days</option>
+                <option value="120">120 days</option>
+                <option value="150">150 days</option>
+                <option value="180">180 days</option>
+                <option value="210">210 days</option>
+                <option value="240">240 days</option>
+                <option value="270">270 days</option>
+                <option value="300">300 days</option>
+                <option value="330">330 days</option>
+                <option value="360">360 days</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+    <br>
+
+    {% if flag %}
+
+    <div class="container-fluid">
+        <h1>Forcast for next <strong>{{ next_number_of_days }} days.</strong></h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    {% for title in titles %}
+                    <th scope="col">{{ title }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for table_row in data %}
+                <tr>
+                    {% for row_data in table_row %}
+                    <td>{{ row_data }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container-fluid">
+        <h1> Color code for Diseases</h1>
+        <div class="row" style="border: 1px solid red; background-color: aqua; width: 100%; position: relative;">
+            <div id="div1" style="background-color: green; width: 20%; float: left;">
+                Bacterial Blight/Telya
+            </div>
+            <div id="div2" style="background-color: blue; width: 20%; float: left;">
+                Anthracnose
+            </div>
+            <div id="div3" style="background-color: red; width: 20%; float: left;">
+                Fruit Spot/Rot
+            </div>
+            <div id="div4" style="background-color: yellow; width: 20%; float: left;">
+                Fusarium Wilt
+            </div>
+            <div id="div5" style="background-color: magenta; width: 20%; float: left;">
+                Fruit Borer/Blight Blora
+            </div>
+        </div>
+
+        <h1>Pomegranate Diseases and Weather Forecasting</h1>
+        <div id='chart0' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart1' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart2' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart3' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart4' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart5' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart6' class='chart'></div>
+        <hr>
+        <hr>
+        <div id='chart7' class='chart'></div>
+        <hr>
+        <hr>
+    </div>
+
+    {% endif %}
+</center>
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+    var graphs0 = {{ graphJSON0 | safe}};
+    Plotly.plot('chart0', graphs0, {});
+    var graphs1 = {{ graphJSON1 | safe}};
+    Plotly.plot('chart1', graphs1, {});
+    var graphs2 = {{ graphJSON2 | safe}};
+    Plotly.plot('chart2', graphs2, {});
+    var graphs3 = {{ graphJSON3 | safe}};
+    Plotly.plot('chart3', graphs3, {});
+    var graphs4 = {{ graphJSON4 | safe}};
+    Plotly.plot('chart4', graphs4, {});
+    var graphs5 = {{ graphJSON5 | safe}};
+    Plotly.plot('chart5', graphs5, {});
+    var graphs6 = {{ graphJSON6 | safe}};
+    Plotly.plot('chart6', graphs6, {});
+    var graphs7 = {{ graphJSON7 | safe}};
+    Plotly.plot('chart7', graphs7, {});
+</script>
+
+{% endblock %}
