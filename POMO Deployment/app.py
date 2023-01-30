@@ -526,7 +526,12 @@ def next_forecast():
                                 graphJSON4=graphJSON4,
                                 graphJSON5=graphJSON5,
                                 graphJSON6=graphJSON6,
-                                graphJSON7=graphJSON7)
+                                graphJSON7=graphJSON7,
+                                BacterialBlightPath="21.jpg",
+                                AnthracnosePath="10.jpg",
+                                FruitSpotRotPath="5.jpg",
+                                FusariumWiltPath="1.jpg",
+                                FruitBorerBlightBloraPath="12.jpg")
 
     return render_template('DiseaseForecasting.html', flag=False)
 
